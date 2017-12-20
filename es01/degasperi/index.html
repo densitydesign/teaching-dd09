@@ -1,0 +1,512 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title> De Gasperi </title>
+		
+		<!-- mettere i meta per i motori di ricerca -->
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/general-style.css">
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700,300italic,400italic,700italic|Roboto:400,100,300,500,700,100italic,300italic,400italic,900,500italic,700italic,900italic|Roboto+Slab:700,100,300,400' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/jquery-visible-master/jquery.visible.min.js"></script>
+		<script type="text/javascript" src="js/paper.js"></script>
+		<script type="text/paperscript" src="js/myCanvas.js" canvas="myCanvas">
+		</script>
+		
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-38448185-1']);
+		  _gaq.push(['_trackPageview']);
+		
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		
+		</script>
+		
+	</head>
+	
+	<body>
+		<div id="title-page">
+			<div id="title-page-container">
+				<img id="alci" src="imgs/alcide_futurama.png">
+				<div id="title-container">
+					<h1>Alcide</h1>
+					<h1>De Gasperi</h1>
+					<h2>& the Words of Consensus</h2>
+					<h4>Words, people and approval during his mandates</h4>
+					<p class="text">From the 40's to the 50's, in a period of big political changes, Italy mutated from kingdom to republic. There is only one big name inside our data: Alcide De Gasperi, statesman, politician and founder of the Christian Democratic Party. During his lifetime, and especially his political career, there were a lot of spoken and written words. Our analysis focused on a series of transcripts from June 18th 1946 to August 17th 1953.</p>
+					<p>&laquo;Un politico guarda alle prossime elezioni.<br />Uno statista guarda alla prossima generazione.&raquo;</p>
+					<p class="trad">A politician thinks of the next election. A statesman of the next generation.</p>
+				</div>
+			</div>
+			<div id="title-page-container-V">
+			<p id="title-credits">Project realized in collaboration with the <a href="http://dh.fbk.eu/">Digital Humanities Group at FBK</a>. Data provided by the project <a href="http://dh.fbk.eu/projects/alcide-analysis-language-and-content-digital-environment">ALCIDE (Analysis of Language and Content In a Digital Environment)</a>.</p>
+			</div>
+		</div>
+		
+		<div id="page">
+			<div class="section-title">
+				<h3>Historical Background<br />and total transcripts</h3>
+				<p>The historical background under analysis it's inside all the eight mandates of Alcide De Gasperi. We have highlighted some of the main events about Italian political history and European as well. By analyzing all the documents we have been provided, we took into account only the transcripts inside the 1946 - 1953 period. In this histogram we can see in a more detailed way all the different types of documents, divided into three main groups: his writings, verbal communications in official premises and verbal communications in other places. You can select and visualize every single typology.</p>
+			</div>
+			<div id="historical-bg">
+				<div id="histo-stopper">
+					<div id="histo-1" class="h-item h-item-down">
+						<div class="arrow"><span class=" transDur300">Italian Constitutional
+Referendum</span></div>
+					</div>
+					<div id="histo-2" class="h-item h-item-down">
+						<div class="arrow"><span class=" transDur300">Birth of the Italian
+Republic</span></div>
+					</div>
+					<div id="histo-3" class="h-item h-item-up">
+						<div class="arrow"><span class=" transDur300">Paris Peace Treaties</span></div>
+					</div>
+					<div id="histo-4" class="h-item h-item-up">
+						<div class="arrow"><span class=" transDur300">Moscow Conference</span></div>
+					</div>
+					<div id="histo-5" class="h-item h-item-up">
+						<div class="arrow"><span class=" transDur300">Marshall Plan</span></div>
+					</div>
+					<div id="histo-6" class="h-item h-item-up">
+						<div class="arrow"><span class=" transDur300">Proclamation of the 
+Italian Constitution</span></div>
+					</div>
+					<div id="histo-7" class="h-item h-item-down">
+						<div class="arrow"><span class=" transDur300">Luigi Einaudi
+fot President</span></div>
+					</div>
+					<div id="histo-8" class="h-item h-item-down">
+						<div class="arrow"><span class=" transDur300">Universal Declaration 
+of Human Rights</span></div>
+					</div>
+					<div id="histo-9" class="h-item h-item-up">
+						<div class="arrow"><span class=" transDur300">The North Atlantic 
+Treaty</span></div>
+					</div>
+					<div id="histo-10" class="h-item h-item-down">
+						<div class="arrow"><span class=" transDur300">Land Reform </span></div>
+					</div>
+					<div id="histo-11" class="h-item h-item-up">
+						<div class="arrow"><span class=" transDur300">Italy still not 
+allowed in the Onu</span></div>
+					</div>
+					<div id="histo-12" class="h-item h-item-up">
+						<div class="arrow"><span class=" transDur300">European Coal and 
+Steel Community (ECSC)</span></div>
+					</div>
+					<div id="histo-13" class="h-item h-item-down">
+						<div class="arrow"><span class=" transDur300">The Government Coalition 
+loses the Majority</span></div>
+					</div>
+				</div>
+			</div>
+			<!-- OLD TIMELINE<div id="timeline-years"></div> -->
+			<div id="bar-speech">
+				<div id="bar-graph">
+					<img id="bar-visual" src="imgs/bar-visual.png" />
+					<div id="time-bar"></div>
+				</div>
+				<div class="indicationsBars">
+					<div id="k-amount"> <span style="height:15px; overflow:hidden;">Amount of characters</span></div>
+					<div id="k90" class="rot-pos-90"> 90k </div>
+					<div id="k60" class="rot-pos-90"> 60k </div>
+					<div id="k30" class="rot-pos-90"> 30k </div>
+				</div>
+			</div>
+			
+			<div id="bar-switches">
+				<div id="political" class="groups">
+					<h5 style="text-align:left;">Political Communications</h5>
+					<!-- Here inside we generate objects through javascript -->
+				</div>
+				<div id="media" class="groups">
+					<h5 style="text-align:left;">Media Events</h5>
+					<!-- Here inside we generate objects through javascript -->
+				</div>
+				<div id="other" class="groups">
+					<h5 style="text-align:left;">others</h5>
+					<!-- Here inside we generate objects through javascript -->
+				</div>
+
+			</div>
+			<div class="section-title">
+				<h3>Political parties inside<br />the eight administrations</h3>
+				<p>This chart explains the evolution of the government structure divided into majority and opposition. This is the evolution of political parties from December 10th 1945 until June 8th 1953 when De Gasperi loses the elections and does not return in power. In the representation we can also observe the transition between monarchy and republic through the National Council, and the composition of governments that led to the drafting of the Italian Constitution. You can click on the Senate button and visualize also the Senate partition. Thanks to the mouse hover you can identify all the name parties. </p>
+			</div>
+			<div id="governi">
+				<div id="govcontainer">
+					<div id="mandato1" class="mandato">
+						<div class="maggioranza">
+							<div class="" style="height:128px; background-color:#3B9D82;" title="Consulta Nazionale"></div>
+						</div>
+						<div class="separatore"><h5>I</h5></div>
+						<div class="opposizione"></div>
+						
+					</div>
+					<div id="mandato2" class="mandato">
+						<div class="maggioranza">
+							<div class="DC" style="height:86px" title="Deputies of Democrazia Cristiana // 207"></div>
+							<div class="pm" style="height:10px" title="Deputies of Partito Repubblicano Italiano // 23"></div>
+							<div class="pm" style="height:43px" title="Deputies of Partito Comunista Italiano // 104"></div>
+							<div class="pm" style="height:23px" title="Deputies of UDN - PDA - CDR - FDPR - DL - PCS - PDCI // 54"></div>
+							<div class="pm" style="height:48px" title="Deputies of Partito Socialista Italiano di Unità Proletaria // 115"></div>
+						</div>
+						<div class="separatore"><h5>II</h5></div>
+						<div class="opposizione">
+							<div class="po" style="height:9px" title="Deputies of BNDL - MIS - PSd’Az - MUI // 23"></div>
+							<div class="po" style="height:13px" title="Deputies of Fronte dell'Uomo Qualunque // 30"></div>
+						</div>
+					</div>
+					<div id="mandato3" class="mandato">
+						<div class="maggioranza">
+							<div class="DC" style="height:86px" title="Deputies of Democrazia Cristiana // 207"></div>
+							<div class="pm" style="height:10px" title="Deputies of Partito Repubblicano Italiano // 23"></div>
+							<div class="pm" style="height:43px" title="Deputies of Partito Comunista Italiano // 104"></div>
+							<div class="pm" style="height:23px" title="Deputies of UDN - PDA - CDR - FDPR - DL - PCS - PDCI // 54"></div>
+							<div class="pm" style="height:48px" title="Deputies of Partito Socialista Italiano di Unità Proletaria // 115"></div>
+						</div>
+						<div class="separatore"><h5>III</h5></div>
+						<div class="opposizione">
+							<div class="po" style="height:9px" title="Deputies of BNDL - MIS - PSd’Az - MUI // 23"></div>
+							<div class="po" style="height:13px" title="Deputies of Fronte dell'Uomo Qualunque // 30"></div>
+						</div>
+					</div>
+					<div id="mandato4" class="mandato">
+						<div class="maggioranza">
+							<div class="DC senato" style="height:56px" title="Senators of Democrazia Cristiana // 131"></div>
+							<div class="DC" style="height:127px" title="Deputies of Democrazia Cristiana // 305"></div>
+							<div class="pm senato" style="height:3px" title="Senators of Partito Repubblicano Italiano // 6"></div>
+							<div class="pm" style="height:4px" title="Deputies of Partito Repubblicano Italiano // 9"></div>
+							<div class="pm senato" style="height:4px" title="Senators of Unione dei Socialisti // 10"></div>
+							<div class="pm" style="height:14px" title="Deputies of Unione dei Socialisti // 33"></div>
+							<div class="pm senato" style="height:3px" title="Senators of Blocco Nazionale // 7"></div>
+							<div class="pm" style="height:8px" title="Deputies of Blocco Nazionale // 19"></div>
+							<div class="pm senato" style="height:2px" title="Senators of S&uumldtiroler Volkspartei // 2"></div>
+							<div class="pm" style="height:2px" title="Deputies of S&uumldtiroler Volkspartei // 3"></div>
+						</div>
+						<div class="separatore"><h5>IV</h5></div>
+						<div class="opposizione">
+							<div class="po senato" style="height:2px" title="Senators of PNM - MSI - PSDI - PLI // 9"></div>
+							<div class="po" style="height:11px" title="Deputies of PNM - MSI - PSDI - PLI // 22"></div>
+							<div class="po senato" style="height:30px" title="Senators of Fronte Democratico Popolare // 72"></div>
+							<div class="po" style="height:76px" title="Deputies of Fronte Democratico Popolare // 183"></div>
+						</div>
+					</div>
+					<div id="mandato5" class="mandato">
+						<div class="maggioranza">
+							<div class="DC senato" style="height:56px" title="Senators of Democrazia Cristiana // 131"></div>
+							<div class="DC" style="height:127px" title="Deputies of Democrazia Cristiana // 305"></div>
+							<div class="pm senato" style="height:3px" title="Senators of Partito Repubblicano Italiano // 6"></div>
+							<div class="pm" style="height:4px" title="Deputies of Partito Repubblicano Italiano // 9"></div>
+							<div class="pm senato" style="height:4px" title="Senators of Unione dei Socialisti // 10"></div>
+							<div class="pm" style="height:14px" title="Deputies of Unione dei Socialisti // 33"></div>
+							<div class="pm senato" style="height:3px" title="Senators of Blocco Nazionale // 7"></div>
+							<div class="pm" style="height:8px" title="Deputies of Blocco Nazionale // 19"></div>
+							<div class="pm senato" style="height:2px" title="Senators of S&#252;tiroler Volkspartei // 2"></div>
+							<div class="pm" style="height:2px" title="Deputies of S&#252;tiroler Volkspartei // 3"></div>
+						</div>
+						<div class="separatore"><h5>V</h5></div>
+						<div class="opposizione">
+							<div class="po senato" style="height:2px" title="Senators of PNM - MSI - PSDI - PLI // 9"></div>
+							<div class="po" style="height:11px" title="Deputies of PNM - MSI - PSDI - PLI // 22"></div>
+							<div class="po senato" style="height:30px" title="Senators of Fronte Democratico Popolare // 72"></div>
+							<div class="po" style="height:76px" title="Deputies of Fronte Democratico Popolare // 183"></div>
+						</div>
+					</div>
+					<div id="mandato6" class="mandato">
+						<div class="maggioranza">
+							<div class="DC senato" style="height:55px" title="Senators of Democrazia Cristiana // 131"></div>
+							<div class="DC" style="height:127px" title="Deputies of Democrazia Cristiana // 305"></div>
+							<div class="pm senato" style="height:3px" title="Senators of Partito Repubblicano Italiano // 6"></div>
+							<div class="pm" style="height:4px" title="Deputies of Partito Repubblicano Italiano // 9"></div>
+							<div class="pm senato" style="height:4px" title="Senators of Unione dei Socialisti // 10"></div>
+							<div class="pm" style="height:14px" title="Deputies of Unione dei Socialisti // 33"></div>
+							<div class="pm senato" style="height:1px" title="Senators of S&#252;tiroler Volkspartei // 2"></div>
+							<div class="pm" style="height:2px" title="Deputies of S&#252;tiroler Volkspartei // 3"></div>
+						</div>
+						<div class="separatore"><h5>VI</h5></div>
+						<div class="opposizione">
+							<div class="pm senato" style="height:3px" title="Senators of Blocco Nazionale // 7"></div>
+							<div class="pm" style="height:8px" title="Deputies of Blocco Nazionale // 19"></div>
+							<div class="po senato" style="height:2px" title="Senators of PNM - MSI - PSDI - PLI // 9"></div>
+							<div class="po" style="height:11px" title="Deputies of PNM - MSI - PSDI - PLI // 22"></div>
+							<div class="po senato" style="height:30px" title="Senators of Fronte Democratico Popolare // 72"></div>
+							<div class="po" style="height:76px" title="Deputies of Fronte Democratico Popolare // 183"></div>
+						</div>
+					</div>
+					<div id="mandato7" class="mandato">
+						<div class="maggioranza">
+							<div class="DC senato" style="height:55px" title="Senators of Democrazia Cristiana // 131"></div>
+							<div class="DC" style="height:127px" title="Deputies of Democrazia Cristiana // 305"></div>
+							<div class="pm senato" style="height:3px" title="Senators of Partito Repubblicano Italiano // 6"></div>
+							<div class="pm" style="height:4px" title="Deputies of Partito Repubblicano Italiano // 9"></div>
+							<div class="pm senato" style="height:1px" title="Senators of S&#252;tiroler Volkspartei // 2"></div>
+							<div class="pm" style="height:2px" title="Deputies of S&#252;tiroler Volkspartei // 3"></div>
+						</div>
+						<div class="separatore"><h5>VII</h5></div>
+						<div class="opposizione">
+							<div class="pm senato" style="height:4px" title="Senators of Unione dei Socialisti // 10"></div>
+							<div class="pm" style="height:14px" title="Deputies of Unione dei Socialisti // 33"></div>
+							<div class="pm senato" style="height:3px" title="Senators of Blocco Nazionale // 7"></div>
+							<div class="pm" style="height:8px" title="Deputies of Blocco Nazionale // 19"></div>
+							<div class="po senato" style="height:2px" title="Senators of PNM - MSI - PSDI - PLI // 9"></div>
+							<div class="po" style="height:2px" title="Deputies of PNM - MSI - PSDI - PLI // 22"></div>
+							<div class="po senato" style="height:30px" title="Senators of Fronte Democratico Popolare // 72"></div>
+							<div class="po" style="height:76px" title="Deputies of Fronte Democratico Popolare // 183"></div>
+						</div>
+					</div>
+					<div id="mandato8" class="mandato">
+						<div class="maggioranza">
+							<div class="DC senato" style="height:48px" title="Senators of Democrazia Cristiana // 116"></div>
+							<div class="DC" style="height:109px" title="Deputies of Democrazia Cristiana // 263"></div>
+						</div>
+						<div class="separatore"><h5>VIII</h5></div>
+						<div class="opposizione">
+							<div class="pm senato" style="height:1px" title="Senators of S&#252;tiroler Volkspartei // 2"></div>
+							<div class="pm" style="height:2px" title="Deputies of S&#252;tiroler Volkspartei // 3"></div>
+							<div class="pm senato" style="height:3px" title="Senators of Partito Repubblicano Italiano // 4"></div>
+							<div class="pm" style="height:4px" title="Deputies of Partito Repubblicano Italiano // 5"></div>
+							<div class="pm senato" style="height:22px" title="Senators of Partito Comunista Italiano // 51"></div>
+							<div class="pm" style="height:60px" title="Deputies of Partito Comunista Italiano // 143"></div>
+							<div class="po senato" style="height:13px" title="Senators of PNM - MSI - PSDI - PLI - UP - Altri // 21"></div>
+							<div class="po" style="height:44px" title="Deputies of PNM - MSI - PSDI - PLI - UP - Altri // 60"></div>
+							<div class="po senato" style="height:11px" title="Senators of Partito Socialista Italiano // 26"></div>
+							<div class="po" style="height:31px" title="Senators of Partito Socialista Italiano // 75"></div>
+						</div>
+					</div>
+				</div>
+			
+				<div class="indicationsBars">
+					<div class="what"> Amount of seats</div>
+					<div class="number" class="rot-pos-90"> 500 </div>
+					<div class="number" class="rot-pos-90"> 400 </div>
+					<div class="number" class="rot-pos-90"> 300 </div>
+					<div class="number" class="rot-pos-90"> 200 </div>
+					<div class="number" class="rot-pos-90"> 100 </div>
+					<div class="number" class="rot-pos-90"> &nbsp;&nbsp; </div>
+					<div class="number" class="rot-pos-90" style="margin-top:-7rpx"> &nbsp;&nbsp; </div>
+					<div class="number" class="rot-pos-90"> 100 </div>
+					<div class="number" class="rot-pos-90"> 200 </div>
+					<div class="number" class="rot-pos-90"> 300 </div>
+					<div class="number" class="rot-pos-90"> 400 </div>
+				</div>
+			
+			</div>
+			
+			<div id="mandati-tool">
+				<div class="legenda" style="height: 150px;">
+					<div style="display: block; float: left; width: 410px;">
+						<h5 style="text-align:left;">Political Factions</h5>
+						<div id="" class="rombo-cat" style="">
+							<div class="circle-typo" style="background-position: 0px"></div>
+							<span>National Council</span>
+						</div>
+						<div id="" class="rombo-cat" style="">
+							<div class="circle-typo" style="background-position: -20px"></div>
+							<span>"Democrazia Cristiana"</span>
+						</div>
+						<div id="" class="rombo-cat" style="">
+							<div class="circle-typo" style="background-position: -40px"></div>
+							<span>Coalition Government Factions</span>
+						</div>
+						<div id="" class="rombo-cat" style="">
+							<div class="circle-typo" style="background-position: -60px"></div>
+							<span>Opposition Parties</span>
+						</div>
+					</div>
+					<div style="display: block; float: left; width: 410px;">
+						<h5 style="text-align:left;">Show the Senate</h5>
+						<div id="senatoSwitch" class="rombo-cat" style="cursor:pointer;">
+							<div class="circle-typo" style="background-position: -80px; opacity: 0.5;"></div>
+							<span><div class="senatoOn" style="font-weight:400;">Senate Hidden</div></span>
+						</div>
+					</div>
+				</div>	
+			</div>
+			
+			<div id="rulerMandati">
+				<div id="first-time" class="governo"><div class="mandate"><h5>I</h5>Click for focus...</div></div>
+				<div id="second-time" class="governo"><div class="mandate"><h5>II</h5>Click for focus...</div></div>
+				<div id="third-time" class="governo"><div class="mandate"><h5>III</h5>Click for focus...</div></div>
+				<div id="fourth-time" class="governo"><div class="mandate"><h5>IV</h5>Click for focus...</div></div>
+				<div id="fifth-time" class="governo"><div class="mandate"><h5>V</h5>Click for focus...</div></div>
+				<div id="sixth-time" class="governo"><div class="mandate"><h5>VI</h5>Click for focus...</div></div>
+				<div id="seventh-time" class="governo"><div class="mandate"><h5>VII</h5>Click for focus...</div></div>
+				<div id="eighth-time" class="governo transDur500"><div class="mandate"><h5>VIII</h5>Click for focus...</div></div>
+			</div>
+			
+			<div class="section-title">
+				<h3>The most used words inside<br />every administration</h3>
+				<p>In order to show the 50 most used words inside the transcripts of each mandate we used a stream-graph. The visualization allows you to see their progress during Alcide De Gasperi's governments. Comparing these data with the composition of the related government, you can understand the nature of the wide use or the disaffection to certain words. Every curve amplitude represents the variation of the word use frequency. This parameter is defined by quintiles. The bigger the quintile is, the bigger the word variation is. This tendency defines general themes and topics in the mandates timeline.</p>
+			</div>	
+			<div id="placeholder_1">
+				<div class="imageplaceholder"></div>
+				<div id="keywords-tool">
+					<div class="legenda" style="height: 150px;">
+						<div style="display: block; float: left; width: 410px;">
+							<h5 style="text-align:left;">Variability of Words</h5>
+							<div id="_0" class="rombo-cat" style="">
+								<div class="circle-typo" style="background-position: -60px"></div>
+								<span>All</span>
+							</div>
+							<div id="_5" class="rombo-cat" style="">
+								<div class="circle-typo" style="background-position: 0px"></div>
+								<span>5th Quintile (most variable words in the rank)</span>
+							</div>
+							<div id="_4" class="rombo-cat" style="">
+								<div class="circle-typo" style="background-position: -20px"></div>
+								<span>4th Quintile</span>
+							</div>
+							<div id="_3" class="rombo-cat" style="">
+								<div class="circle-typo" style="background-position: -40px"></div>
+								<spant>3rd Quintile</span>
+							</div>
+							<div id="_12" class="rombo-cat" style="">
+								<div class="circle-typo" style="background-position: -60px"></div>
+								<span>1st and 2nd Quintile</span>
+							</div>
+						</div>
+					</div>	
+				</div>
+				
+			</div>
+			
+			<div class="section-title">
+				<h3>The top 10 most quoted personalities</h3>
+				<p>This section shows a quantitative graph about the 10 most frequently cited people, within the texts. Many of these characters are representative political personalities, while others belong to different historical periods. Quotations may refer to De Gasperi's wide culture and they are very useful to delineate De Gasperi's network and connection with other people as well as some aspects of his political nature and erudition. Since the most quoted persons are not belonging to De Gasperi's party, we can assume he was often referring to his rivals or to entities related to historical occurrence.</p>
+			</div>	
+			<div id="placeholder_2">
+				<img class="imageplaceholder" src="imgs/entities.png" />
+				<!-- <div id="" class="rombo-cat" style=""> -->
+				<img class="imageplaceholder" src="imgs/entities_legenda.png" style="margin-top:80px;" />
+			</div>
+			<div class="section-title">
+				<h3>Index of general feedback</h3>
+				<p>Studying the data, we found that some of the transcripts have different comments (such as applauses, enthusiasm or grumbles) relative to what people's reaction was during De Gasperi's meetings. After an accurate analysis of the comments we made to categorizations: consensus and dissent. Every dissent or consensus comment has been related to a specific faction and at the same time we also gave a parameter from 1 to 5 to the consensus and from -1 to -5 to the dissent. The result is a visualization of four graphs, one for each party evaluated.</p>
+			</div>
+			<div id="applausi-contenitore">
+				<img id="applausi" class="imageplaceholder"style="margin-top:-60px" src="imgs/applausometro.png"/>
+			</div>
+			<div class="section-title">
+				<h3><span style="color:green;">Who</span> <span style="color:#efefef;">We</span> <span style="color:red;">Are</span></h3>
+				<p>We're a group of students from Politecnico di Milano.<br /> We are beautiful, clever as well as a little crazy!</p>
+			</div>
+			<div id="chi">
+			
+				<style>
+				
+					.persona {
+						width: 246px;
+						display: block;
+						float: left;
+						text-align: center;
+						margin-bottom: 100px;
+						margin-top: -80px;
+						font-weight: 300;
+					}
+					
+					.persona img {
+						margin-bottom: 20px;
+						transform: rotate(-270deg);
+						-ms-transform: rotate(-270deg); /* IE 9 */
+						-webkit-transform: rotate(-270deg); /* Safari and Chrome */
+					}
+					
+					.persona img:hover {
+						transform: rotate(0deg);
+						-ms-transform: rotate(0deg); /* IE 9 */
+						-webkit-transform: rotate(0deg); /* Safari and Chrome */
+					}
+					
+					.persona h5 {
+						margin: 15px auto;
+					}
+					
+					.persona a {
+						text-decoration: none;
+						color: #514D46;
+					}
+					
+					
+				</style>
+			
+				<div class="persona">
+					<img class="transDur300" src="imgs/tommi.png" />
+					<h5>Tommaso Elli</h5>
+					<a href="http://www.linkedin.com/pub/tommaso-elli/51/917/7a7"><h6>Linked In</h6></a>
+					<a href="http://www.behance.net/tommasoelli"><h6>Behance</h6></a>
+					<a href="https://twitter.com/iosonosempreio"><h6>Twitter</h6></a>
+					<a href="mailto:tommaso.elli@gmail.com"><h6>Mail</h6></a>
+				</div>
+				<div class="persona">
+					<img title="<3 <3 <3" class="transDur300" src="imgs/nat.png" />
+					<h5>Natalia Laptes</h5>
+					<a href="http://www.linkedin.com/pub/natalia-andreea-laptes/48/908/9b5"><h6>Linked In</h6></a>
+					<a><h6>Behance</h6></a>
+					<a href="https://twitter.com/nanilait"><h6>Twitter</h6></a>
+					<a href="mailto:natalia.a.laptes@gmail.com"><h6>Mail</h6></a>
+				</div>
+				<div class="persona">
+					<img title="<3 <3 <3" class="transDur300" src="imgs/gianni.png" />
+					<h5>Gianluca Malimpensa</h5>
+					<a href="http://it.linkedin.com/pub/gianluca-malimpensa/84/888/869"><h6>Linked In</h6></a>
+					<a href="http://www.behance.net/gianlucamalimpensa"><h6>Behance</h6></a>
+					<a href="https://twitter.com/gianmalimpensa"><h6>Twitter</h6></a>
+					<a href="mailto:gianluca.malimpensa@gmail.com"><h6>Mail</h6></a>
+				</div>
+				<div class="persona">
+					<img title="<3 <3 <3" class="transDur300" src="imgs/tia.png" />
+					<h5>Mattia Parietti</h5>
+					<a href="http://www.linkedin.com/pub/mattia-parietti/36/2a9/207"><h6>Linked In</h6></a>
+					<a href="http://www.behance.net/mattiaparietti"><h6>Behance</h6></a>
+					<a href="https://twitter.com/mattiaparietti"><h6>Twitter</h6></a>
+					<a href="mailto:mattia.parietti@gmail.com"><h6>Mail</h6></a>
+				</div>
+				<div class="persona">
+					<img title="<3 <3 <3" class="transDur300" src="imgs/pozz.png" />
+					<h5>Matteo Pozzi</h5>
+					<a><h6>Linked In</h6></a>
+					<a href="http://www.behance.net/matteopozzi"><h6>Behance</h6></a>
+					<a href="https://twitter.com/MattPozz"><h6>Twitter</h6></a>
+					<a href="mailto:mattpozz@gmail.com"><h6>Mail</h6></a>
+				</div>
+			</div>
+		</div>
+		
+		<div id="tool-kit">
+			<p>Scroll:<span id="scroll-test">SCROLL</span></p>
+			<p>Height: <span id="height-test">Height</span></p>
+			<p>title-pad: <span id="bars-spanix">Height</span></p>
+			<p>scrolled from 830: <span id="visible">scrolled</span></p>
+		</div>
+		
+		<!-- Density Footer -->
+		<footer>
+			<div class="footer">
+				<div id="foot-logos">
+				<a href="http://www.dipartimentodesign.polimi.it/"><img src="img/dip_logo.png"></a>
+	          	<a href="http://www.densitydesign.org/"><img src="img/density_logo.png"></a> 	
+	            </div>
+	            
+	            <div id="foot-text">
+				<p class="text"><strong>Faculty</strong>
+				</br>Paolo Ciuccarelli</br>Marco Fattore</br>Stefano Mandato</br>Donato Ricci</br>Salvatore Zingale
+				</p>	
+	            </div>
+	            <div id="foot-text">
+				<p class="text"><strong>Teaching Assistants</strong>
+				</br>Matteo Azzi</br>Giorgio Caviglia</br>Michele Mauri</br>Azzurra Pini</br>Giorgio Uboldi
+				</p>	
+	            </div>
+			</div>
+		</footer>
+
+	</body>
+</html>

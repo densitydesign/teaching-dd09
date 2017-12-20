@@ -1,0 +1,612 @@
+/* General Demo Style */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+@font-face {
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TradeGothicLTStd';
+    src: url('../fonts/TradeGothicLTStd.otf');
+}
+
+@font-face {
+	font-family: 'TradeGothicLTStdBold';
+    src:url('../fonts/TradeGothicLTStd-Bold.otf');
+}
+
+@font-face {
+	font-family: 'TradeGothicLTStdBold2';
+    src:url('../fonts/TradeGothicLTStd-Bd2.otf');
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: 0; height: 100%;}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+
+
+html{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;	
+}
+
+body {
+	min-width:100%;
+	min-height:100%;
+	text-align:center;
+	margin:0;
+	padding:0;
+	/*overflow:hidden;*/
+}
+
+.main, .container > header {
+
+}
+
+.container > header {
+
+}
+
+header{
+	
+}
+
+.container > header h1 {
+}
+
+/*our-work*/
+
+.our-work {
+
+	width: auto;
+	height: auto;
+	margin: auto;
+	text-align: center;
+}
+
+#navspot{
+	list-style: none;
+	position: fixed;
+	right: 45px;
+	top: 35%;
+	z-index:101;
+	width: 25px;
+	margin:0;
+	padding:0;
+}
+
+#navspot li a{
+	width: 15px;
+	height: 15px;
+	display: block;
+	margin: 0 0 15px 0;
+	background-color: black;
+	border-radius:20px; 
+	padding:0;
+}
+
+#navspot li :hover{
+	opacity: .4;
+}
+
+.zone {
+	overflow: hidden;
+	width: 100%;
+	height: 760px;
+	position: relative;
+
+	margin:auto;
+	
+	text-align:center;
+}
+
+
+p {
+	font-family: 'TradeGothicLTStd';
+	font-size: 14px;
+	font-style:normal;
+	line-height:1.4;
+	font-weight: 400;
+}
+
+h1 {
+	font-family: 'TradeGothicLTStdBold';
+	font-size: 36px;
+	margin-bottom:30px;
+	font-weight: 400;
+	line-height: 1;
+}
+
+.text {
+	color: black;
+	width: 280px;
+	position: absolute;
+	text-align:left;
+}
+
+#one {
+	background-image:url(../img/First-Illustration/First-Illustration-2.png);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	background-size: 100%;
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+}
+
+#bandanera{
+	width:100%;
+	height:50%;
+	position:absolute;
+	bottom:0;
+	background-color: black;
+	opacity: 0.8;	
+}
+
+#bandanerafake{
+	width:100%;
+	height:50%;
+	position:absolute;
+	bottom:0;	
+}
+
+#banner_home_final{
+	position:absolute;
+	width:385px;
+	left:50%;
+	margin-left: -192px;	
+	top:50%;
+	margin-top:-115px;
+}
+
+#one text {
+	line-height: 1;
+	margin: 0;
+	color:white;
+}
+
+#two {
+	background-color: white;
+	text-align:center;
+}
+
+#two .text{
+	height:auto;
+	margin-left:13%;
+}
+
+#i1{
+	width:695px;
+	height:590px;
+	position:absolute;
+	left: 50%;
+	margin-left: -300px;
+	top: 50%;
+	margin-top: -295px;
+}
+
+#three {
+	background-color:#F5F5F5;
+	text-align:center;
+	margin:auto;
+}
+
+#legendgeneral{
+	position:absolute;
+	left:-30px;
+	width:193px;	
+}
+
+#three .text{
+	height:auto;
+	margin-left:13%;
+}
+
+#overview{
+	position: absolute;
+	text-align:center;
+	margin-top: 20px;
+	left: 50%;
+	margin-left: -487px;
+}
+
+#outside{
+	position: absolute;
+	text-align:center;
+	top:1530px;
+	left: 50%;
+	margin-left: -487px;
+	z-index:3;
+}
+
+#past{
+	top:500px;
+	left:995px;	
+}
+
+#future{
+	top:350px;
+	left:-50px;
+}
+
+#up{
+	position:absolute;
+	top:0;
+}
+
+#tc{
+	position:absolute;
+	top: 495px;
+	left: -10px;
+}
+
+#down{
+	top:500px;	
+}
+
+#three img{
+	position:absolute;
+	margin:0;
+}
+
+#cycles{
+	top: 275px;	
+	left: 245px;
+}
+
+#cycles-outside{
+	position: absolute;
+	text-align:center;
+	top:1535px;
+	left: 50%;
+	margin-left: -487px;
+	z-index:4;
+}
+
+#Cycle1{
+	position:absolute;
+	top:320px;
+	left:245px;
+	opacity:0;	
+}
+
+#Cycle1E {
+	left:245px;	
+}
+
+#Cycle2{
+	position:absolute;
+	top:415px;
+	left:495px;
+	opacity:0;	
+}
+
+#Cycle2E {
+	left:495px;	
+}
+
+#Cycle3{
+	position:absolute;
+	top:275px;
+	left:545px;
+	opacity:0;	
+}
+
+#Cycle3E{
+	left:545px;
+}
+
+#Cycle4{
+	position:absolute;
+	top:350px;
+	left:670px;
+	opacity:0;	
+}
+
+#Cycle4E{
+	left:670px;
+}
+
+#Cycle5{
+	position:absolute;
+	top:425px;
+	left:830px;
+	opacity:0;	
+}
+
+#Cycle5E{
+	left:830px;
+}
+
+#Cycle1:hover, #Cycle2:hover, #Cycle3:hover, #Cycle4:hover, #Cycle5:hover{opacity:1;}
+
+#four {
+	background-color:white;
+	text-align:center;
+	margin:auto;
+}
+
+#four .text{
+	height:auto;
+	margin-left:13%;
+}
+
+#four img{
+	position:absolute;
+	margin:0;		
+}
+
+#legend{
+	position:absolute;
+	top: 305px;
+	left:-60px;
+}
+
+#genreflow{
+	position: absolute;
+	left:50%;
+	margin-left: -493px;
+	top: 10px;
+}
+
+#iforse{
+	position: absolute;
+	left:50%;
+	margin-left: -491px;
+	top:305px;
+	width:983px;
+}
+
+#Anne{
+	position: absolute;
+	left: -60px;
+	margin:0;
+	top:495px;
+}
+
+#buttons{
+	position: absolute;
+	top: 140px;
+	left: 1000px;
+	text-align:center;
+	width: 104px;
+	height: auto;
+}
+
+#B1, #B2, #B3, #B4, #B5, #B6, #B7, #B8, #B9, #B10, #B11, #B12, #B13, #B14 {
+	margin-bottom:10px;	
+}  
+
+#five {
+	background-color: #F5F5F5;	
+	text-align:center;
+	width:auto;
+}
+
+#five .text{
+	height:auto;
+	margin-left:13%;
+}
+
+#manu{
+	position:absolute;
+	width:1027px;
+	height:636px;
+	left: 50%;
+	margin-left: -513px;
+	top: 50%;
+	margin-top: -318px;	
+	text-align:center;	
+	padding:0;
+}
+
+#manu1, #manu2{
+	position:absolute;
+	left: 50%;
+	margin-left: -513px;
+	top: 50%;
+	margin-top: -318px;
+}
+
+#six {
+	background-color: white;
+	text-align:center;
+	margin:auto;
+}
+
+#six .text{
+	height:auto;
+	margin-left:13%;
+}
+
+#genrecharts{
+	position:absolute;
+	margin:0;
+	top: -140px;
+	left:50%;
+	margin-left: -517px;
+}
+
+#genrecharts img{
+	position:absolute;	
+}
+
+#timeline{
+	position:absolute;
+	width:1035px;
+}
+
+#buttonsC{
+	position: absolute;
+	top: 290px;
+	left: 1050px;
+	text-align:center;
+	width: 104px;
+	height: auto;
+}
+
+#C1, #C2, #C3, #C4, #C5, #C6, #C7, #C8, #C9, #C10, #C11, #C12, #C13, #C14 {
+	margin-bottom:10px;	
+} 
+
+#seven {
+	background-color: #F5F5F5;
+	text-align:center;
+	margin:auto;
+}
+
+#firstsong{
+	position: absolute;
+	text-align:center;
+	left:50%;
+	width: 1300px;
+	margin-left: -650px;
+}
+
+#yesterday{
+	position: absolute;
+	left:50%;
+	width: 1300px;
+	margin-left: -650px;
+}
+
+#buttonsD{
+	position: absolute;
+	top: 150px;
+	left: 1170px;
+	text-align:center;
+	width: 104px;
+	height: auto;
+}
+
+#D1, #D2, #D3, #D4, #D5, #D6, #D7, #D8, #D9, #D10, #D11, #D12, #D13, #D14 {
+	margin-bottom:10px;	
+} 
+
+#seven .text{
+	height:auto;
+	margin-left:13%;
+}
+
+#eight {
+	background-color: white;
+	text-align:center;
+	margin:auto;
+}
+
+#eight .text{
+	margin-left:13%;
+	width: 15%;	
+}
+
+#annematrix{
+	position:absolute;
+	margin:0;
+	left:50%;
+	margin-left: -320px;
+	top: 10px;
+}
+
+#labels{
+	position:absolute;
+	margin:0;
+	width:900px;
+}
+
+#matrix{
+	position:absolute;
+	margin:0;
+	width:900px;
+}
+
+#nine {
+	background-color: #F5F5F5;
+	text-align:center;
+	margin:auto;
+}
+
+#final{
+	position:absolute;
+	left:50%;
+	margin-left:-500px;
+	width: 1000px;
+}
+
+/*Ciucca Footer*/
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #222;
+	overflow: hidden;
+	height: 9em;
+	display: block;
+	width: 100%;
+	height:190px;
+	padding:25px 50px 75px 100px;
+}
+
+.footer img {
+	margin-right: 50px;
+	padding-bottom:30px;
+	max-width: 120px;
+	vertical-align: middle;
+	border: 0;
+}
+
+#foot-logos {
+	float:left;
+}
+
+#foot-text .text, #foot-textT .text {
+	float:left;
+	margin-right: 50px;
+	font-size:13.2px;
+	color:#fff;
+	font-weight:300;
+	line-height:1.5;
+	position:relative;
+	left:50px;
+	width: 100%;
+	font-family:'Lato'; 
+}
+
+#foot-textT .text {
+	left: 600px;	
+}
+
+.container {
+	min-height: 100%;
+	position: relative;
+}
+
+.container > section {
+	margin: 0 auto;
+	padding: 5em 3em;
+	color: #232323;
+}
+
+.container > section p {
+	position: relative;
+	margin: 0;
+	padding: 1em;
+	z-index: 1;
+}
+
+.container > section p.text {
+	font-size: 1.4em;
+}

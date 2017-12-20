@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html class="html">
+ <head>
+
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="7.2.232.244"/>
+  <title>Author24</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?397963719"/>
+  <link rel="stylesheet" type="text/css" href="css/author24.css?425127219" id="pagesheet"/>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   document.documentElement.className += ' js';
+</script>
+   </head>
+ <body>
+
+  <div class="clearfix" id="page"><!-- group -->
+   <a class="nonblock nontext clip_frame grpelem" id="u11279" href="ventiquattro" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0,M12=-1,M21=1,M22=0,SizingMethod='auto expand')" data-mu-ie-matrix-dx="39" data-mu-ie-matrix-dy="-39"><!-- image --><img class="block" id="u11279_img" src="images/freccia.png" alt="" width="108" height="31"/></a>
+   <div class="clearfix grpelem" id="ppu11178"><!-- column -->
+    <div class="clearfix colelem" id="pu11178"><!-- group -->
+     <div class="clip_frame grpelem" id="u11178"><!-- image -->
+      <img class="block" id="u11178_img" src="images/authors3.png" alt="" width="150" height="77"/>
+     </div>
+     <a class="nonblock nontext museBGSize grpelem" id="u11180" href="laws24.html#laws24"><!-- simple frame --></a>
+    </div>
+    <div class="clearfix colelem" id="pauthor24"><!-- group -->
+     <a class="anchor_item grpelem" id="author24"></a>
+     <div class="grpelem" id="u11302"><!-- custom html -->
+      <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.css' rel='stylesheet' />
+
+<style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:100%; }
+</style>
+</head>
+<body>
+
+
+<div id='map'></div>
+<script>
+var map = L.mapbox.map('map', 'nocicettori.habnfp83', {
+    // disable default double-click behavior
+    doubleClickZoom: false
+})
+.setView([43, 0], 2)
+// zoom exactly to each double-clicked point
+.on('dblclick', function(e) {
+    map.setView(e.latlng, map.getZoom() + 1);
+});
+
+map.touchZoom.disable();
+map.doubleClickZoom.disable();
+map.scrollWheelZoom.disable();
+// disable tap handler, if present.
+if (map.tap) map.tap.disable();
+
+var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+            'marker-symbol':'library',
+            'marker-size': 'small',
+        	'marker-color': '#BB2221'
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [22, 39]
+            }
+        }]
+    })
+    .addTo(map);
+featureLayer.eachLayer(function(layer) {
+    var content = ' <font color=#BB2221><font size="3">Giannakoulopoulos X.</font>&nbsp  &nbsp' 
+        layer.bindPopup(content);
+});
+
+var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+            'marker-symbol':'library',
+            'marker-size': 'small',
+        	'marker-color': '#BB2221'
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [-71, 42]
+            }
+        }]
+    })
+    .addTo(map);
+featureLayer.eachLayer(function(layer) {
+    var content = '  <a href="http://obgyn.msu.edu/index.php/research/research-faculty/jose-m-teixeira-phd" target="_blank"><font color=#BB2221><font size="3">Teixeira J.</font></a> &nbsp  &nbsp' 
+        layer.bindPopup(content);
+});
+
+var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+            'marker-symbol':'library',
+            'marker-size': 'small',
+        	'marker-color': '#BB2221'
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [143, -23]
+            }
+        }]
+    })
+    .addTo(map);
+featureLayer.eachLayer(function(layer) {
+    var content = ' <font color=#BB2221><font size="3">Fisk N.</font> &nbsp  &nbsp' 
+        layer.bindPopup(content);
+});
+
+var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+            'marker-symbol':'library',
+            'marker-size': 'small',
+        	'marker-color': '#BB2221'
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [36, 1]
+            }
+        }]
+    })
+    .addTo(map);
+featureLayer.eachLayer(function(layer) {
+    var content = '<font color=#BB2221><font size="3">Gitau R.</font> &nbsp  &nbsp' 
+        layer.bindPopup(content);
+});
+
+var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+            'marker-symbol':'library',
+            'marker-size': 'small',
+        	'marker-color': '#BB2221'
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [0, 51]
+            }
+        }]
+    })
+    .addTo(map);
+featureLayer.eachLayer(function(layer) {
+    var content = '<font color=#BB2221><font size="3">Slater R.</font> &nbsp  &nbsp' 
+        layer.bindPopup(content);
+});
+
+var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+            'marker-symbol':'library',
+            'marker-size': 'small',
+        	'marker-color': '#BB2221'
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [-1, 51]
+            }
+        }]
+    })
+    .addTo(map);
+featureLayer.eachLayer(function(layer) {
+    var content = '<font color=#BB2221><font size="3">Cantarella A.</font> &nbsp  &nbsp' 
+        layer.bindPopup(content);
+});
+
+var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+            'marker-symbol':'library',
+            'marker-size': 'small',
+        	'marker-color': '#BB2221'
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [1, 52]
+            }
+        }]
+    })
+    .addTo(map);
+featureLayer.eachLayer(function(layer) {
+    var content = '  <a href="http://www.rcog.org.uk/" target="_blank"><font color=#BB2221><font size="3">RCOG</font></a> &nbsp  &nbsp' 
+        layer.bindPopup(content);
+});
+
+var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+            'marker-symbol':'library',
+            'marker-size': 'small',
+        	'marker-color': '#BB2221'
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [-1, 53]
+            }
+        }]
+    })
+    .addTo(map);
+featureLayer.eachLayer(function(layer) {
+    var content = '  <a href="http://en.wikipedia.org/wiki/Nadine_Dorries" target="_blank"><font color=#BB2221><font size="3">Dorries N.</font></a> &nbsp  &nbsp' 
+        layer.bindPopup(content);
+});
+
+var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+            'marker-symbol':'library',
+            'marker-size': 'small',
+        	'marker-color': '#BB2221'
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [-2, 54]
+            }
+        }]
+    })
+    .addTo(map);
+featureLayer.eachLayer(function(layer) {
+    var content = '  <a href="http://www.lancaster.ac.uk/fass/edres/profiles/Sue-Cranmer" target="_blank"><font color=#BB2221><font size="3">Cranmer S.</font></a> &nbsp  &nbsp' 
+        layer.bindPopup(content);
+});
+
+
+</script>
+
+
+</body>
+
+</div>
+    </div>
+   </div>
+   <div class="verticalspacer"></div>
+  </div>
+  <div class="preload_images">
+   <img class="preload" src="images/laws3.png" alt=""/>
+   <img class="preload" src="images/laws2.png" alt=""/>
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script src="scripts/museutils.js?3880880085" type="text/javascript"></script>
+  <script src="scripts/jquery.musepolyfill.bgsize.js?3899542795" type="text/javascript"></script>
+  <script src="scripts/jquery.watch.js?4199601726" type="text/javascript"></script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   $(document).ready(function() { try {
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+} catch(e) { Muse.Assert.fail('Error calling selector function:' + e); }});
+</script>
+   </body>
+</html>

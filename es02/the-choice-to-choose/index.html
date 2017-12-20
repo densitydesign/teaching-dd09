@@ -1,0 +1,1579 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+ <title>The Choice to Choose</title>
+ 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <meta name="author" content="Sprintheme" />
+ <meta charset="UTF-8" />
+ 
+
+ <link rel="icon" type="image/ico" href="images/favicon.ico" />
+ <link href="lib/isotope/css/style.css" rel="stylesheet" />
+ <link href="lib/fontello/css/fontello.css" rel="stylesheet" />
+ <link href="style.css" rel="stylesheet" />
+ <link href="settings-panel.css" rel="stylesheet" />
+ <link href="css/color-azure-blue.css" rel="stylesheet" />
+ <link href="css/color-chestnut.css" rel="stylesheet" />
+ <link href="css/color-frog.css" rel="stylesheet" />
+ <link href="css/color-grass.css" rel="stylesheet" />
+ <link href="css/color-pale-brown.css" rel="stylesheet" />
+ <link href="css/color-plum.css" rel="stylesheet" />
+ <link href="css/color-red.css" rel="stylesheet" />
+ <link href="css/color-titian.css" rel="stylesheet" /><!--Orange-->
+ <link href="css/color-twitter.css" rel="stylesheet" />
+ <link href="css/color-yellow.css" rel="stylesheet" />
+ <link href="css/jquery.bxslider.css" rel="stylesheet" />
+ <link href="css/rollover_argument.css" rel="stylesheet" /><!--Rollover Argomenti-->
+ <link rel="stylesheet" type="text/css" href="css/style_questions.css" /><!--Parallax slideshow-->
+ <link href="style-popup.css" rel="stylesheet" type="text/css" /><!--Popup piccolo-->
+
+ <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css' />
+ <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic' rel='stylesheet' type='text/css' />
+ <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300' rel='stylesheet' type='text/css' />
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css' />
+ 
+ <!-- Fav and touch icons -->
+ <link rel="shortcut icon" href="images/ico/favicon.ico" />
+ <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png" />
+ <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png" />
+ <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png" />
+ <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png" />
+
+ 
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<!--script type="text/javascript" src="js/modernizr.custom.04022.js"></script-->
+<script type="text/javascript" src="js/rollover_argument.js"></script><!--Rollover Argomenti-->
+<script type="text/javascript" src="js/html5gallery/jquery.js"></script><!--Player Video-->
+<script type="text/javascript" src="js/html5gallery/html5gallery.js"></script><!--Player Video-->
+<script type="text/javascript" src="tooltip.js"></script><!--Popup piccolo-->
+<script type="text/javascript" src="ajax.js"></script><!--Popup piccolo-->
+<script src="js/jquery.bxslider.js"></script>
+<script src="js/bx-responsive.js"></script>
+<script src="js/jquery.cycle2.js"></script> 
+<script src="js/jquery.cycle2.carousel.js"></script>
+<script src="js/animation.js"></script> 
+<script src="http://jquery.bassistance.de/validate/jquery.validate.js"></script>
+<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+
+
+jQuery(document).ready(function() {
+	// validate the comment form when it is submitted
+	jQuery("#contact_form").validate({  // initialize the plugin                 
+
+        // rules & options     
+
+		debug: true,
+
+		 submitHandler: function(form) {
+
+    // do other things for a valid form   
+   $.ajax({
+				  type: "POST",
+				  url: "contact.php",
+				  data: {
+					  firstname : $('#inputName').val(),
+					  email : $('#inputEmail').val(),
+					  title : $('#inputTitle').val(), 
+					  message : $('#inputMessage').val() },
+				  success: function(data) {
+					if (data) {
+						//alert(data);
+						$('#email_message').html(data);
+					} else {
+					  alert(data); //testing purposes
+					}
+					form.reset();
+				  }
+			});
+
+  }                            
+
+    });
+
+	
+
+});
+
+</script>
+
+ 
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+
+ <body class="home" data-body-class="titian"> 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_EN/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- Start Header section -->
+<header class="navbar navbar-default navbar-fixed-top nav-transparent" role="navigation" id="navbar-top">
+   <div class="container">
+    <div class="row">
+       <div class="col-lg-12"> 
+        
+        <!-- start button for collapsed menu-->
+        
+        <div class="navbar-header">
+           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+           <a class="navbar-brand" href="index-video.html"><img src="images/logo/logo_home.png"></a> </div>
+        
+        <!-- end button for collapsed menu--> 
+        
+        <!-- start menu-->
+        
+        <div class="navbar-collapse collapse">
+           <ul class="nav navbar-nav navbar-right">
+            <li> <a href="#home" class="homelink">Home</a> </li>
+            <li><a href="#about">Actor</a></li>
+            <li><a href="#services">Question</a></li>
+            <li><a href="#team">Argument</a></li>
+            <li><a href="#portfolio">Video</a></li>
+            <li><a href="#contact">Interaction</a></li>
+            <li><a href="#conclusion">Conclusion</a></li>
+          </ul>
+         </div>
+        
+        <!-- end menu--> 
+        
+      </div>
+     </div>
+  </div>
+ </header>
+<!-- End Header section --> 
+
+<!--Start Slide Show section-->
+<section class="content-section home-slideshow" id="home" style="background-color: transparent;"> 
+
+<iframe id="ytplayer" type="text/html" width="100%" height="720px"src="https://www.youtube.com/embed/13GVGRezVug?autoplay=1&controls=0&rel=0&showinfo=0&color=white&theme=light"
+frameborder="0" allowfullscreen></iframe>
+
+ <span class="scroll-down"> <a href="#about"><span><i class="icon-down-open-big"></i></span></a> Scroll down to <br />
+  explore more </span> 
+  <div class="whitebg">
+  </div>
+ </section>
+
+<!--End Slide Show section--> 
+
+<!--About Page-->
+<section class="content-section about-us" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <article>
+          <header>
+          
+        	<hgroup class="heading1">
+            <h1 class="text-center">WHO IS TALKING TO THEM?</h1>
+            <div class="headingUline"></div>
+            <div>
+            
+            <div class="col-lg-2"></div>
+            
+              <div class="col-lg-4">
+              <h1 class="text-right" style="color:#419882; font-size:20px">MOTHER</h1>
+              <h3 class="text-left">The mothers use a common language<br>and often tackle the issue in a<br>reassuring way because they have<br>already faced the same situation</h3>
+              </div>
+              
+              <div class="col-lg-4">
+              
+              <h1 class="text-right" style="color:#419882; font-size:20px">HEALTHCARE<br> PROFESSIONAL</h1>
+              <h3 class="text-right">The healthcare professionals<br>use specialist language where<br>prevail scientific and medical terms</h3>
+              </div>
+              
+              <div class="col-lg-2"></div>
+              
+		</hgroup>
+          </header>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--Prima Pagina-->
+
+<section class="content-section call-to-action" id="callaction">
+<div class="container" style="position:absolute; left:100px; z-index:0;"><img src="images/services/s-3.png">
+</div>
+  <div class="container">
+    	<div class="row">
+        <span class="responsive-image callimg"><img src="images/prima-pagina/Medico%3AMamma.png"></span>
+        </div>
+  </div>
+ <section class="content-section slogan">
+ </section>
+ 
+<!--Prima pagina end-->
+
+<!--End About Page-->
+
+<!--Services Srart-->
+<section class="content-section team-section" id="services">
+                <hgroup class="heading1">
+                    <h1>What are the answers to mom´s questions?</h1>
+                    <div class="headingUline"></div>
+                </hgroup>
+                
+<section class="content-section servise-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">     
+       
+       <div class="pull-left slidersecond">
+      <ul class="cycle-slideshow1" data-cycle-fx="scrollHorz" data-cycle-timeout="0" data-cycle-slides="> li" data-cycle-carousel-fluid="0" data-cycle-speed="none" data-cycle-pager-event="mouseover" >	
+    <li>
+                <hgroup class="heading1">
+                    <h3 style="font-size:26px; margin-top:10px">What are the risks and benefits of VBAC?</h3>
+                </hgroup>
+     <div class="col-sm-12 col-lg-6">
+      <div class="html5gallery" data-skin="light" data-width="550" data-height="400" style="display:none;">
+  <!--35-->
+      <a href="https://www.youtube.com/embed/LxzWXkl3bP0?rel=0&showinfo=0&color=white&theme=light&start=30&end=36"><<img src="images/portfolio/mother/img9.jpg" width="86" height="86">></a>
+  <!--36-->
+      <a href="https://www.youtube.com/embed/N8Ooa9r7q08?rel=0&showinfo=0&color=white&theme=light&start=69&end=121"><img src="images/portfolio/mother/img36.jpg" width="86" height="86"></a>
+  <!--73-->
+      <a href="https://www.youtube.com/embed/pShyTS5xP7Y?rel=0&showinfo=0&color=white&theme=light&start=300&end=322"><img src="images/portfolio/mother/img12.jpg" width="86" height="86"></a>
+  <!--75-->
+      <a href="https://www.youtube.com/embed/K0qHp-iJTDw?rel=0&showinfo=0&color=white&theme=light&start=41&end=57"><img src="images/portfolio/mother/img14.jpg" width="86" height="86"></a>
+  <!--79-->
+      <a href="https://www.youtube.com/embed/qdHGBnp5DJM?rel=0&showinfo=0&color=white&theme=light&start=87&end=121"><img src="images/portfolio/mother/img16.jpg" width="86" height="86"></a>
+  <!--81-->
+      <a href="https://www.youtube.com/embed/DbM3vR2IX2Q?rel=0&showinfo=0&color=white&theme=light&start=731&end=740"><img src="images/portfolio/mother/img18.jpg" width="86" height="86"></a>
+  <!--86-->
+      <a href="https://www.youtube.com/embed/8wkv55-ec4Y?rel=0&showinfo=0&color=white&theme=light&start=45&end=49"><img src="images/portfolio/mother/img23.jpg" width="86" height="86"></a>
+  <!--88-->
+      <a href="https://www.youtube.com/embed/cpE5dTvnTM?rel=0&showinfo=0&color=white&theme=light&start=0&end=04"><img src="images/portfolio/mother/img24.jpg" width="86" height="86"></a>
+  <!--91-->    
+  <a href="https://www.youtube.com/embed/lrgy29xbtmE?rel=0&showinfo=0&color=white&theme=light&start=146&end=150"><img src="images/portfolio/mother/img26.jpg" width="86" height="86"></a>
+  <!--93-->
+   <a href="https://www.youtube.com/embed/KvLLBreVW68?rel=0&showinfo=0&color=white&theme=light&start=179&end=205"><img src="images/portfolio/mother/img27.jpg" width="86" height="86"></a>
+  <!--95-->
+   <a href="https://www.youtube.com/embed/Upq-VXvMSE?rel=0&showinfo=0&color=white&theme=light&start=482&end=498"><img src="images/portfolio/mother/img29.jpg" width="86" height="86"></a>
+  <!--96-->
+   <a href="https://www.youtube.com/embed/hBUbYEAKBYI?rel=0&showinfo=0&color=white&theme=light&start=98&end=101"><img src="images/portfolio/mother/img30.jpg" width="86" height="86"></a>
+  <!--97-->
+   <a href="https://www.youtube.com/embed/7dyEsuXT35c?rel=0&showinfo=0&color=white&theme=light&start=397&end=422"><img src="images/portfolio/mother/img31.jpg" width="86" height="86"></a>
+  <!--109-->
+   <a href="https://www.youtube.com/embed/z6HrUkWpWo0?rel=0&showinfo=0&color=white&theme=light&start=120&end=127"><img src="images/portfolio/mother/img33.jpg" width="86" height="86"></a>
+  <!--135-->
+   <a href="https://www.youtube.com/embed/BYZ5JdwAdas?rel=0&showinfo=0&color=white&theme=light&start=11&end=32"><img src="images/portfolio/mother/img35.jpg" width="86" height="86"></a>
+  <!--136-->
+  <a href="https://www.youtube.com/embed/_TZyTH3-R2o?rel=0&showinfo=0&color=white&theme=light&start=215&end=223"><img src="images/portfolio/mother/img36.jpg" width="86" height="86"></a>
+  <!--137-->
+   <a href="https://www.youtube.com/embed/DbDhjOaE2Gc?rel=0&showinfo=0&color=white&theme=light&start=107&end=120"><img src="images/portfolio/mother/img37.jpg" width="86" height="86"></a>
+  <!--140-->
+   <a href="https://www.youtube.com/embed/Fkhq91kv5cg?rel=0&showinfo=0&color=white&theme=light&start=228&end=247"><img src="images/portfolio/mother/img38.jpg" width="86" height="86"></a>
+  <!--146-->
+   <a href="https://www.youtube.com/embed/HdgO0d5HVtQ?rel=0&showinfo=0&color=white&theme=light&start=56&end=70"><img src="images/portfolio/mother/img41.jpg" width="86" height="86"></a>
+  <!--151-->
+   <a href="https://www.youtube.com/embed/dBEJ45eFw6k?rel=0&showinfo=0&color=white&theme=light&start=85&end=113"><img src="images/portfolio/mother/img45.jpg" width="86" height="86"></a>
+  <!--176-->
+   <a href="https://www.youtube.com/embed/weVty71lhio?rel=0&showinfo=0&color=white&theme=light&start=231&end=251"><img src="images/portfolio/mother/img54.jpg" width="86" height="86"></a>
+  </div>
+  </div>
+   <div class="col-sm-12 col-lg-6">
+        <div class="html5gallery" data-skin="light" data-width="550" data-height="400" style="display:none;">
+   <!--6-->
+   <a href="https://www.youtube.com/embed/xFpFk82rq5c?rel=0&showinfo=0&color=white&theme=light&start=20&end=60"><img src="images/portfolio/healthcare/img1-h06.png" width="264" height="264"></a>
+  <!--11-->
+   <a href="https://www.youtube.com/embed/zt3U_nFS4xA?rel=0&showinfo=0&color=white&theme=light&start=24&end=61"><img src="images/portfolio/healthcare/img2-h11.png" width="264" height="264"></a>
+  <!--15-->
+   <a href="https://www.youtube.com/embed/bzgWFHVi0HE?rel=0&showinfo=0&color=white&theme=light&start=32&end=81"><img src="images/portfolio/healthcare/img3-h15.png" width="264" height="264"></a>
+  <!--17-->
+   <a href="https://www.youtube.com/embed/hmz3ktKRhDE?rel=0&showinfo=0&color=white&theme=light&start=13&end=22"><img src="images/portfolio/healthcare/img4-h17.png" width="264" height="264"></a>
+  <!--37-->
+   <a href="https://www.youtube.com/embed/fMX3DRHEaZ4?rel=0&showinfo=0&color=white&theme=light&start=15&end=48"><img src="images/portfolio/healthcare/img5-h37.png" width="264" height="264"></a>
+  <!--39-->
+   <a href="https://www.youtube.com/embed/zc-AHvFSPMk?rel=0&showinfo=0&color=white&theme=light&start=93&end=108"><img src="images/portfolio/healthcare/img6-h39.png" width="264" height="264"></a>
+  <!--71-->
+   <a href="https://www.youtube.com/embed/x0ovwK5cuFM?rel=0&showinfo=0&color=white&theme=light&start=43&end=66"><img src="images/portfolio/healthcare/img7-h71.png" width="264" height="264"></a>
+  <!--78-->
+ <a href="https://www.youtube.com/embed/CE6ZpQ3-eJw?rel=0&showinfo=0&color=white&theme=light&start=107&end=151"><img src="images/portfolio/healthcare/img9-h78.png" width="264" height="264"></a>
+  <!--89-->
+  <a href="https://www.youtube.com/embed/EdlidEShtjc?rel=0&showinfo=0&color=white&theme=light&start=42&end=82"><img src="images/portfolio/healthcare/img10-h88.png" width="264" height="264"></a>
+  <!--92-->
+   <a href="https://www.youtube.com/embed/FAibpAqDh2s?rel=0&showinfo=0&color=white&theme=light&start=40&end=65"><img src="images/portfolio/healthcare/img11-h92.png" width="264" height="264"></a>
+  <!--138-->
+   <a href="https://www.youtube.com/embed/ihz8zyc-rSg?rel=0&showinfo=0&color=white&theme=light&start=89&end=145"><img src="images/portfolio/healthcare/img24-h138.png" width="264" height="264"></a>
+  <!--145-->
+   <a href="https://www.youtube.com/embed/DQiz--3Bq0w?rel=0&showinfo=0&color=white&theme=light&start=777&end=928"><img src="images/portfolio/healthcare/img28-h145.png" width="264" height="264"></a>
+  <!--153-->
+   <a href="https://www.youtube.com/embed/Alx7bKgPBiw?rel=0&showinfo=0&color=white&theme=light&start=80&end=117"><img src="images/portfolio/healthcare/img29-h153.png" width="264" height="264"></a>
+  <!--154-->
+   <a href="https://www.youtube.com/embed/cxLpUCDdusA?rel=0&showinfo=0&color=white&theme=light&start=21&end=60"><img src="images/portfolio/healthcare/img30-h154.png" width="264" height="264"></a>
+  <!--155-->
+   <a href="https://www.youtube.com/embed/wnR6AxKihCw?rel=0&showinfo=0&color=white&theme=light&start=560&end=613"><img src="images/portfolio/healthcare/img31-h155.png" width="264" height="264"></a>
+  <!--156-->
+  <a href="https://www.youtube.com/embed/wAQapGaSsho?rel=0&showinfo=0&color=white&theme=light&start=0&end=18"><img src="images/portfolio/healthcare/img32-h156.png" width="264" height="264"></a>
+  <!--161-->
+   <a href="https://www.youtube.com/embed/Rn2lFTU-fZk?rel=0&showinfo=0&color=white&theme=light&start=193&end=220"><img src="images/portfolio/healthcare/img34-h161.png" width="264" height="264"></a>
+  <!--166-->
+   <a href="https://www.youtube.com/embed/8hWjcqC6pYE?rel=0&showinfo=0&color=white&theme=light&start=200&end=234"><img src="images/portfolio/healthcare/img35-h166.png" width="264" height="264"></a>
+  </div>
+  </div>
+  </li>
+    <li>
+                <hgroup class="heading1">
+                    <h3 style="font-size:26px; margin-top:10px">What are the risks and benefits of ERCS?</h3>
+                </hgroup>
+     <div class="col-sm-12 col-lg-6">
+      <div class="html5gallery" data-skin="light" data-width="550" data-height="400" style="display:none;">
+  <!--23-->
+    <a href="https://www.youtube.com/embed/FYf_WvgwY1Y?rel=0&showinfo=0&color=white&theme=light&start=55&end=68"><img src="images/portfolio/mother/img5.jpg" width="86" height="86"></a>
+  <!--36-->
+  <a href="http://www.youtube.com/embed/KgWqQ8Fd4T8?rel=0&showinfo=0&color=white&theme=light&start=159&end=168"><img src="images/portfolio/mother/img10.jpg" width="86" height="86"></a>
+  <!--76-->
+  <a href="http://www.youtube.com/embed/KgWqQ8Fd4T8?rel=0&showinfo=0&color=white&theme=light&start=55&end=68"><img src="images/portfolio/mother/img15.jpg" width="86" height="86"></a>
+  <!--97-->
+  <a href="http://www.youtube.com/embed/7dyEsuXT35c?rel=0&showinfo=0&color=white&theme=light&start=537&end=546"><img src="images/portfolio/mother/img31.jpg" width="86" height="86"></a>
+  <!--135-->
+  <a href="http://www.youtube.com/embed/BYZ5JdwAdas?rel=0&showinfo=0&color=white&theme=light&start=158&end=183"><img src="images/portfolio/mother/img35.jpg" width="86" height="86"></a>
+  <!--136-->
+  <a href="http://www.youtube.com/embed/_TZyTH3-R2o?rel=0&showinfo=0&color=white&theme=light&start=208&end=214"><img src="images/portfolio/mother/img36.jpg" width="86" height="86"></a>
+  <!--137-->
+  <a href="http://www.youtube.com/embed/DbDhjOaE2Gc?rel=0&showinfo=0&color=white&theme=light&start=342&end=407"><img src="images/portfolio/mother/img37.jpg" width="86" height="86"></a>
+  <!--140-->
+  <a href="http://www.youtube.com/embed/Fkhq91kv5cg?rel=0&showinfo=0&color=white&theme=light&start=148&end=160"><img src="images/portfolio/mother/img38.jpg" width="86" height="86"></a>
+  <!--157-->
+  <a href="http://www.youtube.com/embed/7UJxg3kItZM?rel=0&showinfo=0&color=white&theme=light&start=59&end=72"><img src="images/portfolio/mother/img47.jpg" width="86" height="86"></a>
+  <!--176-->
+  <a href="http://www.youtube.com/embed/weVty71lhio?rel=0&showinfo=0&color=white&theme=light&start=36&end=263"><img src="images/portfolio/mother/img54.jpg" width="86" height="86"></a>
+  </div>
+  </div>
+   <div class="col-sm-12 col-lg-6">
+        <div class="html5gallery" data-skin="light" data-width="550" data-height="400" style="display:none;">
+  <!--6-->
+  <a href="http://www.youtube.com/embed/xFpFk82rq5c?rel=0&showinfo=0&color=white&theme=light&start=78&end=115"><img src="images/portfolio/healthcare/img1-h06.png" width="264" height="264"></a>
+  <!--37-->
+  <a href="http://www.youtube.com/embed/fMX3DRHEaZ4?rel=0&showinfo=0&color=white&theme=light&start=0&end=14"><img src="images/portfolio/healthcare/img5-h37.png" width="264" height="264"></a>
+  <!--39-->
+  <a href="http://www.youtube.com/embed/zc-AHvFSPMk?rel=0&showinfo=0&color=white&theme=light&start=55&end=92"><img src="images/portfolio/healthcare/img6-h39.png" width="264" height="264"></a>
+  <!--71-->
+  <a href="http://www.youtube.com/embed/x0ovwK5cuFM?rel=0&showinfo=0&color=white&theme=light&start=67&end=110"><img src="images/portfolio/healthcare/img7-h71.png" width="264" height="264"></a>
+  <!--78-->
+  <a href="http://www.youtube.com/embed/CE6ZpQ3-eJw?rel=0&showinfo=0&color=white&theme=light&start=25&end=70"><img src="images/portfolio/healthcare/img9-h78.png" width="264" height="264"></a>
+  <!--89-->
+  <a href="http://www.youtube.com/embed/EdlidEShtjc?rel=0&showinfo=0&color=white&theme=light&start=83&end=101"><img src="images/portfolio/healthcare/img10-h88.png" width="264" height="264"></a>
+  <!--99-->
+ <a href="http://www.youtube.com/embed/aglss8ME2AU?rel=0&showinfo=0&color=white&theme=light&start=105&end=123"><img src="images/portfolio/healthcare/img12-h99.png" width="264" height="264"></a>
+  <!--100-->
+  <a href="http://www.youtube.com/embed/9QMEmNUQzuk?rel=0&showinfo=0&color=white&theme=light&start=42&end=63"><img src="images/portfolio/healthcare/img13-h100.png" width="264" height="264"></a>
+  <!--101-->
+  <a href="http://www.youtube.com/embed/8PTdfnXIInM?rel=0&showinfo=0&color=white&theme=light&start=65&end=85"><img src="images/portfolio/healthcare/img14-h101.png" width="264" height="264"></a>
+  <!--102-->
+  <a href="http://www.youtube.com/embed/5yMnyJX6qD8?8rel=0&showinfo=0&color=white&theme=light&start=32&end=69"><img src="images/portfolio/healthcare/img15-h102.png" width="264" height="264"></a>
+  <!--105-->
+  <a href="http://www.youtube.com/embed/tK5RybbmbrI?rel=0&showinfo=0&color=white&theme=light&start=26&end=38"><img src="images/portfolio/healthcare/img18-h105.png" width="264" height="264"></a>
+  <!--108-->
+  <a href="http://www.youtube.com/embed/sFwfRn1O2Ig?rel=0&showinfo=0&color=white&theme=light&start=16&end=140"><img src="images/portfolio/healthcare/img19-h108.png" width="264" height="264"></a>
+  
+  <!--145-->
+  <a href="http://www.youtube.com/embed/DQiz--3Bq0w?rel=0&showinfo=0&color=white&theme=light&start=240&end=279"><img src="images/portfolio/healthcare/img28-h145.png" width="264" height="264"></a>  
+  <!--153-->
+  <a href="http://www.youtube.com/embed/Alx7bKgPBiw?rel=0&showinfo=0&color=white&theme=light&start=22&end=29"><img src="images/portfolio/healthcare/img29-h153.png" width="264" height="264"></a>
+  <!--154-->
+  <a href="http://www.youtube.com/embed/cxLpUCDdusA?rel=0&showinfo=0&color=white&theme=light&start=61&end=90"><img src="images/portfolio/healthcare/img30-h154.png" width="264" height="264"></a>
+  <!--155-->
+  <a href="http://www.youtube.com/embed/wnR6AxKihCw?rel=0&showinfo=0&color=white&theme=light&start=300&end=333"><img src="images/portfolio/healthcare/img31-h155.png" width="264" height="264"></a>
+  <!--161-->
+  <a href="http://www.youtube.com/embed/Rn2lFTU-fZk?rel=0&showinfo=0&color=white&theme=light&start=25&end=40"><img src="images/portfolio/healthcare/img34-h161.png" width="264" height="264"></a>
+  <!--177-->
+  <a href="http://www.youtube.com/embed/Kc6KTMspzdc?rel=0&showinfo=0&color=white&theme=light&start=90&end=100"><img src="images/portfolio/healthcare/img36-h177.png" width="264" height="264"></a> 
+  </div>
+  </div>
+    </li>
+    <li>
+                <hgroup class="heading1">
+                    <h3 style="font-size:26px; margin-top:10px">How to decide between VBAC or ERCS?</h3>
+                </hgroup>
+     <div class="col-sm-12 col-lg-6">
+      <div class="html5gallery" data-skin="light" data-width="550" data-height="400" style="display:none;">
+  <!--34-->
+  <a href="http://www.youtube.com/embed/SbwR4QcBPUs?rel=0&showinfo=0&color=white&theme=light&start=156&end=186"><img src="images/portfolio/mother/img8.jpg" width="86" height="86"></a>
+  <!--44-->
+  <a href="http://www.youtube.com/embed/j3-vfugxmHA?rel=0&showinfo=0&color=white&theme=light&start=399&end=420"><img src="images/portfolio/mother/img11.jpg" width="86" height="86"></a>
+  <!--74-->
+  <a href="http://www.youtube.com/embed/TCxq4JC0u2M?rel=0&showinfo=0&color=white&theme=light&start=104&end=106"><img src="images/portfolio/mother/img13.jpg" width="86" height="86"></a>
+  <!--75-->
+  <a href="http://www.youtube.com/embed/K0qHp-iJTDw?rel=0&showinfo=0&color=white&theme=light&start=298&end=314"><img src="images/portfolio/mother/img14.jpg" width="86" height="86"></a>
+  <!--86-->
+  <a href="http://www.youtube.com/embed/8wkv55-ec4Y?rel=0&showinfo=0&color=white&theme=light&start=19&end=26"><img src="images/portfolio/mother/img23.jpg" width="86" height="86"></a>
+  <!--91-->
+  <a href="http://www.youtube.com/embed/lrgy29xbtmE?rel=0&showinfo=0&color=white&theme=light&start=205&end=210"><img src="images/portfolio/mother/img26.jpg" width="86" height="86"></a>
+  <!--93-->
+  <a href="http://www.youtube.com/embed/KvLLBreVW68?rel=0&showinfo=0&color=white&theme=light&start=755&end=775"><img src="images/portfolio/mother/img27.jpg" width="86" height="86"></a>
+  <!--95-->
+  <a href="http://www.youtube.com/embed/Upq-VXvMSE?rel=0&showinfo=0&color=white&theme=light&start=352&end=387"><img src="images/portfolio/mother/img29.jpg" width="86" height="86"></a>
+  <!--96-->
+  <a href="http://www.youtube.com/embed/hBUbYEAKBYI?rel=0&showinfo=0&color=white&theme=light&start=115&end=135"><img src="images/portfolio/mother/img30.jpg" width="86" height="86"></a>
+  <!--109-->
+  <a href="http://www.youtube.com/embed/z6HrUkWpWo0?rel=0&showinfo=0&color=white&theme=light&start=78&end=93"><img src="images/portfolio/mother/img33.jpg" width="86" height="86"></a>
+  <!--136-->
+  <a href="http://www.youtube.com/embed/_TZyTH3-R2o?rel=0&showinfo=0&color=white&theme=light&start=7&end=14"><img src="images/portfolio/mother/img36.jpg" width="86" height="86"></a>
+  <!--148-->
+  <a href="http://www.youtube.com/embed/HzsT9q1AVW8?rel=0&showinfo=0&color=white&theme=light&start=64&end=94"><img src="images/portfolio/mother/img42.jpg" width="86" height="86"></a>
+  <!--151-->
+  <a href="http://www.youtube.com/embed/dBEJ45eFw6k?rel=0&showinfo=0&color=white&theme=light&start=113&end=123"><img src="images/portfolio/mother/img45.jpg" width="86" height="86"></a>
+  <!--176-->
+  <a href="http://www.youtube.com/embed/weVty71lhio?rel=0&showinfo=0&color=white&theme=light&start=62&end=65"><img src="images/portfolio/mother/img54.jpg" width="86" height="86"></a> 
+  </div>
+  </div>
+   <div class="col-sm-12 col-lg-6">
+        <div class="html5gallery" data-skin="light" data-width="550" data-height="400" style="display:none;">
+   <!--6-->
+  <a href="http://www.youtube.com/embed/xFpFk82rq5c?rel=0&showinfo=0&color=white&theme=light&start=188&end=208"><img src="images/portfolio/healthcare/img1-h06.png" width="264" height="264"></a>
+  <!--11-->
+  <a href="http://www.youtube.com/embed/zt3U_nFS4xA?rel=0&showinfo=0&color=white&theme=light&start=0&end=23"><img src="images/portfolio/healthcare/img2-h11.png" width="264" height="264"></a>
+  <!--15-->
+  <a href="http://www.youtube.com/embed/bzgWFHVi0HE?rel=0&showinfo=0&color=white&theme=light&start=94&end=103"><img src="images/portfolio/healthcare/img3-h15.png" width="264" height="264"></a>
+  <!--17-->
+  <a href="http://www.youtube.com/embed/hmz3ktKRhDE?rel=0&showinfo=0&color=white&theme=light&start=22&end=31"><img src="images/portfolio/healthcare/img4-h17.png" width="264" height="264"></a>
+  <!--37-->
+  <a href="http://www.youtube.com/embed/fMX3DRHEaZ4?rel=0&showinfo=0&color=white&theme=light&start=48&end=60"><img src="images/portfolio/healthcare/img5-h37.png" width="264" height="264"></a>
+  <!--71-->
+  <a href="http://www.youtube.com/embed/x0ovwK5cuFM?rel=0&showinfo=0&color=white&theme=light&start=183&end=225"><img src="images/portfolio/healthcare/img7-h71.png" width="264" height="264"></a>
+  <!--78-->
+  <a href="http://www.youtube.com/embed/CE6ZpQ3-eJw?rel=0&showinfo=0&color=white&theme=light&start=95&end=107"><img src="images/portfolio/healthcare/img9-h78.png" width="264" height="264"></a>
+  <!--92-->
+  <a href="http://www.youtube.com/embed/FAibpAqDh2s?rel=0&showinfo=0&color=white&theme=light&start=20&end=38"><img src="images/portfolio/healthcare/img11-h92.png" width="264" height="264"></a>
+  <!--138-->
+  <a href="http://www.youtube.com/embed/ihz8zyc-rSg?rel=0&showinfo=0&color=white&theme=light&start=53&end=87"><img src="images/portfolio/healthcare/img24-h138.png" width="264" height="264"></a>
+  <!--141-->
+  <a href="http://www.youtube.com/embed/dei1PV_4n54?rel=0&showinfo=0&color=white&theme=light&start=34&end=78"><img src="images/portfolio/healthcare/img26-h141.png" width="264" height="264"></a>
+  <!--143-->
+  <a href="http://www.youtube.com/embed/SenjuOxjZ_c?rel=0&showinfo=0&color=white&theme=light&start=46&end=65"><img src="images/portfolio/healthcare/img27-h143.png" width="264" height="264"></a>
+  <!--145-->
+  <a href="http://www.youtube.com/embed/DQiz--3Bq0w?rel=0&showinfo=0&color=white&theme=light&start=929&end=1015"><img src="images/portfolio/healthcare/img28-h145.png" width="264" height="264"></a>
+  <!--153-->
+  <a href="http://www.youtube.com/embed/Alx7bKgPBiw?rel=0&showinfo=0&color=white&theme=light&start=126&end=143"><img src="images/portfolio/healthcare/img29-h153.png" width="264" height="264"></a>
+  <!--154-->
+  <a href="http://www.youtube.com/embed/cxLpUCDdusA?rel=0&showinfo=0&color=white&theme=light&start=235&end=265"><img src="images/portfolio/healthcare/img30-h154.png" width="264" height="264"></a>
+  <!--161-->
+  <a href="http://www.youtube.com/embed/Rn2lFTU-fZk?rel=0&showinfo=0&color=white&theme=light&start=335&end=380"><img src="images/portfolio/healthcare/img34-h161.png" width="264" height="264"></a>
+  <!--166-->
+  <a href="http://www.youtube.com/embed/8hWjcqC6pYE?rel=0&showinfo=0&color=white&theme=light&start=120&end=160"><img src="images/portfolio/healthcare/img35-h166.png" width="264" height="264"></a>
+  </div>
+  </div>
+    </li>
+  </ul>
+       </div>
+      </div>
+    </div>
+  </div>
+</section>
+</section>
+
+<!--Services end-->
+
+<!--Argument Start-->
+<section class="content-section team-section" id="team">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <hgroup class="heading1">
+          <h1>What are they talking about?</h1>
+          <div class="headingUline"></div>
+          <h3>There are five main issues: VBAC, ERCS, Testimonials, Healthcare System and Others</h3>
+        </hgroup>
+        
+<!--Start Rollover Argument-->
+
+<div class="rollover-menu">
+  <div class="rollover-items cf">
+    <ul>
+      <div class="highlight"></div>
+      <li id="item1" style="font-size:20px" class="active">ALL</li>
+      <li id="item2" style="font-size:20px">VBAC</li>
+      <li id="item3" style="font-size:20px">ERCS</li>
+      <li id="item4" style="font-size:20px">HEALTHCARE SYSTEM</li>
+      <li id="item5" style="font-size:20px">TESTIMONIAL</li>
+    </ul>
+  </div>
+  
+  <div class="rollover-blocks">
+    <div id="rollover-item1" class="rollover-block block-active">
+    <p><img src="images/bar-rollover/BARRETTE-01.png"></p>
+    </div>
+    
+    <div id="rollover-item2" class="rollover-block">
+      <p><img src="images/bar-rollover/BARRETTE-05.png"></p>
+    </div>
+    
+    <div id="rollover-item3" class="rollover-block">
+      <p><img src="images/bar-rollover/BARRETTE-02.png"></p>
+    </div>
+    
+    <div id="rollover-item4" class="rollover-block">
+      <p><img src="images/bar-rollover/BARRETTE-04.png"></p>
+    </div>
+    
+    <div id="rollover-item5" class="rollover-block">
+      <p><img src="images/bar-rollover/BARRETTE-03.png"></p>
+    </div>
+   
+  </div>
+</div>
+
+<!--Finish Rollover Argument-->
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+<!--Argument end-->
+
+<!--Testimonial Start-->
+<section class="content-section testimonials" id="testimonials"></section>
+<!--Testimonial end-->
+
+<!--Portfolio Start-->
+<section class="content-section portfolio-section" style="background:#000000" id="portfolio">
+  <div class="portfolio">
+      <div class="row" style="background:#000000">
+<!--     	 <hgroup class="heading1">
+          <h1 style="color:#ffffff">Portfolio</h1>
+          <div class="headingUline"></div>
+        </hgroup>-->
+        <div>
+           <div class="col-lg-12" style="width:1400px"><img src="images/portfolio.png"></div>
+              
+        <!--griglia madri-->
+          <div class="portfolio-items-list col-lg-8" style="width:60%">
+          <div class="portfolio-item web portfolio-item-1" data-item="item1" style="opacity:0">
+          <a class="htooltip"><img src="images/playvideo.png" />
+<span><img src="images/pop up/mother/Pop up_1.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"><img src="images/portfolio/mother/img1.jpg" alt="Print" title="Print" />
+              </figure>
+                         
+            </div>
+            <div class="portfolio-item video portfolio-item-2" data-item="item2" style="opacity:0">
+           <a class="htooltip"><img src="images/playvideo.png" />
+<span class="due"><img src="images/pop up/mother/Pop up_4_.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"><img src="images/portfolio/mother/img2.jpg" alt="Web" title="Web" />
+              </figure>
+            </div>
+            
+            <div class="portfolio-item logo portfolio-item-3" data-item="item3" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="tre"><img src="images/pop up/mother/Pop up_18.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img3.jpg" alt="Logo" title="Logo" /> 
+              </figure>
+            </div>
+            
+            <div class="portfolio-item video portfolio-item-4" data-item="item4" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="quattro"><img src="images/pop up/mother/Pop up_19.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img4.jpg"  alt="Web" title="Web" />
+              </figure>
+            </div>
+            
+            <div class="portfolio-item logo portfolio-item-5" data-item="item5" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="cinque"><img src="images/pop up/mother/Pop up_23.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img5.jpg" alt="Logo" title="Logo" /> 
+              </figure>
+            </div>
+            
+            <div class="portfolio-item branding portfolio-item-6" data-item="item6" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="sei"><img src="images/pop up/mother/Pop up_28.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img6.jpg" alt="Print" title="Print" />
+              </figure>
+            </div>
+            <div class="portfolio-item branding portfolio-item-7" data-item="item7" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="sette"><img src="images/pop up/mother/Pop up_29.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img7.jpg" alt="Web" title="Web" />
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-8" data-item="item8" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="otto"><img src="images/pop up/mother/Pop up_34.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img8.jpg" alt="Web" title="Web" />
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-9" data-item="item9" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="nove"><img src="images/pop up/mother/Pop up_35.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img9.jpg" alt="Web" title="Web" />
+                </div-->
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item10" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="dieci"><img src="images/pop up/mother/Pop up_36.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img10.jpg" alt="Web" title="Web" />
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item11" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="undici"><img src="images/pop up/mother/Pop up_44.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"><img src="images/portfolio/mother/img11.jpg" alt="Web" title="Web" />
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item12" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="dodici"><img src="images/pop up/mother/Pop up_73.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img12.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            
+            <div class="portfolio-item print portfolio-item-10" data-item="item13" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="tredici"><img src="images/pop up/mother/Pop up_74.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img13.jpg" alt="Web" title="Web" />
+               
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item14" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="quattordici"><img src="images/pop up/mother/Pop up_75.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img14.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item15" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="quindici"><img src="images/pop up/mother/Pop up_76.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img15.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item16" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="sedici"><img src="images/pop up/mother/Pop up_79.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img16.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item17" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="diciassette"><img src="images/pop up/mother/Pop up_80.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img17.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item18" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="diciotto"><img src="images/pop up/mother/Pop up_81.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img18.jpg" alt="Print" title="Print" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item19" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="diciannove"><img src="images/pop up/mother/Pop up_82.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img19.jpg" alt="Web" title="Web" />
+               
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item20" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="venti"><img src="images/pop up/mother/Pop up_83.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img20.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item21" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="ventuno"><img src="images/pop up/mother/Pop up_84.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img21.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item22" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="ventidue"><img src="images/pop up/mother/Pop up_85.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img22.jpg" alt="Web" title="Web" />
+               
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item23" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="ventitre"><img src="images/pop up/mother/Pop up_86.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img23.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item24" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="ventiquattro"><img src="images/pop up/mother/Pop up_88.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img24.jpg" alt="Web" title="Web" />
+              
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item25" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="venticinque"><img src="images/pop up/mother/Pop up_90.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img25.jpg" alt="Web" title="Web" />
+               
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item26" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="ventisei"><img src="images/pop up/mother/Pop up_91.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img26.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item27" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="ventisette"><img src="images/pop up/mother/Pop up_93.png" width="2442" height="421"></span>
+</a>
+            
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img27.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item28" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="ventotto"><img src="images/pop up/mother/Pop up_94.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img28.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item29" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="ventinove"><img src="images/pop up/mother/Pop up_95.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img29.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item30" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="trenta"><img src="images/pop up/mother/Pop up_96.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img30.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item31" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="trentuno"><img src="images/pop up/mother/Pop up_97.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img31.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item32" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="trentadue"><img src="images/pop up/mother/Pop up_98.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img32.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item33" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="trentatre"><img src="images/pop up/mother/Pop up_109.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img33.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item34" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="trentaquattro"><img src="images/pop up/mother/Pop up_134.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img34.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item35" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="trentacinque"><img src="images/pop up/mother/Pop up_135.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img35.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item36" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="trentasei"><img src="images/pop up/mother/Pop up_136.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img36.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item37" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="trentasette"><img src="images/pop up/mother/Pop up_137.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img37.jpg" alt="Web" title="Web" />
+               
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item38" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="trentotto"><img src="images/pop up/mother/Pop up_140.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img38.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item39" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="trentanove"><img src="images/pop up/mother/Pop up_142.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img39.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item40" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="quaranta"><img src="images/pop up/mother/Pop up_144.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img40.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item41" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="quarantuno"><img src="images/pop up/mother/Pop up_146.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img41.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item42" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="quarantadue"><img src="images/pop up/mother/Pop up_148.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img42.jpg" alt="Web" title="Web" />
+               
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item43" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="quarantatre"><img src="images/pop up/mother/Pop up_149.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img43.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item44" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="quarantaquattro"><img src="images/pop up/mother/Pop up_150.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img44.jpg" alt="Print" title="Print" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item45" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="quarantacinque"><img src="images/pop up/mother/Pop up_151.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img45.jpg" alt="Web" title="Web" />
+               
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item46" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="quarantasei"><img src="images/pop up/mother/Pop up_152.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img46.jpg" alt="Print" title="Print" />
+               
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item47" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="quarantasette"><img src="images/pop up/mother/Pop up_157.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img47.jpg" alt="Logo" title="Logo" />
+               
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item48" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="quarantotto"><img src="images/pop up/mother/Pop up_162.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img48.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item49" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="quarantanove"><img src="images/pop up/mother/Pop up_163.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img49.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item50" style="opacity:0">
+              <a class="htooltip"><img src="images/playvideo.png" />
+<span class="cinquanta"><img src="images/pop up/mother/Pop up_164.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img50.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item51" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="cinquantuno"><img src="images/pop up/mother/Pop up_169.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img51.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item52" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="cinquantadue"> <img src="images/pop up/mother/Pop up_172.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img52.jpg" alt="Web" title="Web" />
+           
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item53" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="cinquantatre"><img src="images/pop up/mother/Pop up_174.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img53.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item54" style="opacity:0">
+            
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="cinquantaquattro"><img src="images/pop up/mother/Pop up_176.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img54.jpg" alt="Web" title="Web" />
+           
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item55" style="opacity:0">
+            <a class="htooltip" href="#"><img src="images/playvideo.png" />
+<span class="cinquantacinque"><img src="images/pop up/mother/Pop up_180.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img55.jpg" alt="Web" title="Web" />
+               
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item56" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="cinquantasei"><img src="images/pop up/mother/Pop up_181.png" width="2442" height="421"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img56.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item57" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="cinquantasette"> <img src="images/pop up/mother/Pop up_184.png" /></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img57.jpg" alt="Web" title="Web" />
+               
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item58" style="opacity:0">
+            
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="cinquantotto"> <img src="images/pop up/mother/Pop up_185.png" /></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/mother/img58.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            
+            
+            <div class="clearfix"></div>
+          </div>
+          
+          <!--Griglia medici-->
+<div class="portfolio-items-list col-lg-4"  style="width:40%">
+            <div class="portfolio-item web portfolio-item-1" data-item="item1" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="cinquantanove"><img src="images/pop up/healthcare/Pop up_6.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img1-h06.jpg" alt="Print" title="Print" />
+                
+              </figure>
+             </div>
+             
+            <div class="portfolio-item video portfolio-item-2" data-item="item2" style="opacity: 0;">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="sessanta"> <img src="images/pop up/healthcare/Pop up_11.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img2-h11.jpg" alt="Print" title="Print" />
+              </figure>
+            </div>
+            
+            <div class="portfolio-item logo portfolio-item-3" data-item="item3" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="sessantuno"><img src="images/pop up/healthcare/Pop up_15.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img3-h15.jpg" alt="Logo" title="Logo" />
+              </figure>
+            </div>
+            
+            <div class="portfolio-item video portfolio-item-4" data-item="item4" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="sessantdue"><img src="images/pop up/healthcare/Pop up_17.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img4-h17.jpg" alt="Web" title="Web" />
+              </figure>
+            </div>
+            
+            <div class="portfolio-item logo portfolio-item-5" data-item="item5" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="sessantatre"><img src="images/pop up/healthcare/Pop up_37.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img5-h37.jpg" alt="Print" title="Print" />
+              </figure>
+            </div>
+            
+            <div class="portfolio-item branding portfolio-item-6" data-item="item6" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="sessantaquattro"><img src="images/pop up/healthcare/Pop up_39.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img6-h39.jpg" alt="Print" title="Print" />
+              </figure>
+            </div>
+            
+            <div class="portfolio-item branding portfolio-item-7" data-item="item7" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="sessantacinque"><img src="images/pop up/healthcare/Pop up_71.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img7-h71.jpg" alt="Web" title="Web" />
+              </figure>
+            </div>
+            
+            <div class="portfolio-item print portfolio-item-8" data-item="item8" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="sessantasei"><img src="images/pop up/healthcare/Pop up_72.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img8-h72.jpg" alt="Web" title="Web" />
+              </figure>
+            </div>
+            
+            <div class="portfolio-item print portfolio-item-9" data-item="item9" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="sessantasette"><img src="images/pop up/healthcare/Pop up_78.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img9-h78.jpg" alt="Web" title="Web" />
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item10" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="sessantotto"><img src="images/pop up/healthcare/Pop up_89.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img10-h88.jpg" alt="Web" title="Web" />
+              </figure>
+            </div>
+            
+            <div class="portfolio-item print portfolio-item-10" data-item="item11" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="sessantanove"><img src="images/pop up/healthcare/Pop up_92.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img11-h92.jpg" alt="Web" title="Web" /> 
+              </figure>
+            </div>
+            
+            <div class="portfolio-item print portfolio-item-10" data-item="item12" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="settanta"> <img src="images/pop up/healthcare/Pop up_99.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img12-h99.jpg" alt="Logo" title="Logo" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item13" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="settantuno"> <img src="images/pop up/healthcare/Pop up_100.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img13-h100.jpg" alt="Logo" title="Logo" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item14" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="settantadue"><img src="images/pop up/healthcare/Pop up_101.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img14-h101.jpg" width="86" height="86" alt="Logo" title="Logo" />
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item15" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="settantatre"><img src="images/pop up/healthcare/Pop up_102.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img15-h102.jpg" alt="Print" title="Print" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item16" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="settantaquattro"> <img src="images/pop up/healthcare/Pop up_103.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img16-h103.jpg" alt="Logo" title="Logo" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item17" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="settantacinque"><img src="images/pop up/healthcare/Pop up_104.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img17-h104.jpg" alt="Logo" title="Logo" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item18" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="settantasei"><img src="images/pop up/healthcare/Pop up_105.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img18-h105.jpg" alt="Logo" title="Logo" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item19" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="settantasette"><img src="images/pop up/healthcare/Pop up_108.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img19-h108.jpg" alt="Logo" title="Logo" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item20" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="settantotto"><img src="images/pop up/healthcare/Pop up_111.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img20-h111.jpg" alt="Logo" title="Logo" />
+                
+              </figure>
+            </div>
+            
+            <div class="portfolio-item print portfolio-item-10" data-item="item21" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="settantanove"><img src="images/pop up/healthcare/Pop up_116.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img21-h116.jpg" alt="Logo" title="Logo" />
+                
+              </figure>
+            </div>
+            
+            <div class="portfolio-item print portfolio-item-10" data-item="item22" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="ottanta"><img src="images/pop up/healthcare/Pop up_117.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img22-h117.jpg" alt="Logo" title="Logo" />
+                
+              </figure>
+            </div>
+            
+            <div class="portfolio-item print portfolio-item-10" data-item="item23" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="ottantuno"><img src="images/pop up/healthcare/Pop up_119.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img23-h119.jpg" alt="Logo" title="Logo" />   
+              </figure>
+            </div>
+            
+            <div class="portfolio-item print portfolio-item-10" data-item="item24" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="ottantadue"><img src="images/pop up/healthcare/Pop up_138.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img24-h138.jpg" alt="Web" title="Web" />
+              </figure>
+            </div>
+            
+            <div class="portfolio-item print portfolio-item-10" data-item="item25" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="ottantatre"><img src="images/pop up/healthcare/Pop up_139.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img25-h139.jpg" alt="Web" title="Web" />
+              </figure>
+            </div>
+            
+            <div class="portfolio-item print portfolio-item-10" data-item="item26" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="ottantaquattro"><img src="images/pop up/healthcare/Pop up_141.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img26-h141.jpg" alt="Web" title="Web" />
+              </figure>
+            </div>
+            
+            <div class="portfolio-item print portfolio-item-10" data-item="item27" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="ottantacinque"><img src="images/pop up/healthcare/Pop up_143.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img27-h143.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item28" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="ottantasei"><img src="images/pop up/healthcare/Pop up_145.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img28-h145.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item29" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="ottantasette"><img src="images/pop up/healthcare/Pop up_153.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img29-h153.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item30" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="ottantotto"> <img src="images/pop up/healthcare/Pop up_154.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img30-h154.jpg" alt="Print" title="Print" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item31" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="ottantanove"><img src="images/pop up/healthcare/Pop up_155.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img31-h155.jpg" alt="Web" title="Web" />  
+              </figure>
+            </div>
+            
+            <div class="portfolio-item print portfolio-item-10" data-item="item32" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="novanta"> <img src="images/pop up/healthcare/Pop up_156.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img32-h156.jpg" alt="Web" title="Web" />
+              </figure>
+            </div>
+            
+            <div class="portfolio-item print portfolio-item-10" data-item="item33" style="opacity:0">
+            <a class="htooltip"><img src="images/playvideo.png" />
+<span class="novantuno"><img src="images/pop up/healthcare/Pop up_158.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img33-h158.jpg" alt="Web" title="Web" />
+              </figure>
+            </div>
+            
+            <div class="portfolio-item print portfolio-item-10" data-item="item34" style="opacity:0">
+             <a class="htooltip"><img src="images/playvideo.png" />
+<span class="novantadue"><img src="images/pop up/healthcare/Pop up_161.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img34-h161.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item35" style="opacity:0">
+             <a class="htooltip"><img src="images/playvideo.png" />
+<span class="novantatre"><img src="images/pop up/healthcare/Pop up_166.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img35-h166.jpg" alt="Web" title="Web" />
+                
+              </figure>
+            </div>
+            <div class="portfolio-item print portfolio-item-10" data-item="item36" style="opacity:0">
+             <a class="htooltip"><img src="images/playvideo.png" />
+<span class="novantaquattro"><img src="images/pop up/healthcare/Pop up_177.png" width="2438" height="417"></span>
+</a>
+              <figure class="figure-hover-overlay"> <img src="images/portfolio/healthcare/img36-h177.jpg" alt="Logo" title="Logo" />
+                
+              </figure>
+            </div>
+            </div>
+            </div>
+ <!--Finisch griglia medici-->
+
+<!--Menu-->
+
+<ul class="portfolio-filter container" style="width:100%;">
+            <li><a href="#" data-filter="*" class="active" style="color:#ffffff">All</a></li>
+            <li><a href="#" data-filter=".web" style="color:#ffffff">Pro VBAC</a></li>
+            <li><a href="#" data-filter=".logo" style="color:#ffffff">Pro ERCS</a></li>
+            <li><a href="#" data-filter=".print" style="color:#ffffff">Neutral</a></li>
+          </ul>
+<!--menù end-->
+
+<!--start provs-->
+
+<!--<div class="portfolio-wrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="slide-nav text-center" style="display:none;"> <a href="#" class="portfolio-prev"><i class="icon-left-open-big"></i></a> <a href="#" class="portfolio-close"><i class="icon-cancel"></i></a> <a href="#" class="portfolio-next"><i class="icon-right-open-big"></i></a> </div>
+          <div class="item">
+          
+          <article class="item1">
+              <div class="portfolio-thumb"> <img src="images/portfolio/img2.jpg" alt="Web" title="Web" /> </div>
+              <p><p></p></p>
+            </article>
+
+            <article class="item2">
+              <div class="portfolio-thumb"> <img src="images/portfolio/mother/img2.jpg" alt="Web" title="Web" /> </div>
+            </article>
+            
+            <article class="item3">
+              <div class="portfolio-thumb"> <img src="images/portfolio/img3.jpg" alt="Web" title="Web" /> </div>
+              <hgroup>
+                <h1 class="text-center"></h1>
+              </hgroup>
+              <p><p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p></p>
+            </article>
+            <article class="item4">
+              <div class="portfolio-thumb"> <img src="images/portfolio/img4.jpg" alt="Web" title="Web" /> </div>
+              <hgroup>
+                <h1 class="text-center">Lorem ipsum dolor sit amet</h1>
+              </hgroup>
+              <p><p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p></p>
+            </article>
+            <article class="item5">
+              <div class="portfolio-thumb"> <img src="images/portfolio/img5.jpg" alt="Web" title="Web" /> </div>
+              <hgroup>
+                <h1 class="text-center">Lorem ipsum dolor sit amet</h1>
+              </hgroup>
+              <p><p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p></p>
+            </article>
+            <article class="item6">
+              <div class="portfolio-thumb"> <img src="images/portfolio/img6.jpg" alt="Web" title="Web" /> </div>
+              <hgroup>
+                <h1 class="text-center">Lorem ipsum dolor sit amet</h1>
+              </hgroup>
+              <p><p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p></p>
+            </article>
+            <article class="item7">
+              <div class="portfolio-thumb"> <img src="images/portfolio/img7.jpg" alt="Web" title="Web" /> </div>
+              <hgroup>
+                <h1 class="text-center">Lorem ipsum dolor sit amet</h1>
+              </hgroup>
+              <p><p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p></p>
+            </article>
+            <article class="item8">
+              <div class="portfolio-thumb"> <img src="images/portfolio/img8.jpg" alt="Web" title="Web" /> </div>
+              <hgroup>
+                <h1 class="text-center">Lorem ipsum dolor sit amet</h1>
+              </hgroup>
+              <p><p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p></p>
+            </article>
+            <article class="item9">
+              <div class="portfolio-thumb"> <img src="images/portfolio/img9.jpg" alt="Web" title="Web" /> </div>
+              <hgroup>
+                <h1 class="text-center">Lorem ipsum dolor sit amet</h1>
+              </hgroup>
+              <p><p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p></p>
+            </article>
+            <article class="item10">
+              <div class="portfolio-thumb"> <img src="images/portfolio/img10.jpg" alt="Web" title="Web" /> </div>
+              <hgroup>
+                <h1 class="text-center">Lorem ipsum dolor sit amet</h1>
+              </hgroup>
+              <p><p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p></p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>-->
+</div>
+</div>
+</section>
+<!--end prova-->
+
+
+<!--Portfolio end-->
+
+<!--Contact Start-->
+<section class="content-section contact-section" id="contact">
+  <div class="container">
+    <div class="row">
+        <hgroup class="heading1">
+          <h1>What are the most popular videos?</h1>
+          <div class="headingUline"></div>
+          <h3>The videos posted by the mothers have had a higher interaction, that is, they are the most commented, viewed and judged.
+</h3>
+        </hgroup>
+        
+
+
+      <div class="col-lg-12">
+      <hgroup>
+        <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="1024" height="546">
+          <param name="movie" value="video/gif.swf">
+          <param name="quality" value="high">
+          <param name="wmode" value="opaque">
+          <param name="swfversion" value="6.0.65.0">
+          <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+          <param name="expressinstall" value="Scripts/expressInstall.swf">
+          <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+          <!--[if !IE]>-->
+          <object type="application/x-shockwave-flash" data="video/gif.swf" width="1024" height="546">
+            <!--<![endif]-->
+            <param name="quality" value="high">
+            <param name="wmode" value="opaque">
+            <param name="swfversion" value="6.0.65.0">
+            <param name="expressinstall" value="Scripts/expressInstall.swf">
+            <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+            <div>
+              <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+              <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
+            </div>
+            <!--[if !IE]>-->
+          </object>
+          <!--<![endif]-->
+        </object>
+        </hgroup>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-lg-offset-1">
+      </div>
+    </div>
+  </div>
+</section>
+</section>
+</section>
+</section>
+<!--Contact end-->
+
+        <section class="content-section home-slideshow" id="conclusion" style="background-color: transparent;"> 
+<iframe id="ytplayer" type="text/html" width="100%" height="780"
+src="https://www.youtube.com/embed/ychFW9D9kFE?rel=0&showinfo=0&color=white&theme=light"
+frameborder="0" allowfullscreen></iframe>
+</section>
+</section>
+</section>
+</section>
+</section>
+</section>
+</section>
+</section>
+</section>
+</section>
+
+<!--Footer Start-->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+<section class="content-section portfolio-section" style="background:#000000" id="gruppo">
+  <div class="portfolio">
+      <div class="row">
+<div class="container 
+  <div class="col-lg-12" style="background-color:"#000000"">
+  
+        <article>
+          <header>
+        	<hgroup class="heading1">
+            
+            <a href="excel/VBAC-ERCS-DATASET.xlsx" target="_blank"><img src="images/pulsante per scaricare.png" style="width: 50px; hight:auto"></a><br>
+            <a href="excel/VBAC-ERCS-DATASET.xlsx" target="_blank"><h3>DOWNLOAD DATASET</h3></a>
+            
+            <div class="col-lg-12 text-center">
+		 <div class="social-icons"> <a> <i class="icon-facebook"></i> </a> <a> <i class="icon-twitter"></i> </a> <a> <i class="icon-gplus"></i> </a> <a> <i class="icon-linkedin"></i> </a> </div>
+      </div>
+            
+            <div class="fb-share-button" data-href="http://developers.facebook.com/docs/plugins/" data-type="button"></div><br><br><br>
+            <a><img src="images/team/team.png" style="margin-top:"70px"><a>
+           </hgroup>
+          </header>
+        </article>
+      </div>
+    </div>
+   </div>
+  </div>
+</section>
+
+<!--Footer end-->
+
+<!--Begin Scroll top-->
+<div id="scroll-up" class="scroll-up"><i class="icon-up-open-big"></i></div>
+ 
+<div id="blanket"></div>
+<style>
+#blanket{
+display: block;
+height: 870px;
+background-color: #FFF;
+opacity: 1;
+filter: alpha(opacity=65);
+position: absolute;
+z-index: 9001;
+top: 0px;
+left: 0px;
+width: 100%;
+}
+</style>
+<!--End option panel--> 
+
+<!-- Bootstrap core JavaScrdipt
+
+================================================== --> 
+
+<!-- Placed at the end of the document so the pages load faster --> 
+
+<script src="js/jquery.easing.1.3.min.js"></script> 
+<script src="lib/bootstrap/js/transition.js"></script> 
+<script src="lib/bootstrap/js/alert.js"></script> 
+<script src="lib/bootstrap/js/modal.js"></script> 
+
+<!--<script src="lib/bootstrap/js/dropdown.js"></script>--> 
+
+<script src="lib/bootstrap/js/bootstrap.min.js"></script> 
+<script src="lib/bootstrap/js/twitter-bootstrap-hover-dropdown.js"></script> 
+<script src="lib/bootstrap/js/scrollspy.js"></script> 
+<script src="lib/bootstrap/js/affix.js"></script> 
+<script src="lib/bootstrap/js/tab.js"></script> 
+<script src="lib/bootstrap/js/tooltip.js"></script> 
+<script src="lib/bootstrap/js/popover1.js"></script> 
+<script src="lib/bootstrap/js/button.js"></script> 
+<script src="lib/bootstrap/js/collapse.js"></script> 
+<script src="lib/isotope/js/jquery.isotope.min.js"></script>  
+<script src="js/jquery.lazy.js"></script> 
+
+
+<script src="js/jquery.parallax-1.1.3.js"></script> 
+<script src="js/custom-script.js"></script> 
+
+<script src="js/options-panel.js"></script> 
+<!--   <script src="js/jquery.queryloader2.js"></script> 
+--><script src="js/jquery.easypiechart.js"></script> 
+<!--<script src="js/jquery.validate.js"></script>-->
+
+<!-- JS youtube video -->
+<script src="js/videojs/jquery.mb.YTPlayer.js"></script>
+<script src="js/videojs/device.min.js"></script> 
+<script src="js/videojs/bgvideo-youtube-init.js"></script>
+<script type="text/javascript">
+swfobject.registerObject("FLVPlayer");
+swfobject.registerObject("FLVPlayer");
+swfobject.registerObject("FLVPlayer");
+swfobject.registerObject("FlashID");
+</script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #222;
+	overflow: hidden;
+	height: 9em;
+	display: block;
+	width: 100%;
+	height:190px;
+	padding:25px 50px 75px 100px;
+
+}
+
+.footer img {
+	margin-right: 50px;
+	padding-bottom:30px;
+	max-width: 100px;
+	vertical-align: middle;
+	border: 0;
+}
+
+#foot-logos {
+	float:left;
+}
+
+#foot-text {
+	float:left;
+	margin-right: 50px;
+	font-size:13px;
+	color:#fff;
+	font-weight:300;
+	line-height:1.5;
+}
+
+.container {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}

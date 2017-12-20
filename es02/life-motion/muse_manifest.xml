@@ -1,0 +1,373 @@
+<manifest alg="2" build="232" opt="false" iceEnabled="true">
+  <folder name="css">
+    <file name="site_global.css" crc="397963719"/>
+    <file name="index.css" crc="315547882" ref="index"/>
+    <file name="comparationbyscientistopinion.css" crc="4061412741" ref="comparationbyscientistopinion"/>
+    <file name="author24.css" crc="425127219" ref="author24"/>
+    <file name="laws14.css" crc="4188330247" ref="laws14"/>
+    <file name="laws8.css" crc="4223698440" ref="laws8"/>
+    <file name="laws24.css" crc="6887075" ref="laws24"/>
+    <file name="author20.css" crc="4085272941" ref="author20"/>
+    <file name="author18.css" crc="3952660457" ref="author18"/>
+    <file name="laws12.css" crc="269469394" ref="laws12"/>
+    <file name="laws18.css" crc="414861977" ref="laws18"/>
+    <file name="laws20.css" crc="152287820" ref="laws20"/>
+    <file name="author14.css" crc="3951212779" ref="author14"/>
+    <file name="author12.css" crc="262053097" ref="author12"/>
+    <file name="laws10.css" crc="459938935" ref="laws10"/>
+    <file name="author8.css" crc="77194730" ref="author8"/>
+    <file name="author10.css" crc="518200125" ref="author10"/>
+    <file name="lawsnl.css" crc="3996150437" ref="lawsnl"/>
+    <file name="comparationbystepofdevelopment.css" crc="517751855" ref="comparationbystepofdevelopment"/>
+    <file name="authornl.css" crc="122095503" ref="authornl"/>
+  </folder>
+  <folder name="assets">
+    <file name="evolution_3_mobbasta.mov" crc="4200254280" mt="1391723118000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="3828297711" ref="tablet>index:tablet>prova:tablet>comparationbyscientistopinion:tablet>comparationbystepofdevelopment:tablet>mappe1:tablet>mappe2:index:laws8:author8:comparationbyscientistopinion:comparationbystepofdevelopment:laws10:author10:laws12:author12:laws14:laws18:laws20:laws24:lawsnl:author14:author18:author20:author24:authornl"/>
+    <file name="museutils.js" crc="3880880085" ref="tablet>index:tablet>prova:tablet>comparationbyscientistopinion:tablet>comparationbystepofdevelopment:tablet>mappe1:tablet>mappe2:index:laws8:author8:comparationbyscientistopinion:comparationbystepofdevelopment:laws10:author10:laws12:author12:laws14:laws18:laws20:laws24:lawsnl:author14:author18:author20:author24:authornl"/>
+    <file name="jquery.watch.js" crc="4199601726" ref="tablet>index:tablet>prova:tablet>comparationbyscientistopinion:tablet>comparationbystepofdevelopment:tablet>mappe1:tablet>mappe2:index:laws8:author8:comparationbyscientistopinion:comparationbystepofdevelopment:laws10:author10:laws12:author12:laws14:laws18:laws20:laws24:lawsnl:author14:author18:author20:author24:authornl"/>
+    <file name="jquery.scrolleffects.js" crc="56249048" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3899542795" ref="index:laws8:author8:laws10:author10:laws12:author12:laws14:laws18:laws20:laws24:lawsnl:author14:author18:author20:author24:authornl"/>
+    <file name="pie.js" crc="4147615982" ref="index"/>
+    <file name="jquery.tobrowserwidth.js" crc="152985095" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="sfondodot2.png" crc="4107799399" ref="index:laws8:author8:comparationbyscientistopinion:comparationbystepofdevelopment:laws10:author10:laws12:author12:laws14:laws18:laws20:laws24:lawsnl:author14:author18:author20:author24:authornl"/>
+    <file name="pallino.png" crc="3791717424" ref="index"/>
+    <file name="u95-4.png" crc="4209775619" ref="index"/>
+    <file name="density.png" crc="133101569" ref="index"/>
+    <file name="logopoli.png" crc="3798746383" ref="index"/>
+    <file name="exploredebatecerchio168x172.png" crc="4181320727" ref="index"/>
+    <file name="u112-6.png" crc="3954789172" ref="index"/>
+    <file name="u114-4.png" crc="443317381" ref="index"/>
+    <file name="linea-u156.jpg" crc="94072678" ref="index"/>
+    <file name="u116-4.png" crc="59009126" ref="index"/>
+    <file name="pallinofreccia.png" crc="58879400" ref="index"/>
+    <file name="u931-10.png" crc="78666593" ref="index"/>
+    <file name="u1314-4.png" crc="77089339" ref="index"/>
+    <file name="aboritonbarchart.png" crc="536747085" ref="index"/>
+    <file name="u1315-8.png" crc="238979138" ref="index"/>
+    <file name="prolifequotes1.png" crc="3777061814" ref="index"/>
+    <file name="u7233-6.png" crc="4171749942" ref="index"/>
+    <file name="prochoicecirconferenza.png" crc="4200663726" ref="index"/>
+    <file name="prolifecirconferenza.png" crc="458056450" ref="index"/>
+    <file name="prochoicequotes1.png" crc="383988773" ref="index"/>
+    <file name="prochoicequotes2.png" crc="177179739" ref="index"/>
+    <file name="prochoicequotes3.png" crc="4225710558" ref="index"/>
+    <file name="prochoice.png" crc="211831628" ref="index"/>
+    <file name="prolife.png" crc="4096740280" ref="index"/>
+    <file name="prolifequotes3.png" crc="4080227730" ref="index"/>
+    <file name="prolifequotes2.png" crc="4065934532" ref="index"/>
+    <file name="prochoicecerchiofrecce3.png" crc="43979418" ref="index:comparationbyscientistopinion:comparationbystepofdevelopment"/>
+    <file name="choiceofwoman.png" crc="4116014970" ref="index"/>
+    <file name="fetalpainf.png" crc="56716118" ref="index"/>
+    <file name="fetalpain.png" crc="490497140" ref="index"/>
+    <file name="nopain.png" crc="202211173" ref="index"/>
+    <file name="choiceofwoman2.png" crc="3811734307" ref="index"/>
+    <file name="fetalpain2.png" crc="3797546224" ref="index"/>
+    <file name="nopain2.png" crc="3780466777" ref="index"/>
+    <file name="fetalpain2f.png" crc="3879086742" ref="index"/>
+    <file name="u578-6.png" crc="4294807541" ref="index"/>
+    <file name="1984click.png" crc="349568409" ref="index"/>
+    <file name="1985click.png" crc="468607723" ref="index"/>
+    <file name="1986click.png" crc="3986222576" ref="index"/>
+    <file name="1987click.png" crc="31427724" ref="index"/>
+    <file name="1988click.png" crc="52277512" ref="index"/>
+    <file name="1989click.png" crc="3860898874" ref="index"/>
+    <file name="1990click.png" crc="3920971777" ref="index"/>
+    <file name="1991click.png" crc="4248538505" ref="index"/>
+    <file name="1992click.png" crc="277393201" ref="index"/>
+    <file name="1993click.png" crc="428871786" ref="index"/>
+    <file name="1995click.png" crc="4034462822" ref="index"/>
+    <file name="1994click.png" crc="384173912" ref="index"/>
+    <file name="1996click.png" crc="37879281" ref="index"/>
+    <file name="1997click.png" crc="190709487" ref="index"/>
+    <file name="1998click.png" crc="468698886" ref="index"/>
+    <file name="1999click.png" crc="4271503019" ref="index"/>
+    <file name="2000click.png" crc="305902635" ref="index"/>
+    <file name="2001click.png" crc="316049885" ref="index"/>
+    <file name="2002click.png" crc="313832284" ref="index"/>
+    <file name="2003click.png" crc="444265317" ref="index"/>
+    <file name="2004click.png" crc="173710247" ref="index"/>
+    <file name="2005click.png" crc="56531689" ref="index"/>
+    <file name="2006click.png" crc="348445666" ref="index"/>
+    <file name="2008click.png" crc="4068783898" ref="index"/>
+    <file name="2009click.png" crc="4180010292" ref="index"/>
+    <file name="2010click.png" crc="43940707" ref="index"/>
+    <file name="2011click.png" crc="453806639" ref="index"/>
+    <file name="2012click.png" crc="260261694" ref="index"/>
+    <file name="2013click.png" crc="332488393" ref="index"/>
+    <file name="allopinionsclick.png" crc="4054785841" ref="index"/>
+    <file name="base.png" crc="531814982" ref="index"/>
+    <file name="1984.png" crc="365056341" ref="index"/>
+    <file name="1985.png" crc="421676644" ref="index"/>
+    <file name="1986.png" crc="29948108" ref="index"/>
+    <file name="1987.png" crc="379356162" ref="index"/>
+    <file name="1988.png" crc="3852118088" ref="index"/>
+    <file name="1989.png" crc="282312734" ref="index"/>
+    <file name="1990.png" crc="3825072419" ref="index"/>
+    <file name="1991.png" crc="380350273" ref="index"/>
+    <file name="1992.png" crc="144154620" ref="index"/>
+    <file name="1993.png" crc="3770292746" ref="index"/>
+    <file name="1994.png" crc="3888585466" ref="index"/>
+    <file name="1995.png" crc="352866576" ref="index"/>
+    <file name="1996.png" crc="17765337" ref="index"/>
+    <file name="1997.png" crc="40024671" ref="index"/>
+    <file name="1998.png" crc="3967093307" ref="index"/>
+    <file name="1999.png" crc="2734082" ref="index"/>
+    <file name="2000.png" crc="4294301153" ref="index"/>
+    <file name="2001.png" crc="512194402" ref="index"/>
+    <file name="2002.png" crc="3875919912" ref="index"/>
+    <file name="2003.png" crc="4192776702" ref="index"/>
+    <file name="2004.png" crc="336267774" ref="index"/>
+    <file name="2005.png" crc="3993594011" ref="index"/>
+    <file name="2006.png" crc="3938842812" ref="index"/>
+    <file name="2007.png" crc="4203708534" ref="index"/>
+    <file name="2008.png" crc="227806856" ref="index"/>
+    <file name="2009.png" crc="384129716" ref="index"/>
+    <file name="2010.png" crc="442560565" ref="index"/>
+    <file name="2011.png" crc="4186631712" ref="index"/>
+    <file name="2012.png" crc="4023494328" ref="index"/>
+    <file name="2013.png" crc="444432766" ref="index"/>
+    <file name="allopinion.png" crc="358179750" ref="index"/>
+    <file name="exploredebatecerchio.png" crc="202268354" ref="index"/>
+    <file name="exploredebate.png" crc="315711064" ref="index"/>
+    <file name="debateamongscientist.jpg" crc="205384679" ref="index"/>
+    <file name="developmentfetus.jpg" crc="4156954934" ref="index"/>
+    <file name="worldabortionlaw.jpg" crc="4066433752" ref="index"/>
+    <file name="debateamongscientistsimbolo.png" crc="208127996" ref="index"/>
+    <file name="developmentfetussimbolo.png" crc="4176179717" ref="index"/>
+    <file name="worldabortionlawsimbolo.png" crc="393451995" ref="index"/>
+    <file name="debateamongscientistscritta.png" crc="4226862512" ref="index"/>
+    <file name="developmentfetusscritta.png" crc="490496279" ref="index"/>
+    <file name="worldabortionlawscritta.png" crc="346972363" ref="index"/>
+    <file name="cerchio_rifatto.gif" crc="3846425367" ref="index"/>
+    <file name="sistemanervoso.gif" crc="193025104" ref="index"/>
+    <file name="spinadorsale.gif" crc="4130938361" ref="index"/>
+    <file name="sorriso.gif" crc="3912151244" ref="index"/>
+    <file name="struttureanatomiche.gif" crc="3920267881" ref="index"/>
+    <file name="sofferenza.gif" crc="3929284647" ref="index"/>
+    <file name="movimento.gif" crc="4123512383" ref="index"/>
+    <file name="piangere.gif" crc="294153358" ref="index"/>
+    <file name="tocco.gif" crc="3839258226" ref="index"/>
+    <file name="cervello.gif" crc="348879581" ref="index"/>
+    <file name="neuroni.gif" crc="123932709" ref="index"/>
+    <file name="sensoryreceptorsscritta.png" crc="406015909" ref="index"/>
+    <file name="spinalcordscritta.png" crc="301558633" ref="index"/>
+    <file name="actofsmilingscritta.png" crc="3828724242" ref="index"/>
+    <file name="stress-painscritta.png" crc="195573951" ref="index"/>
+    <file name="actofcryingscritta.png" crc="4229068227" ref="index"/>
+    <file name="complexmovementscritta.png" crc="370830380" ref="index"/>
+    <file name="anatomicalstructurescritta.png" crc="3949057679" ref="index"/>
+    <file name="spinothalamicsistemscritta.png" crc="528890334" ref="index"/>
+    <file name="tactilestimuliscritta.png" crc="4193196361" ref="index"/>
+    <file name="cerebralcortexscritta.png" crc="3900351525" ref="index"/>
+    <file name="debateamongscientist-u2656-fr.png" crc="3764985006" ref="index"/>
+    <file name="debateamongscientist-u2656-r-fr.png" crc="269953806" ref="index"/>
+    <file name="debateamongscientist-u2656-a-fr.png" crc="3764985006" ref="index"/>
+    <file name="developmentoffetus-u2690-fr.png" crc="3950642499" ref="index"/>
+    <file name="developmentoffetus-u2690-r-fr.png" crc="198011952" ref="index"/>
+    <file name="developmentoffetus-u2690-a-fr.png" crc="3950642499" ref="index"/>
+    <file name="worldsabortionlaw-u2724-fr.png" crc="88110455" ref="index"/>
+    <file name="worldsabortionlaw-u2724-r-fr.png" crc="492212890" ref="index"/>
+    <file name="cerchioprova.png" crc="89869796" ref="index"/>
+    <file name="6sett.png" crc="88225532" ref="index"/>
+    <file name="6.png" crc="347826076" ref="index"/>
+    <file name="6sett2.png" crc="27289443" ref="index"/>
+    <file name="6sett3.png" crc="3961371479" ref="index"/>
+    <file name="seiclick.png" crc="4173260025" ref="index"/>
+    <file name="sette.png" crc="296400000" ref="index"/>
+    <file name="otto.png" crc="4076371589" ref="index"/>
+    <file name="dieci.png" crc="3770517760" ref="index"/>
+    <file name="dodici.png" crc="4082332179" ref="index"/>
+    <file name="quattordici.png" crc="3856660822" ref="index"/>
+    <file name="sedici.png" crc="27937194" ref="index"/>
+    <file name="diciotto.png" crc="305558608" ref="index"/>
+    <file name="venti.png" crc="3812262580" ref="index"/>
+    <file name="ventiquattro.png" crc="319154686" ref="index"/>
+    <file name="ventisei.png" crc="4269955858" ref="index"/>
+    <file name="ventotto.png" crc="4118551578" ref="index"/>
+    <file name="nolimits.png" crc="4110200755" ref="index"/>
+    <file name="sei.png" crc="268961161" ref="index"/>
+    <file name="setteclick.png" crc="82461922" ref="index"/>
+    <file name="8.png" crc="201454178" ref="index"/>
+    <file name="ottoclick.png" crc="398434043" ref="index"/>
+    <file name="moreinfo-u9399-fr.png" crc="127392847" ref="index"/>
+    <file name="moreinfo-u9399-r-fr.png" crc="4000355286" ref="index"/>
+    <file name="moreinfo-u9399-m-fr.png" crc="127392847" ref="index"/>
+    <file name="moreinfo-u9399-a-fr.png" crc="127392847" ref="index"/>
+    <file name="freccia.png" crc="4274405735" ref="index:laws8:author8:laws10:author10:laws12:author12:laws14:laws18:laws20:laws24:lawsnl:author14:author18:author20:author24:authornl"/>
+    <file name="dieciclick.png" crc="4167545233" ref="index"/>
+    <file name="7.png" crc="4058109039" ref="index"/>
+    <file name="7sett.png" crc="411079650" ref="index"/>
+    <file name="7sett2.png" crc="67638076" ref="index"/>
+    <file name="7sett3.png" crc="380220858" ref="index"/>
+    <file name="8sett.png" crc="3898838616" ref="index"/>
+    <file name="8sett2.png" crc="418849879" ref="index"/>
+    <file name="8sett3.png" crc="3774504714" ref="index"/>
+    <file name="10.png" crc="257594988" ref="index"/>
+    <file name="10sett.png" crc="4232285264" ref="index"/>
+    <file name="10sett2.png" crc="410096681" ref="index"/>
+    <file name="10sett3.png" crc="466209960" ref="index"/>
+    <file name="dodiciclick.png" crc="174374311" ref="index"/>
+    <file name="quattordiciclick.png" crc="4183360676" ref="index"/>
+    <file name="sediciclick.png" crc="76424654" ref="index"/>
+    <file name="diciottoclick.png" crc="513036767" ref="index"/>
+    <file name="20.png" crc="4170554144" ref="index"/>
+    <file name="venticlick.png" crc="4081365452" ref="index"/>
+    <file name="12.png" crc="4289831787" ref="index"/>
+    <file name="12sett.png" crc="3879553092" ref="index"/>
+    <file name="12sett2.png" crc="4204982102" ref="index"/>
+    <file name="12sett3.png" crc="4015364118" ref="index"/>
+    <file name="14.png" crc="3919597984" ref="index"/>
+    <file name="14sett.png" crc="4053736421" ref="index"/>
+    <file name="14sett2.png" crc="4009071707" ref="index"/>
+    <file name="14sett3.png" crc="116469547" ref="index"/>
+    <file name="16.png" crc="3926701419" ref="index"/>
+    <file name="16sett.png" crc="4025417810" ref="index"/>
+    <file name="16sett2.png" crc="80023585" ref="index"/>
+    <file name="16sett3.png" crc="317632861" ref="index"/>
+    <file name="18sett.png" crc="4037309744" ref="index"/>
+    <file name="18sett2.png" crc="4250484423" ref="index"/>
+    <file name="18sett3.png" crc="166705374" ref="index"/>
+    <file name="20sett.png" crc="80971695" ref="index"/>
+    <file name="20sett2.png" crc="164177136" ref="index"/>
+    <file name="20sett3.png" crc="481876142" ref="index"/>
+    <file name="ventiquattroclick.png" crc="3894498877" ref="index"/>
+    <file name="24.png" crc="3821708121" ref="index"/>
+    <file name="24sett.png" crc="350834226" ref="index"/>
+    <file name="24sett2.png" crc="3904956084" ref="index"/>
+    <file name="24sett3.png" crc="3897853558" ref="index"/>
+    <file name="ventiseiclick.png" crc="3988341230" ref="index"/>
+    <file name="26.png" crc="3884595464" ref="index"/>
+    <file name="26sett.png" crc="4196323772" ref="index"/>
+    <file name="26sett2.png" crc="4050677787" ref="index"/>
+    <file name="26sett3.png" crc="108491834" ref="index"/>
+    <file name="ventottoclick.png" crc="393255458" ref="index"/>
+    <file name="28sett.png" crc="236438173" ref="index"/>
+    <file name="28sett2.png" crc="4059743111" ref="index"/>
+    <file name="28sett3.png" crc="4152651934" ref="index"/>
+    <file name="nl.png" crc="4066219436" ref="index"/>
+    <file name="nolimitsclick.png" crc="3907157042" ref="index"/>
+    <file name="nonsofferenza.gif" crc="3914721276" ref="index"/>
+    <file name="no_limit.png" crc="4262839807" ref="index"/>
+    <file name="nolimts.png" crc="371292054" ref="index"/>
+    <file name="nolimts2.png" crc="4007114832" ref="index"/>
+    <file name="conclusione.gif" crc="531590219" ref="index"/>
+    <file name="logo_issuu.png" crc="4258610034" ref="index"/>
+    <file name="u11477-6.png" crc="491574465" ref="index"/>
+    <file name="byscientistopinion.png" crc="4108566676" ref="index"/>
+    <file name="byscientistopinion2.png" crc="3890676503" ref="index"/>
+    <file name="bystepsofdevelopment.png" crc="401306433" ref="index"/>
+    <file name="bystepsofdevelopment2.png" crc="153064989" ref="index"/>
+    <file name="u11476-8.png" crc="27515738" ref="index"/>
+    <file name="comparethedata.png" crc="3931609747" ref="index"/>
+    <file name="comparethedatacerchio.png" crc="3919876140" ref="index"/>
+    <file name="cerchio_ali.gif" crc="523310701" ref="index"/>
+    <file name="u11487-6.png" crc="386158748" ref="index"/>
+    <file name="cerchio_chiara.gif" crc="3972735624" ref="index"/>
+    <file name="u11489-6.png" crc="265125607" ref="index"/>
+    <file name="u11496-4.png" crc="403735846" ref="index"/>
+    <file name="cerchio_cla.gif" crc="500669817" ref="index"/>
+    <file name="u11495-6.png" crc="229181364" ref="index"/>
+    <file name="cerchio_je.gif" crc="4099945373" ref="index"/>
+    <file name="u11505-6.png" crc="121865935" ref="index"/>
+    <file name="cerchio_fra.gif" crc="39644146" ref="index"/>
+    <file name="u11500-6.png" crc="78907069" ref="index"/>
+    <file name="backtothetop.png" crc="339774272" ref="index"/>
+    <file name="u11503-4.png" crc="3987299095" ref="index"/>
+    <file name="laws.png" crc="3923754290" ref="laws8:laws10:laws12:laws14:laws18:laws20:laws24:lawsnl"/>
+    <file name="authors.png" crc="405686034" ref="laws8:laws10:laws12:laws14:laws18:laws20:laws24:lawsnl"/>
+    <file name="authors2.png" crc="4239641786" ref="laws8:laws10:laws12:laws14:laws18:laws20:laws24:lawsnl"/>
+    <file name="authors3.png" crc="3805243488" ref="author8:author10:author12:author14:author18:author20:author24:authornl"/>
+    <file name="laws2.png" crc="4133199016" ref="author8:author10:author12:author14:author18:author20:author24:authornl"/>
+    <file name="laws3.png" crc="222499380" ref="author8:author10:author12:author14:author18:author20:author24:authornl"/>
+    <file name="6click.png" crc="437038855" ref="comparationbyscientistopinion"/>
+    <file name="7click.png" crc="35165883" ref="comparationbyscientistopinion"/>
+    <file name="8click.png" crc="4252921140" ref="comparationbyscientistopinion"/>
+    <file name="10click.png" crc="144013843" ref="comparationbyscientistopinion"/>
+    <file name="12click.png" crc="3917640067" ref="comparationbyscientistopinion"/>
+    <file name="14click.png" crc="122646571" ref="comparationbyscientistopinion"/>
+    <file name="16click.png" crc="93046064" ref="comparationbyscientistopinion"/>
+    <file name="18click.png" crc="7668299" ref="comparationbyscientistopinion"/>
+    <file name="20click.png" crc="166253884" ref="comparationbyscientistopinion"/>
+    <file name="24click.png" crc="4235724881" ref="comparationbyscientistopinion"/>
+    <file name="26click.png" crc="292741253" ref="comparationbyscientistopinion"/>
+    <file name="28click.png" crc="3784530388" ref="comparationbyscientistopinion"/>
+    <file name="nlclick.png" crc="377704583" ref="comparationbyscientistopinion"/>
+    <file name="6palla.png" crc="3894279169" ref="comparationbyscientistopinion"/>
+    <file name="7palla.png" crc="3915591149" ref="comparationbyscientistopinion"/>
+    <file name="8palla.png" crc="4011417626" ref="comparationbyscientistopinion"/>
+    <file name="10palla.png" crc="480196317" ref="comparationbyscientistopinion"/>
+    <file name="12palla.png" crc="467142858" ref="comparationbyscientistopinion"/>
+    <file name="14palla.png" crc="3789063928" ref="comparationbyscientistopinion"/>
+    <file name="16palla.png" crc="3977292343" ref="comparationbyscientistopinion"/>
+    <file name="18palla.png" crc="3952484800" ref="comparationbyscientistopinion"/>
+    <file name="20palla.png" crc="467379703" ref="comparationbyscientistopinion"/>
+    <file name="24palla.png" crc="64981173" ref="comparationbyscientistopinion"/>
+    <file name="26palla.png" crc="227740979" ref="comparationbyscientistopinion"/>
+    <file name="28palla.png" crc="91386015" ref="comparationbyscientistopinion"/>
+    <file name="nlpalla.png" crc="479694472" ref="comparationbyscientistopinion"/>
+    <file name="scientistopinion.png" crc="108754317" ref="comparationbyscientistopinion"/>
+    <file name="anatomicalstructureclick.png" crc="4258593975" ref="comparationbystepofdevelopment"/>
+    <file name="celebralcortexclick.png" crc="3911718540" ref="comparationbystepofdevelopment"/>
+    <file name="complexmovementclick.png" crc="308335009" ref="comparationbystepofdevelopment"/>
+    <file name="cryingclick.png" crc="4135416473" ref="comparationbystepofdevelopment"/>
+    <file name="nostress-painclick.png" crc="43031290" ref="comparationbystepofdevelopment"/>
+    <file name="sensoryreceptorsclick.png" crc="27883897" ref="comparationbystepofdevelopment"/>
+    <file name="smilingclick.png" crc="4169730279" ref="comparationbystepofdevelopment"/>
+    <file name="spinalcordclick.png" crc="98133054" ref="comparationbystepofdevelopment"/>
+    <file name="spinothalamicclick.png" crc="4084237035" ref="comparationbystepofdevelopment"/>
+    <file name="stress-painclick.png" crc="36065932" ref="comparationbystepofdevelopment"/>
+    <file name="tactilestimuliclick.png" crc="3822467448" ref="comparationbystepofdevelopment"/>
+    <file name="anatomicalstructure.png" crc="3980364366" ref="comparationbystepofdevelopment"/>
+    <file name="celebralcortex.png" crc="182219148" ref="comparationbystepofdevelopment"/>
+    <file name="complexmovement.png" crc="453252878" ref="comparationbystepofdevelopment"/>
+    <file name="crying.png" crc="103420872" ref="comparationbystepofdevelopment"/>
+    <file name="nostress-pain.png" crc="3933026630" ref="comparationbystepofdevelopment"/>
+    <file name="sensoryreceptors.png" crc="442584727" ref="comparationbystepofdevelopment"/>
+    <file name="smiling.png" crc="262501811" ref="comparationbystepofdevelopment"/>
+    <file name="spinalcord.png" crc="4202361690" ref="comparationbystepofdevelopment"/>
+    <file name="spinothalamic.png" crc="3890026343" ref="comparationbystepofdevelopment"/>
+    <file name="stress-pain.png" crc="4033232547" ref="comparationbystepofdevelopment"/>
+    <file name="tactilestimuli.png" crc="3969503252" ref="comparationbystepofdevelopment"/>
+    <file name="stepsofdevelopment.png" crc="138388434" ref="comparationbystepofdevelopment"/>
+  </folder>
+  <folder name="tablet">
+    <folder name="css">
+      <file name="index.css" crc="227096194" ref="tablet>index"/>
+      <file name="prova.css" crc="227096194" ref="tablet>prova"/>
+      <file name="comparationbyscientistopinion.css" crc="227096194" ref="tablet>comparationbyscientistopinion"/>
+      <file name="comparationbystepofdevelopment.css" crc="227096194" ref="tablet>comparationbystepofdevelopment"/>
+      <file name="mappe1.css" crc="227096194" ref="tablet>mappe1"/>
+      <file name="mappe2.css" crc="227096194" ref="tablet>mappe2"/>
+    </folder>
+    <file name="index.html" crc="4293010282" mt="1394103800811" redirect="false"/>
+    <file name="prova.html" crc="4037072647" mt="1394103800815" redirect="false"/>
+    <file name="comparationbyscientistopinion.html" crc="155242853" mt="1394103800820" redirect="false"/>
+    <file name="comparationbystepofdevelopment.html" crc="4002943800" mt="1394103800824" redirect="false"/>
+    <file name="mappe1.html" crc="3761216410" mt="1394103800828" redirect="false"/>
+    <file name="mappe2.html" crc="4045887994" mt="1394103800832" redirect="false"/>
+  </folder>
+  <file name="index.html" crc="122491691" mt="1394107442275" redirect="true"/>
+  <file name="laws8.html" crc="4139889419" mt="1394103800927" redirect="true"/>
+  <file name="author8.html" crc="404833938" mt="1394103800932" redirect="true"/>
+  <file name="comparationbyscientistopinion.html" crc="197724120" mt="1394107774308" redirect="true"/>
+  <file name="comparationbystepofdevelopment.html" crc="3871812230" mt="1394107987236" redirect="true"/>
+  <file name="laws10.html" crc="522715764" mt="1394103800944" redirect="true"/>
+  <file name="author10.html" crc="4160615796" mt="1394103800948" redirect="true"/>
+  <file name="laws12.html" crc="3853325152" mt="1394103800953" redirect="true"/>
+  <file name="author12.html" crc="3828717472" mt="1394103800957" redirect="true"/>
+  <file name="laws14.html" crc="3994935081" mt="1394103800961" redirect="true"/>
+  <file name="laws18.html" crc="253423987" mt="1394103800966" redirect="true"/>
+  <file name="laws20.html" crc="4003123776" mt="1394103800969" redirect="true"/>
+  <file name="laws24.html" crc="3831143150" mt="1394103800973" redirect="true"/>
+  <file name="lawsnl.html" crc="3937322572" mt="1394103801000" redirect="true"/>
+  <file name="author14.html" crc="393929492" mt="1394103801005" redirect="true"/>
+  <file name="author18.html" crc="4179703246" mt="1394103801010" redirect="true"/>
+  <file name="author20.html" crc="3778987551" mt="1394103801021" redirect="true"/>
+  <file name="author24.html" crc="228056101" mt="1394103801026" redirect="true"/>
+  <file name="authornl.html" crc="4232825909" mt="1394103801035" redirect="true"/>
+</manifest>

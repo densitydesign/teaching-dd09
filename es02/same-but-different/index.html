@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>DensityDesign Course 2013</title>
+		<meta name="description" content="DensityDesign Course 2013, Politecnico di Milano" />
+		<meta name="keywords" content="dh, digital humanities, densitydesign, politecnico di milano, michele mauri, uboldi giorgio, azzi matteo, azzurra pini" />
+		<meta name="author" content="DensityDesign" />
+        
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+   		<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+        <script type="text/javascript" src="scripts/skrollr.js"></script>
+        
+        <!-- NAV-->
+		<script type="text/javascript" src="scripts/jquery.localscroll-1.2.7-min.js"></script>
+		<script type="text/javascript" src="scripts/jquery.scrollTo-1.4.2-min.js"></script>
+        <script type="text/javascript" src="scripts/nav.js"></script>
+
+        
+        
+    <!--MAPPE-->
+    <link rel="stylesheet" type="text/css" href="css/mappe123.css" />
+    <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.css' rel='stylesheet' />
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
+   <script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>
+   	<script type="text/javascript" src='https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.js'></script>
+	<style>
+  		body { margin:0; padding:0; }
+  		#map1 { position:absolute; top:0; bottom:0; width:100%; }
+        #map2 { position:absolute; top:0; bottom:0; width:100%; }
+	</style>
+    
+	<!--SKROLLR-->
+    <script type="text/javascript">
+         	window.onload = function() {
+            	    skrollr.init({forceHeight: false});
+					skrollr.init({smoothScrolling: true});
+					skrollr.init({smoothScrollingDuration:200});
+        	}
+	</script>
+    
+	<!--BOTTONI-->
+    <script>
+	$(function(){
+  $(".img-swap").live('click', function() {
+    if ($(this).attr("class") == "img-swap") {
+      this.src = this.src.replace("_off","_on");
+    } else {
+      this.src = this.src.replace("_on","_off");
+    }
+    $(this).toggleClass("on");
+  });
+});
+	</script>
+    
+    
+    </head>
+    
+   
+	<body>
+    	
+    	<div id="barrafissa" style="background:black; height:8%; width:100%; position:fixed; bottom: 0; z-index:100; opacity:0.9">
+  <!--  Prima    
+ <div style="color:white; position:absolute; font-size:60%; top:40%; left:5%;">SAME SAME BUT DIFFERENT</div>
+  Fine Prima --> 
+   <div style="position:absolute; top:20%; left:3%;">
+   <img src="img/samesame-navbar.png" style="width:40%; float:left;"></div>
+  
+        <div style="position:absolute; font-size:60%; width:5%; height:60%; top:20%; right:2%;">
+        	<div class="bottone" style="float:left; width:50%;"><img src="img/fb_w.png" style="width:80%; display:block;"></div>
+        	<div class="bottone" style="float:left; width:50%;"><img src="img/twitter_w.png" style="width:80%; display:block;"></div>
+      	</div>
+       	<ul id="navspot">
+			<li id="nav1"><a href="#titolo" title="same-same"><img src="img/pallino.png"></a></li>
+			<li id="nav2"><a href="#lgbt-centro" title="lgbt"><img src="img/pallino.png"></a></li>
+			<li id="nav3"><a href="#ss-presentation" title="presentation"><img src="img/pallino.png"></a></li>
+			<li id="nav4"><a href="#ss-kiss1" title="discrimination"><img src="img/pallino.png"></a></li>
+			<li id="nav5"><a href="#ss-kiss2" title="hiding"><img src="img/pallino.png"></a></li>
+        	<li id="nav6"><a href="#ss-moving" title="moving"><img src="img/pallino.png"></a></li>
+			<li id="nav7"><a href="#ss-job" title="job-finding"><img src="img/pallino.png"></a></li>
+			<li id="nav8"><a href="#ss-union" title="union"><img src="img/pallino.png"></a></li>
+			<li id="nav9"><a href="#ss-kid" title="kid"><img src="img/pallino.png"></a></li>
+			<li id="nav10"><a href="#ss-family" title="family"><img src="img/pallino.png"></a></li>
+			<li id="nav11"><a href="#ss-research" title="research"><img src="img/pallino.png"></a></li>
+			<li id="nav12"><a href="#he-Crouch" title="Crouch"><img src="img/pallino.png"></a></li>
+			<li id="nav13"><a href="#he-Regnerus" title="Regnerus"><img src="img/pallino.png"></a></li>
+			<li id="nav14"><a href="#he-Our" title="our team"><img src="img/pallino.png"></a></li>
+			<li id="nav15"><a href="#he-bambino1" title="neutral"><img src="img/pallino.png"></a></li>
+			<li id="nav16"><a href="#he-bambino2" title="plus"><img src="img/pallino.png"></a></li>
+			<li id="nav17"><a href="#he-bambino3" title="minus"><img src="img/pallino.png"></a></li>
+			<li id="nav18"><a href="#he-end" title="end"><img src="img/pallino.png"></a></li>
+            <li id="nav19"><a href="#he-message" title="message"><img src="img/pallino.png"></a></li>
+		</ul>
+        </div> <!--BARRAFISSA-->
+        
+        <div id="centrale" style="position:absolute; left:35%; width:30%; height:100%; text-align:center;">
+        	<div id="titolo" class="centro">
+            	<div style="margin-top:20%;"><img src="img/samesame-2.png"></div>
+            	<br><br>
+<h1>'’ALL HUMAN BEINGS<br>ARE BORN FREE AND EQUAL<br>IN DIGNITY AND RIGHTS.'’</h1>
+                <div class="didascalie">UNIVERSAL DECLARATION OF HUMAN RIGHTS</div>
+            </div>
+       		<div id="lgbt-centro" class="centro">
+            	<h1 style="margin-top:5%;">THE INITIALISM LGBT IS USED SINCE 90'S<br>TO MEAN A DIVERSITY OF SEXUALITY<br>AND GENDER IDENTITY-BASED COMMUNITY</h1>
+            	<div class="didascalie" style="color:white; text-shadow: 0 0 1px rgba(0,0,0,0);">GO ON HOVER THE LETTERS TO KNOW MORE</div>
+
+            	<div style="width:100%; height:100%; text-align:center;">                	
+					 	<input type="image" id="L" onmouseover="$('#L-image').animate({opacity: 1}, 300)"
+                        onmouseout="$('#L-image').animate({opacity: 0}, 300)"; src="img/initials-L.png">
+                        <input type="image" id="G" onmouseover="$('#G-image').animate({opacity: 1}, 300)"
+                        onmouseout="$('#G-image').animate({opacity: 0}, 300)"; src="img/initials-G.png">
+                        <input type="image" id="B" onmouseover="$('#B-image').animate({opacity: 1}, 300)"
+                        onmouseout="$('#B-image').animate({opacity: 0}, 300)"; src="img/initials-B.png">
+                        <input type="image" id="T" onmouseover="$('#T-image').animate({opacity: 1}, 300)"
+                        onmouseout="$('#T-image').animate({opacity: 0}, 300)"; src="img/initials-T.png">
+                        
+                	<div id="L-image" class="initials">
+                    	<img src="img/initials-lesbian.png">
+                    	<h2>WOMEN WHO ARE ATTRACTED BY WOMEN</h2>
+					</div>
+                	<div id="G-image" class="initials">
+                    	<img src="img/initials-gay.png">
+                    	<h2>MEN WHO ARE ATTRACTED BY MEN</h2>
+                    </div>
+                	<div id="B-image" class="initials">
+                    	<img src="img/initials-bisex.png">
+                        <h2>PEOPLE WHO ARE ATTRACTED BY BOTH GENDERS</h2>
+                    </div>
+                	<div id="T-image" class="initials">
+                    	<img src="img/initials-trans.png">
+                    	<h2>PEOPLE WHICH GENDER IDENTITY<br>DOESN’T CORRESPOND TO THEIR BIRTH SEX</h2>
+                    </div>
+                        
+                </div>
+            </div>
+            <div id="presentation" class="centro"				data-bottom-top="top:200%;"
+            													data-top-top="top:0%;"
+                                                                data-top-bottom="top:-150%;"
+        														data-anchor-target="#ss-presentation"
+                                                                data-smooth-scrolling="off"	>
+            	<h1>BUT WHAT DOES IT MEAN<br>TO BE A LGBT FOR THE SOCIETY?<br>TO BETTER UNDERSTAND IT, LET US INTRODUCE<br>YOU THE STORY OF TWO COUPLES IN LOVE.</h1>
+                <img src="img/CENTRE/between-01.png" class="imgcentrali"
+                												data-bottom-top="top:250%;"
+            													data-top-top="top:20%;"
+                                                                data-top-bottom="top:-150%;"
+        														data-anchor-target="#ss-presentation"
+                                                                data-smooth-scrolling="off"	>
+            </div>
+       		<div id="kiss1" class="centro"						data-bottom-top="top:200%;"
+            													data-top-top="top:0%;"
+                                                                data-top-bottom="top:-150%;"
+        														data-anchor-target="#ss-kiss1"
+                                                                data-smooth-scrolling="off"	>
+            	<h1>BOTH HETEROSEXUAL AND LGBT COUPLES<br>BEHAVE AS COMMON LOVERS. BUT NOT EVERYONE<br>SEEMS TO BE LOOKING AT THEM THE SAME WAY.</h1>
+            	<img src="img/CENTRE/between-02.png" class="imgcentrali"
+                												data-bottom-top="top:250%;"
+            													data-top-top="top:20%;"
+                                                                data-top-bottom="top:-150%;"
+        														data-anchor-target="#ss-kiss1"
+                                                                data-smooth-scrolling="off"	>
+            </div>
+            <div id="kiss2" class="centro"						data-bottom-top="top:200%;"
+            													data-top-top="top:0%;"
+                                                                data-top-bottom="top:-150%;"
+        														data-anchor-target="#ss-kiss2"
+                                                                data-smooth-scrolling="off"	>
+            	<h1>WHAT IF YOUR SEXUAL ORIENTATION<br>CAUSED DISCRIMINATION TOWARDS YOU?<br>COULD YOU IMAGINE NEEDING TO HIDE<br>YOUR LOVE IN PUBLIC?</h1>
+                <img src="img/CENTRE/between-03.png" class="imgcentrali"
+                												data-bottom-top="top:250%;"
+            													data-top-top="top:20%;"
+                                                                data-top-bottom="top:-150%;"
+        														data-anchor-target="#ss-kiss2"
+                                                                data-smooth-scrolling="off"	>
+            </div>
+       		<div id="moving" class="centro"						data-bottom-top="top:200%;"
+            													data-top-top="top:0%;"
+                                                                data-top-bottom="top:-150%;"
+        														data-anchor-target="#ss-moving"
+                                                                data-smooth-scrolling="off"	>
+            	<h1>GETTING TO THE DESIRE OF MARRY,<br>COULD YOU ACCEPT TO MOVE TO ANOTHER<br>COUNTRY TO HAVE THE SAME ENTITLEMENTS<br>OF ANYONE ELSE?</h1>
+                <img src="img/CENTRE/between-04.png" class="imgcentrali"
+                												data-bottom-top="top:250%;"
+            													data-top-top="top:20%;"
+                                                                data-top-bottom="top:-150%;"
+        														data-anchor-target="#ss-moving"
+                                                                data-smooth-scrolling="off"	>
+            </div>
+            <div id="job" class="centro"						data-bottom-top="top:200%;"
+            													data-top-top="top:0%;"
+                                                                data-top-bottom="top:-150%;"
+        														data-anchor-target="#ss-job"
+                                                                data-smooth-scrolling="off"	>
+            	<h1>ONCE YOU ARRIVE TO A NEW PLACE<br>TO LIVE, YOU WOULD HAVE TO SETTLE DOWN.<br>WOULD YOU BE ABLE TO FACE A DENIAL FOR A JOB<br>BECAUSE OF YOUR SEXUAL ORIENTATION?</h1>
+                <img src="img/CENTRE/between-05.png" class="imgcentrali"
+                												data-bottom-top="top:250%;"
+            													data-top-top="top:20%;"
+                                                                data-top-bottom="top:-150%;"
+        														data-anchor-target="#ss-job"
+                                                                data-smooth-scrolling="off"	>
+            </div>
+            <div id="union" class="centro">
+            	<h1>IF WE ALL AGREE THAT EVERYONE IS BORN<br>FREE AND EQUAL IN DIGNITY AND RIGHTS,<br>WHY IT CAN BE THAT HARD TO ACHIEVE<br>THE SAME TREATMENTS?</h1>
+                <img src="img/CENTRE/between-06.png" class="imgcentrali"
+                												data-bottom-top="top:250%;"
+            													data-top-top="top:20%;"
+                                                                data-top-bottom="top:-150%;"
+        														data-anchor-target="#ss-union"
+                                                                data-smooth-scrolling="off"	>
+
+            </div>
+            <div id="kid" class="centro"						data-bottom-top="top:200%;"
+            													data-top-top="top:0%;"
+                                                                data-top-bottom="top:-150%;"
+        														data-anchor-target="#ss-kid"
+                                                                data-smooth-scrolling="off"	>
+            	<h1>LET'S GET TO A HOTTER POINT<br>OF THE DISCUSSION: BECOMING PARENTS.<br>IT CAN BE A COMPLEX ROAD FOR ANYONE.</h1>
+                <img src="img/CENTRE/between-07.png" class="imgcentrali"
+                												data-bottom-top="top:250%;"
+            													data-top-top="top:20%;"
+                                                                data-top-bottom="top:-150%;"
+        														data-anchor-target="#ss-kid"
+                                                                data-smooth-scrolling="off"	>
+            </div>
+        	<div id="family" class="centro"						data-bottom-top="top:200%;"
+            													data-top-top="top:0%;"
+                                                                data-top-bottom="top:-150%;"
+        														data-anchor-target="#ss-family"
+                                                                data-smooth-scrolling="off"	>
+            	<h1>AND NOWADAYS IT COULD BE<br>POSSIBLE EVEN FOR LGBT PEOPLE<br>TO HAVE AND GROW CHILDREN.</h1>
+                <img src="img/CENTRE/between-08.png" class="imgcentrali"
+                												data-bottom-top="top:250%;"
+            													data-top-top="top:20%;"
+                                                                data-top-bottom="top:-150%;"
+        														data-anchor-target="#ss-family"
+                                                                data-smooth-scrolling="off"	>
+            </div>
+            <div id="research" class="centro"					data-bottom-top="top:200%;"
+            													data-top-top="top:0%;"
+                                                                data-top-bottom="top:-150%;"
+        														data-anchor-target="#ss-research"
+                                                                data-smooth-scrolling="off"	>
+                <h1 style="margin-top:25%;">IS IT THE SAME FOR CHILDREN<br>TO GROW IN A LGBT FAMILY COMPARED<br>TO A HETEROSEXUAL ONE?</h1>
+                <img src="img/CENTRE/between-12.png" class="imgcentrali"
+                												data-bottom-top="top:250%;"
+            													data-top-top="top:20%;"
+                                                                data-top-bottom="top:-130%;"
+        														data-anchor-target="#ss-research"
+                                                                data-smooth-scrolling="off"	>
+            </div>
+            
+            <div id="Crouch" class="centro" style="top:12%;">
+            	<h2 style="padding-bottom:3%;">STUDY #1</h2>
+                <div class="h3">AUSTRALIAN STUDY OF CHILD<br>HEALTH IN SAME-SEX FAMILIES</div>
+                <img src="img/barrettinalunga.png">
+                <h2>ON 500 CHILDREN AGED 0-17 YEARS<br>FROM VARIOUS FAMILY ORIGINS</h2>
+                <img src="img/barrettinalunga.png">
+                <p>On measures of general health and family cohesion, in the face of discrimination, children with lgbt parents showed a significantly better score when compared to Australian children from all backgrounds and family contexts. For all other health measures there were no statistically significant differences.</p>
+            </div>
+            
+            <div id="Regnerus" class="centro" style="top:12%;">
+            	<h2 style="padding-bottom:3%;">STUDY #1</h2>
+                <div class="h3">NEW FAMILY STRUCTURE STUDY</div>
+                <img src="img/barrettinalunga.png">
+                <h2>ON 2988 YOUNG ADULTS AGED 18-39 YEAR<br>OF PARENTS IN A SAME-SEX RELATIONSHIP</h2>
+                <img src="img/barrettinalunga.png">
+                <p>There are differences between children raised by a parent who had a same-sex relationship and children raised in an intact, biological, married family when it comes to social, emotional and relational outcomes. The young-adult children of lesbian mothers exhibited the least favorable outcomes in a wider array of
+categories when compared to the children of intact, biological families and fared worse in more categories than the children of gay fathers. </p>
+            </div>
+            
+            <div id="Our" class="centro" style="top:15%;">
+            	<h2 style="padding-bottom:3%;">OUR ONLINE RESEARCH</h2>
+                <div class="h3">SAME SAME BUT DIFFERENT</div>
+                <img src="img/barrettinalunga.png">
+                <h2>ON 183 URLS FROM 2 DIFFERENT QUERIES:<br>“LGBT PARENTING” & “CHILDREN IN SAME SEX FAMILY”</h2>
+                <img src="img/barrettinalunga.png">
+                <p>Through digital methods, the research was aimed to have an idea on the kind of actors who took place on the online debate about lgbt parenting, their interests, priorities and behaviors.</p>
+            </div>
+            <div id="bambino1" class="centro"					data-bottom-top="top:200%;"
+            													data-top-top="top:0%;"
+                                                                data-top-bottom="top:-150%;"
+        														data-anchor-target="#he-bambino1"
+                                                                data-smooth-scrolling="off"	>
+                <img src="img/CENTRE/between-09.png" style="width:65%;">
+            </div>
+            <div id="bambino2" class="centro"					data-bottom-top="top:200%;"
+            													data-top-top="top:0%;"
+                                                                data-top-bottom="top:-150%;"
+        														data-anchor-target="#he-bambino2"
+                                                                data-smooth-scrolling="off"	>
+                <img src="img/CENTRE/between-10.png" style="width:65%;">
+            </div>
+            <div id="bambino3" class="centro"					data-bottom-top="top:200%;"
+            													data-top-top="top:0%;"
+                                                                data-top-bottom="top:-150%;"
+        														data-anchor-target="#he-bambino3"
+                                                                data-smooth-scrolling="off"	>
+                <img src="img/CENTRE/between-11.png" style="width:65%;">
+            </div>
+            <div id="end" class="centro"					
+data-bottom-top="top:200%;"
+            													data-top-top="top:0%;"
+                                                                data-top-bottom="top:-150%;"
+        														data-anchor-target="#he-end"
+                                                                data-smooth-scrolling="off"	>
+            	<h1>OUTCOMES SAYS THAT IT IS THE SAME<br>TO GROWN IN A LGBT FAMILY,<br>OR MIGHT EVEN BE BETTER</h1>
+                <img src="img/CENTRE/between-13.png"class="imgcentrali"
+                												data-bottom-top="top:250%;"
+            													data-top-top="top:20%;"
+                                                                data-top-bottom="top:-150%;"
+        														data-anchor-target="#he-end"
+                                                                data-smooth-scrolling="off"	>
+                               
+                                                                
+    <h1 style="margin-top:110%;">
+    FACTORS WHICH COMES FROM OUTSIDE THE FAMILY<br>
+	DEPENDING BY THE SOCIETY ITSELF</h1>
+            </div>
+                                                     
+            
+            <div id="message" class="centro"					data-bottom-top="top:200%;"
+            													data-top-top="top:0%;"
+                                                                data-top-bottom="top:-150%;"
+        														data-anchor-target="#he-message"
+                                                                data-smooth-scrolling="off"	>
+     <!--
+            	<h1>AS YOU SEE REAL PROBLEMS COME<br>FROM OUTSIDE THE FAMILY CONTEXT,<br>NOT DEPENDING BY PARENTS SEXUAL ORIENTATION<br>BUT BY SOCIETY DISCRIMINATION</h1>
+      
+      -->
+                <img src="img/CENTRE/between-14.png" class="imgcentrali"
+                												data-bottom-top="top:250%;"
+            													data-top-top="top:13%;"
+                                                                data-top-bottom="top:-150%;"
+        														data-anchor-target="#he-message"
+                                                                data-smooth-scrolling="off"	>
+            </div>
+        </div>
+                   
+        <div id="ominiL" class="middle">
+        	<div class="omini" style="background:url(img/MIDDLE/Hetero-01.png) center no-repeat; background-size:100%;"
+            													data-top-top="opacity:!1; left:17.5%; top:0%;"
+            													data-top-bottom="opacity:!0; left:-100%; top:-100%;"
+        														data-anchor-target="#introduction"
+                                                                data-smooth-scrolling="off"	></div>
+            <div class="omini" style="background:url(img/MIDDLE/Hetero-01.png) center no-repeat; background-size:100%;"
+            													data-bottom-top="opacity:!1; top:100%;"
+                                                                data-top-top="opacity:!1; top:0%;"
+            													data-center-bottom="opacity:!0;"
+        														data-anchor-target="#ss-presentation"></div>
+            <div class="omini" style="background:url(img/MIDDLE/Hetero-03.png) center no-repeat; background-size:100%;"
+            													data-bottom-top="opacity:!0;"
+            													data-center-top="opacity:!1;"
+            													data-center-bottom="opacity:!0;"
+        														data-anchor-target="#ss-kiss1"></div>
+            <div class="omini" style="background:url(img/MIDDLE/Hetero-03.png) center no-repeat; background-size:100%;"
+            													data-bottom-top="opacity:!0;"
+            													data-center-top="opacity:!1;"
+            													data-center-bottom="opacity:!0;"
+        														data-anchor-target="#ss-kiss2"></div>
+            <div class="omini" style="background:url(img/MIDDLE/Hetero-07.png) center no-repeat; background-size:100%;"
+            													data-bottom-top="opacity:!0;"
+            													data-center-top="opacity:!1;"
+            													data-center-bottom="opacity:!0;"
+        														data-anchor-target="#ss-moving"></div>
+        	<div class="omini" style="background:url(img/MIDDLE/Hetero-07.png) center no-repeat; background-size:100%;"
+            													data-bottom-top="opacity:!0;"
+            													data-center-top="opacity:!1;"
+            													data-center-bottom="opacity:!0;"
+        														data-anchor-target="#ss-job"></div>
+       		<div class="omini" style="background:url(img/MIDDLE/Hetero-07.png) center no-repeat; background-size:100%;"
+            													data-bottom-top="opacity:!0;"
+            													data-center-top="opacity:!1;"
+            													data-center-bottom="opacity:!0;"
+        														data-anchor-target="#ss-union"></div>
+            <div class="omini" style="background:url(img/MIDDLE/Hetero-13.png) center no-repeat; background-size:100%;"
+            													data-bottom-top="opacity:!0;"
+            													data-center-top="opacity:!1;"
+            													data-center-bottom="opacity:!0;"
+        														data-anchor-target="#ss-kid"></div>
+       		<div class="omini" style="background:url(img/MIDDLE/Hetero-15.png) center no-repeat; background-size:100%;"
+            													data-bottom-top="opacity:!0;"
+            													data-center-top="opacity:!1;"
+            													data-center-bottom="opacity:!0;"
+        														data-anchor-target="#ss-family"></div>
+            <div class="omini" style="background:url(img/MIDDLE/Kid-01.png) center no-repeat; background-size:100%;"
+            													data-bottom-top="opacity:!0;"
+            													data-center-top="opacity:!1;"
+            													data-top-top="opacity:!1; bottom:0%;"
+            													data-top-bottom="opacity:!1; bottom:100%;"
+        														data-anchor-target="#ss-research"
+                                                                data-smooth-scrolling="off"	></div>
+            <div class="omini" style="background:url(img/MIDDLE/Kid-01.png) center no-repeat; background-size:100%;"
+            													data-bottom-top="opacity:!1; top:100%; left:-100%;"
+            													data-top-top="opacity:!1; top:0%; left:17.5%;"
+            													data-top-bottom="opacity:!1;"
+        														data-anchor-target="#bambino1"
+                                                                data-smooth-scrolling="off"	></div>
+       		<div class="omini" style="background:url(img/MIDDLE/Hetero-15.png) center no-repeat; background-size:100%;"
+            													data-bottom-top="opacity:!0;"
+            													data-center-top="opacity:!1;"
+            													data-center-bottom="opacity:!0;"
+        														data-anchor-target="#he-message"></div>
+        </div>
+        
+        <div id="ominiR" class="middle">
+        	<div class="omini" style="background:url(img/MIDDLE/Homo-1-02.png) center no-repeat; background-size:100%;"
+            													data-top-top="opacity:!1; left:17.5%; top:0%;"
+            													data-top-bottom="opacity:!0; left:100%; top:-100%;"
+        														data-anchor-target="#introduction"
+                                                                data-smooth-scrolling="off"	></div>
+            <div class="omini" style="background:url(img/MIDDLE/Homo-1-02.png) center no-repeat; background-size:100%;"
+            													data-bottom-top="opacity:!1; top:100%;"
+                                                                data-top-top="opacity:!1; top:0%;"
+            													data-center-bottom="opacity:!0;"
+        														data-anchor-target="#ss-presentation"></div>
+            <div class="omini" style="background:url(img/MIDDLE/Homo-1-04.png) center no-repeat; background-size:100%;"
+            													data-bottom-top="opacity:!0;"
+            													data-center-top="opacity:!1;"
+            													data-center-bottom="opacity:!0;"
+        														data-anchor-target="#ss-kiss1"></div>
+            <div class="omini" style="background:url(img/MIDDLE/Homo-1-06.png) center no-repeat; background-size:100%;"
+            													data-bottom-top="opacity:!0;"
+            													data-center-top="opacity:!1;"
+            													data-center-bottom="opacity:!0;"
+        														data-anchor-target="#ss-kiss2"></div>
+            <div class="omini" style="background:url(img/MIDDLE/Homo-1-08.png) center no-repeat; background-size:100%;"
+            													data-bottom-top="opacity:!0;"
+            													data-center-top="opacity:!1;"
+            													data-center-bottom="opacity:!0;"
+        														data-anchor-target="#ss-moving"></div>
+        	<div class="omini" style="background:url(img/MIDDLE/Homo-1-10.png) center no-repeat; background-size:100%;"
+            													data-bottom-top="opacity:!0;"
+            													data-center-top="opacity:!1;"
+            													data-center-bottom="opacity:!0;"
+        														data-anchor-target="#ss-job"></div>
+       		<div class="omini" style="background:url(img/MIDDLE/Homo-1-12.png) center no-repeat; background-size:100%;"
+            													data-bottom-top="opacity:!0;"
+            													data-center-top="opacity:!1;"
+            													data-center-bottom="opacity:!0;"
+        														data-anchor-target="#ss-union"></div>
+            <div class="omini" style="background:url(img/MIDDLE/Homo-1-14.png) center no-repeat; background-size:100%;"
+            													data-bottom-top="opacity:!0;"
+            													data-center-top="opacity:!1;"
+            													data-center-bottom="opacity:!0;"
+        														data-anchor-target="#ss-kid"></div>
+       		<div class="omini" style="background:url(img/MIDDLE/Homo-1-16.png) center no-repeat; background-size:100%;"
+            													data-bottom-top="opacity:!0;"
+            													data-center-top="opacity:!1;"
+            													data-center-bottom="opacity:!0;"
+        														data-anchor-target="#ss-family"></div>
+            <div class="omini" style="background:url(img/MIDDLE/Kid-01.png) center no-repeat; background-size:100%;"
+            													data-bottom-top="opacity:!0;"
+            													data-center-top="opacity:!1;"
+            													data-top-top="opacity:!1; bottom:0%;"
+            													data-top-bottom="opacity:!0; bottom:100%;"
+        														data-anchor-target="#ss-research"
+                                                                data-smooth-scrolling="off"	></div>                                                  
+        	<div class="omini" style="background:url(img/MIDDLE/Kid-01.png) center no-repeat; background-size:100%;"
+            													data-bottom-top="opacity:!1; top:100%; left:100%;"
+            													data-top-top="opacity:!1; top:0%; left:17.5%;"
+            													data-top-bottom="opacity:!1;"
+        														data-anchor-target="#bambino1"
+                                                                data-smooth-scrolling="off"	></div>
+            <div class="omini" style="background:url(img/MIDDLE/Kid-upset-16.png) center no-repeat; background-size:100%;"
+            													data-bottom-top="opacity:!0;"
+            													data-center-top="opacity:!1;"
+            													data-center-bottom="opacity:!0;"
+        														data-anchor-target="#he-bambino2"
+                                                                data-smooth-scrolling="off"	></div>
+       		<div class="omini" style="background:url(img/MIDDLE/Homo-1-16.png) center no-repeat; background-size:100%;"
+            													data-bottom-top="opacity:!0;"
+            													data-center-top="opacity:!1;"
+            													data-center-bottom="opacity:!0;"
+        														data-anchor-target="#he-message"></div>
+        </div>
+        
+        <div id="introduction" class="inter"></div>
+        <div id="lgbt" class="inter">
+        	<img src="img/Ondina-grigina.png" style="width:100%;">
+            <div style="position:absolute; bottom:-1%; background:none;">
+            	<img src="img/Ondina-grigina2.png" style="width:100%; position:relative; bottom:0;">
+        	</div>
+        </div>
+        
+        <div id="he-presentation" class="half"><img src="img/etichette-20.png" style="width:15%; margin-top:30%;"></div>
+        <div id="ss-presentation" class="half"><img src="img/etichette-21.png" style="width:15%; margin-top:30%;"></div>
+        
+        <div id="he-kiss" class="half"		data-top-top="top:0%;"
+        									data-top-bottom="top:100%;" 
+        									data-anchor-target="#ss-kiss1"
+                                            data-smooth-scrolling="off"	>	
+        	<div class="below" style="background:url(img/BELOW/BELOW-03.png) center no-repeat; background-size:100%; height:100%;"></div>
+            
+        </div>
+		<div id="ss-kiss" class="half">
+      		<div id="ss-kiss1" class="inter">
+        		<div class="below" style="background:url(img/BELOW/BELOW-04.png) center no-repeat; background-size:100%; height:100%;"></div>
+       		</div>
+            
+       		<div id="ss-kiss2" class="inter">
+        		<div class="below" style="background:url(img/BELOW/BELOW-06.png) center no-repeat; background-size:100%; height:100%;"></div>
+        	</div>            
+    	</div>
+        
+        <!--BOTTONI-->
+        <div class="bottone" style="position:absolute; top:350%; right:0;" onclick="$('#uno').toggle( 'slide', {direction : 'right'} );">
+        <img src="img/bottoni_off.png" class="img-swap"></div>
+        <div id="uno" class="laterali" style="display:none; height:100%; width:100%; background:#2A2A2A; position:absolute; top:300%; opacity:0.9;">
+        	<img src="img/statements.png" style="width:auto; height:100%;">
+        </div>
+        
+        <!--BOTTONI-->
+        <div class="bottone" style="z-index:200; position:absolute; top:450%; right:0;" onclick="$('.due').toggle( 'slide', {direction : 'right'} );">
+        <img src="img/bottoni_off.png" class="img-swap"></div>
+
+        
+        <!--div DUE without display:none-------------ANNE DON'T TAKE AWAY DISPLAY NONE!-->
+        <div class="due" style="z-index:190; height:100%; width:100%; background:grey; position:absolute; top:400%;">
+        <!--start mapboxjs code-->
+        <ul id='map-ui1'></ul>
+        <div id='map1'></div>
+
+
+
+        <div id='legend-content' style='display: none;'>
+  <div class='my-legend'>
+  <div class='legend-title'>The Title or Explanation of your Map</div>
+  <div class='legend-scale'>
+  <div class='legend-text'>What might feel normal for a heterosexual couple, does not necessarily for a same-sex couple everywhere on this planet: Walking down the street hand in hand or exchanging affectionate gestures in public, without being worried about people around.  <br>
+Discrimination has many faces; ranging from verbal through physical violence up to being criminalized based on sexual orientation. In seven countries homosexuals may even face death penalty for sexual intercourse with a person of the same sex. <br>
+<br>
+<br>
+These maps show the decriminalization of same-sex sexual activity worldwide over the past 200 years.</div>
+    <ul class='legend-labels'>
+      <li><span style='background:#F1EEF6;'></span>0 - 20%</li>
+      <li><span style='background:#BDC9E1;'></span>40%</li>
+      <li><span style='background:#74A9CF;'></span>60%</li>
+      <li><span style='background:#2B8CBE;'></span>80%</li>
+      <li><span style='background:#045A8D;'></span>100%</li>
+    </ul>
+  </div>
+  <div class='legend-source'>Source: <a href="#link to source">Name of source</a></div>
+  </div>
+
+  <style type='text/css'>
+    .my-legend {  
+    text-align: left;
+    float: left;  
+    font-size: 130%;
+    margin-bottom: 0px; 
+    width: 350px;   
+    }
+    .my-legend{
+    width: 350px;
+    }
+    .my-legend .legend-title {
+      text-align: left;
+      margin-bottom: 6px;
+      font-weight: bold;
+      font: bold 13px/16px 'Montserrat', sans-serif;
+      font-size: 86%;
+      width: 350px;
+      }
+    .my-legend .legend-text{
+    text-align: left;  
+    margin-bottom: 10px;
+    float: left;
+    font: normal 13px/15px 'Georgia', serif;  
+    font-color: grey;  
+    font-size: 84%;
+    max-width: 263px;  
+    }
+    .my-legend .legend-scale ul {
+      margin: 0;
+      padding: 0;
+      float: left;
+      list-style: none;
+      }
+    .my-legend .legend-scale ul li {
+      display: block;
+      float: right;
+      width: 250px;
+      margin-bottom: 50px;
+      text-align: center;
+      font: bold 13px/16px 'Montserrat', sans-serif;
+      font-size: 150%;
+      }
+    .my-legend ul.legend-labels li span {
+      display: block;
+      float: left;
+      height: 15px;
+      width: 50px;
+      }
+    .my-legend .legend-source {
+      font: bold 13px/16px 'Montserrat', sans-serif;
+      font-size: 120%;
+      margin-bottom: 22px;
+      color: #999;
+      }
+    .my-legend a {
+      color: #777;
+      }
+  </style>
+</div>
+
+
+        
+<script>
+//function timeout to hide the map
+    setTimeout(function(){$(".due").hide()},1000);
+    var map = L.mapbox.map('map1', 'schirasin.gvm9rudi', {
+    legendControl: {position: 'bottomleft'}
+    })
+    .setView([42, -30], 2);
+    map.gridControl.options.follow = true;
+    var ui = document.getElementById('map-ui1');
+
+
+
+
+addLayer(L.mapbox.tileLayer('schirasin.ohguv7vi'), '2001-2014', 1);
+addLayer(L.mapbox.tileLayer('schirasin.3xvzehfr'), '1976-2000', 2);
+addLayer(L.mapbox.tileLayer('schirasin.d9a1nhfr'), '1951-1975', 3);
+addLayer(L.mapbox.tileLayer('schirasin.94hlrf6r'), '1926-1950', 4);
+addLayer(L.mapbox.tileLayer('schirasin.7aedygb9'), 'before 1925', 5);
+
+function addLayer(layer, name, zIndex) {
+    layer
+        .setZIndex(zIndex)
+        .addTo(map);
+
+    // Create a simple layer switcher that toggles layers on
+    // and off.
+    var item = document.createElement('li');
+    var link = document.createElement('a');
+
+    link.href = '#';
+    link.className = 'active';
+    link.innerHTML = name;
+
+    link.onclick = function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+
+        if (map.hasLayer(layer)) {
+            map.removeLayer(layer);
+            this.className = '';
+        } else {
+            map.addLayer(layer);
+            this.className = 'active';
+        }
+    };
+
+    item.appendChild(link);
+    ui.appendChild(item);
+}
+</script> <!--MAPPA 1-->
+        
+        </div> 
+           
+    	<div id="he-marriage" class="half"	data-bottom-top="top:100%;"
+        									data-top-top="top:200%;"
+                                            data-top-bottom="top:300%;" 
+        									data-anchor-target="#ss-job"
+                                            data-smooth-scrolling="off"	>
+        	<div class="below" style="background:url(img/BELOW/BELOW-07.png) center no-repeat; background-size:100%; height:100%;"></div>
+           <div class="above" style="background:url(img/ABOVE/ABOVE-07.png) center no-repeat; background-size:100%; height:100%;"></div>
+        </div>
+        
+       	<div id="ss-marriage" class="half">
+    		<div id="ss-moving" class="inter">
+        		<div class="below" style="background:url(img/BELOW/BELOW-08.png) center no-repeat; background-size:100%; height:100%;"></div>
+                <div class="above" style="background:url(img/ABOVE/ABOVE-08.png) center no-repeat; background-size:100%; height:100%;"></div>
+        	</div>
+       		<div id="ss-job" class="inter">
+            	<div class="below" style="background:url(img/BELOW/BELOW-10.png) center no-repeat; background-size:100%; height:100%;"></div>
+                <div class="above" style="background:url(img/ABOVE/ABOVE-10.png) center no-repeat; background-size:100%; height:100%;"></div>
+            </div>
+       		<div id="ss-union" class="inter">
+            	<div class="below" style="background:url(img/BELOW/BELOW-12.png) center no-repeat; background-size:100%; height:100%;"></div>
+                <div class="above" style="background:url(img/ABOVE/ABOVE-07.png) center no-repeat; background-size:100%; height:100%;"></div>
+            </div>
+    	</div>
+        
+        <!--BOTTONI-->
+        <div class="bottone" style="z-index:200; position:absolute; top:550%; right:0;" onclick="$('.tre').toggle( 'slide', {direction : 'right'} );">
+        <img src="img/bottoni_off.png" class="img-swap"></div>
+        
+        <!--div TRE without display:none-->
+        <div class="tre" style="z-index:190; height:100%; width:100%; background:grey; position:absolute; top:500%;">
+        
+        <!-------------------------------------------------------------------------------------MAPPA 2-->
+        <ul id='map-ui2'></ul>
+		<div id='map2'></div>
+
+        <div id='legend-content' style='display: none;'>
+  <div class='my-legend'>
+  <div class='legend-title'>The Title or Explanation of your Map</div>
+  <div class='legend-scale'>
+  <div class='legend-text'>What might feel normal for a heterosexual couple, does not necessarily for a same-sex couple everywhere on this planet: Walking down the street hand in hand or exchanging affectionate gestures in public, without being worried about people around.  <br>
+Discrimination has many faces; ranging from verbal through physical violence up to being criminalized based on sexual orientation. In seven countries homosexuals may even face death penalty for sexual intercourse with a person of the same sex. <br>
+<br>
+<br>
+These maps show the decriminalization of same-sex sexual activity worldwide over the past 200 years.</div>
+    <ul class='legend-labels'>
+      <li><span style='background:#F1EEF6;'></span>0 - 20%</li>
+      <li><span style='background:#BDC9E1;'></span>40%</li>
+      <li><span style='background:#74A9CF;'></span>60%</li>
+      <li><span style='background:#2B8CBE;'></span>80%</li>
+      <li><span style='background:#045A8D;'></span>100%</li>
+    </ul>
+  </div>
+  <div class='legend-source'>Source: <a href="#link to source">Name of source</a></div>
+  </div>
+
+  <style type='text/css'>
+    .my-legend {  
+    text-align: left;
+    float: left;  
+    font-size: 130%;
+    margin-bottom: 0px; 
+    width: 350px;   
+    }
+    .my-legend{
+    width: 350px;
+    }
+    .my-legend .legend-title {
+      text-align: left;
+      margin-bottom: 5px;
+      font-weight: bold;
+      font: bold 13px/16px 'Montserrat', sans-serif;
+      font-size: 73%;
+      width: 330px;
+      }
+    .my-legend .legend-text{
+    text-align: left;  
+    margin-bottom: 10px;
+    float: left;
+    font: normal 13px/15px 'Georgia', serif;  
+    font-color: grey;  
+    font-size: 70%;
+    max-width: 280px;  
+    }
+    .my-legend .legend-scale ul {
+      margin: 0;
+      padding: 0;
+      float: left;
+      list-style: none;
+      }
+    .my-legend .legend-scale ul li {
+      display: block;
+      float: right;
+      width: 350px;
+      margin-bottom: 2px;
+      text-align: left;
+      font: bold 14px/16px 'Montserrat', sans-serif;
+      font-size: 60%;
+      }
+    .my-legend ul.legend-labels li span {
+      display: block;
+      float: left;
+      height: 15px;
+      width: 50px;
+      }
+    .my-legend .legend-source {
+      font: italic 13px/16px 'Montserrat', sans-serif;
+      font-size: 50%;
+      margin-bottom: 0px;
+      color: #999;
+      }
+    .my-legend a {
+      color: #777;
+      }
+  </style>
+</div>
+
+
+
+
+
+
+<script>
+//function timeout to hide the map
+    setTimeout(function(){$(".tre").hide()},1000);
+var map = L.mapbox.map('map2', 'schirasin.2kervn29', {
+    legendControl: {position: 'bottomleft'}
+    })
+    .setView([43, -30], 2);
+    map.gridControl.options.follow = true;
+var ui = document.getElementById('map-ui2');
+
+addLayer(L.mapbox.tileLayer('schirasin.vog30udi'), '2010-2014', 5);
+addLayer(L.mapbox.tileLayer('schirasin.gj6h6w29'), '2005-2009', 4);
+addLayer(L.mapbox.tileLayer('schirasin.7gbymn29'), '2000-2004', 3);
+addLayer(L.mapbox.tileLayer('schirasin.uaxg8pvi'), '1995-1999', 2);
+addLayer(L.mapbox.tileLayer('schirasin.43uzbyb9'), 'before 1994', 1);
+
+function addLayer(layer, name, zIndex) {
+    layer
+        .setZIndex(zIndex)
+        .addTo(map);
+
+    // Create a simple layer switcher that toggles layers on
+    // and off.
+    var item = document.createElement('li');
+    var link = document.createElement('a');
+
+    link.href = '#';
+    link.className = 'active';
+    link.innerHTML = name;
+
+    link.onclick = function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+
+        if (map.hasLayer(layer)) {
+            map.removeLayer(layer);
+            this.className = '';
+        } else {
+            map.addLayer(layer);
+            this.className = 'active';
+        }
+    };
+
+    item.appendChild(link);
+    ui.appendChild(item);
+}
+</script> <!-------------------------------------------------------------------------------------MAPPA 2-->
+        </div>
+        
+        <div id="he-kid" class="half">
+        	<div class="below" style="background:url(img/BELOW/BELOW-13.png) center no-repeat; background-size:100%; height:100%;"></div>
+            <div class="above" style="background:url(img/ABOVE/ABOVE-13.png) center no-repeat; background-size:100%; height:100%;"></div>
+        </div>
+        <div id="ss-kid" class="half">
+        	<div class="below" style="background:url(img/BELOW/BELOW-14.png) center no-repeat; background-size:100%; height:100%;"></div>
+            <div class="above" style="background:url(img/ABOVE/ABOVE-14.png) center no-repeat; background-size:100%; height:100%;"></div>
+        </div>
+        
+        <!--BOTTONI-->
+        <div class="bottone" style="position:absolute; top:850%; right:0;" onclick="$('.quattro').toggle( 'slide', {direction : 'right'} );">
+        	<img src="img/bottoni_off.png" class="img-swap"></div>
+		
+        <!--BARRE VUOTE -->	
+        <div class="quattro laterali" style="z-index:80; display:none; height:100%; width:100%; background:none; position:absolute; top:800%;">
+        	<div class="barrette"; onmouseover="$('#expand1').slideDown(500);" onmouseout="$('#expand1').slideUp(500);"></div>
+            <div class="barrette"; onmouseover="$('#expand2').slideDown(500);" onmouseout="$('#expand2').slideUp(500);"></div>
+            <div class="barrette"; onmouseover="$('#expand3').slideDown(500);" onmouseout="$('#expand3').slideUp(500);"></div>
+            <div class="barrette"; onmouseover="$('#expand4').slideDown(500);" onmouseout="$('#expand4').slideUp(500);"></div>
+            <div class="barrette"; onmouseover="$('#expand5').slideDown(500);" onmouseout="$('#expand5').slideUp(500);"></div>
+            <div class="barrette"; onmouseover="$('#expand6').slideDown(500);" onmouseout="$('#expand6').slideUp(500);"></div>            
+        </div>
+        
+        <!--BARRE VERE-->
+        <div class="quattro laterali" style="display:none; height:100%; width:100%; background:#2A2A2A; position:absolute; top:800%; opacity:0.98;">
+			<div id="prima" class="barrette" style="background:#F9F9F9;">
+            		<img src="img/CENTRE/biologically.png" style="width:70%;">
+                	<img src="img/barrettina.png" style="width:50%;">
+                	<h1>NATURAL INTERCOURSE</h1>
+                <div id="expand1" style="display:none;">
+                	<p>Lgbt people can have children both from heterosexual intercourses and from former relationships.Being lgbt doesn’t mean that you can’t have children by sexual relations.</p>
+                </div>
+            </div>
+            
+            <div class="barrette" style="background:#F2F3F4;">
+                	<img src="img/CENTRE/vuota.png" style="width:70%;">
+                	<img src="img/barrettina.png" style="width:50%;">
+                	<h1>DONOR INSEMINATION</h1>
+                <div id="expand2" style="display:none;">
+                	<p>Is one method used from lgbt people who wish to have a biological child, meaning that at least one of the parents is a biological one. Lesbians may look for a sperm donor, while gays for an egg donor (and a surrogate mother)the provider can be known or anonymous.</p>
+                </div>
+            </div>
+            
+            <div class="barrette" style="background:#F2F3F4;">
+            		<img src="img/CENTRE/artificially.png" style="width:70%;">
+                	<img src="img/barrettina.png" style="width:50%;">
+                    <h1>IN VITRO FERTILIZATION</h1>
+                 <div id="expand3" style="display:none;">
+                	<p>Is a process by which an egg is fertilised by sperm outside the body: in vitro. Is a treatment used when other methods or assisted reproductive techniques have failed or are not possible. For male parents is the only way to be biological parents.</p>
+                </div>
+            </div>
+            
+            <div class="barrette" style="background:#F2F3F4;">
+            		<img src="img/CENTRE/vuota.png" style="width:70%;">
+               	 	<img src="img/barrettina.png" style="width:50%;">
+                	<h1>SURROGACY<br> </h1>
+                <div id="expand4" style="display:none;">
+                	<p>Is an arrangement in which a woman carries and delivers a child for anyone else. The surrogate may be the child genetic mother (traditional surrogacy) or not (gestational surrogacy), so must work through in vitro fertilization. Monetary compensation may or may not be involved in the arrangements.</p>
+                </div>
+            </div>
+            
+            <div class="barrette" style="background:#E8E8E8;">
+            		<img src="img/CENTRE/legally.png" style="width:70%;">
+                	<div class="bottone"><img src="img/barrettina.png" style="width:50%;"></div>
+                	<h1>ADOPTION<br> </h1>
+                <div id="expand5" style="display:none;">
+                	<p>Is a process whereby a person assumes the parenting for a child and permanently transfers all rights and responsibilities from the biological parent or parents. Adoption is intended to effect a permanent change in status and as such requires societal recognition, either through legal or religious sanction.</p>
+                </div>
+            </div>
+            <div class="barrette" style="background:#E8E8E8;">
+            		<img src="img/CENTRE/vuota.png" style="width:70%;">
+                	<div class="bottone"><img src="img/barrettina.png" style="width:50%;"></div>
+                	<h1>FOSTER CARE<br> </h1>
+                <div id="expand6" style="display:none;">
+                	<p>Is the term used for a system in which a minor has been placed with a state-certified caregiver. The placement of the child is usually arranged through the government or a social-service agency. The institution, group home or foster parent is compensated for expenses.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="he-family" class="half">
+        	<div class="below" style="background:url(img/BELOW/BELOW-15.png) center no-repeat; background-size:100%; height:100%;"></div>
+        </div>
+       	<div id="ss-family" class="half">
+        	<div class="below" style="background:url(img/BELOW/BELOW-16.png) center no-repeat; background-size:100%; height:100%;"></div>
+        </div>
+
+        <!--ONDINE-->     
+        <div style="position:absolute; width:100%; height:100%; top:900%; z-index:60;">
+        	<div style="position:absolute; bottom:-1%; background:none;">
+            	<img src="img/Ondina-nera.png" style="width:100%; position:relative; bottom:0;">
+        	</div>
+        </div>
+        
+        <div id="he-research" class="half"></div>
+       	<div id="ss-research" class="half"></div> 
+       	
+        <div style="position:absolute; width:100%; height:100%; top:1000%; z-index:60;">
+        </div>
+        
+        <!--ONDINE-->        
+        <div style="position:absolute; width:100%; height:100%; top:1000%; z-index:60;">
+        	<div style="position:relative; width:100%; height:12%; background:black;">
+            	<img src="img/BUT.png" style="height:55%; position:relative; top:25%; margin:0;">
+            </div>
+            <img src="img/Ondina-nera1.png" style="width:100%; position:relative; bottom:0;">
+        </div>       
+        
+        <div id="he-Crouch" class="inter">
+        	<div class="ricerche">
+            	<div style="background:url(img/research-25.png) center no-repeat; background-size:100%; position:absolute; width:20%; height: 100%; left:10%;"></div>
+            	<div style="position:absolute; width:20%; height: 100%; right:10%;"><a href="http://achess.org.au/" target="_blank""><img src="img/research-27.png" style="height:55%; position:relative; top:22.5%;"></a></div>
+			</div>
+        </div>
+        
+        <div id="he-Regnerus" class="inter">
+        	<div class="ricerche">
+            	<div style="background:url(img/research-26.png) center no-repeat; background-size:100%; position:absolute; width:20%; height: 100%; left:10%;"></div>
+            	<div style="position:absolute; width:20%; height: 100%; right:10%;"><a href="http://www.prc.utexas.edu/nfss/people.html" target="_blank""><img src="img/research-27.png" style="height:55%; position:relative; top:22.5%;"></a></div>
+            </div>
+        </div>
+        
+        <div id="he-Our" class="inter">
+        	<div class="ricerche">
+            	<div style="background:url(img/research-29.png) center no-repeat; background-size:100%; position:absolute; width:20%; height: 100%; left:10%;"></div>
+            	<div style="position:absolute; width:20%; height: 100%; right:10%;"><a href="https://dl.dropboxusercontent.com/u/50807984/Gruppo%201_lgbt%20parenting.pdf" target="_blank""><img src="img/research-27.png" style="height:55%; position:relative; top:22.5%;"></a></div>
+            </div>
+        </div>
+        
+        <!--GIF-->
+        <div id="he-bambino1" class="inter">
+        
+        
+        <!--GIF SINISTRA-->	
+            <div style="position:absolute; width:10%; left:20%; height:70%;"
+            						data-bottom-top="background-image:!url(img/segnalevuoto.png); background-size:50%; background-repeat:no-repeat; background-position:center; opacity:!0;"
+        							data-center-top="background-image:!url(img/segnale.gif); background-size:50%; background-repeat:no-repeat; background-position:center; opacity:!1;"
+        							data-anchor-target="#he-bambino1"
+            						data-smooth-scrolling="off"	></div>
+        <!--GIF DESTRA-->                            
+             <div style="position:absolute; width:10%; left:70%; height:70%;"
+            						data-bottom-top="background-image:!url(img/segnalevuoto.png); background-size:50%; background-repeat:no-repeat; background-position:center; opacity:!0;"
+        							data-center-top="background-image:!url(img/segnale.gif); background-size:50%; background-repeat:no-repeat; background-position:center; opacity:!1;"
+        							data-anchor-target="#he-bambino1"
+            						data-smooth-scrolling="off"	></div>                       
+                                    
+        </div><!--he-bambino1-->
+        
+        <div id="he-bambino2" class="inter">
+        
+        <!--GIF SINISTRA-->	
+            <div style="position:absolute; width:10%; left:20%; height:70%;"
+            						data-bottom-top="background-image:!url(img/segnalevuoto.png); background-size:50%; background-repeat:no-repeat; background-position:center; opacity:!0;"
+        							data-center-top="background-image:!url(img/segnale.gif); background-size:50%; background-repeat:no-repeat; background-position:center; opacity:!1;"
+        							data-anchor-target="#he-bambino2"
+            						data-smooth-scrolling="off"	></div>
+        <!--GIF DESTRA-->                            
+             <div style="position:absolute; width:10%; left:70%; height:70%;"
+            						data-bottom-top="background-image:!url(img/segnalevuoto.png); background-size:50%; background-repeat:no-repeat; background-position:center; opacity:!0;"
+        							data-center-top="background-image:!url(img/Signal-Bad-1.gif); background-size:50%; background-repeat:no-repeat; background-position:center; opacity:!1;"
+        							data-anchor-target="#he-bambino2"
+            						data-smooth-scrolling="off"	></div>
+        </div><!--he-bambino2-->
+        
+        <div id="he-bambino3" class="inter">
+        <!--GIF SINISTRA-->	
+            <div style="position:absolute; width:10%; left:20%; height:70%;"
+            						data-bottom-top="background-image:!url(img/segnalevuoto.png); background-size:50%; background-repeat:no-repeat; background-position:center; opacity:!0;"
+        							data-center-top="background-image:!url(img/segnalevuoto.png); background-size:50%; background-repeat:no-repeat; background-position:center; opacity:!1;"
+        							data-anchor-target="#he-bambino3"
+            						data-smooth-scrolling="off"	></div>
+        <!--GIF DESTRA-->                            
+             <div style="position:absolute; width:10%; left:70%; height:70%;"
+            						data-bottom-top="background-image:!url(img/segnalevuoto.png); background-size:50%; background-repeat:no-repeat; background-position:center; opacity:!0;"
+        							data-center-top="background-image:!url(img/Signal-Pulse-1.gif); background-size:50%; background-repeat:no-repeat; background-position:center; opacity:!1;"
+        							data-anchor-target="#he-bambino3"
+            						data-smooth-scrolling="off"	></div>
+        </div><!--he-bambino3-->
+        
+        <div id="he-end" class="inter"></div>
+        <div id="he-message" class="inter"></div>
+    
+                      
+			<!-- Don't Change This -->
+		<!--<div class="footer">
+			<div id="foot-logos">
+				<a href="http://www.dipartimentodesign.polimi.it/"><img src="img/dip_logo.png"></a>
+	          	<a href="http://www.densitydesign.org/"><img src="img/density_logo.png"></a> 	
+	        </div>
+	            
+	        <div id="foot-text1">
+				<div><strong>Faculty</strong>
+				</br>Paolo Ciuccarelli</br>Marco Fattore</br>Stefano Mandato</br>Donato Ricci</br>Salvatore Zingale
+				</div>	
+	        </div>
+	        <div id="foot-text2">
+				<div><strong>Teaching Assistants</strong>
+				</br>Matteo Azzi</br>Giorgio Caviglia</br>Michele Mauri</br>Azzurra Pini</br>Giorgio Uboldi
+				</div>	
+            </div>
+		</div> <!-- Footer -->       
+	</body>
+</html>

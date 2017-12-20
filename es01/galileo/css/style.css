@@ -1,0 +1,118 @@
+/* @override http://www.bilobo.it/galileo/css/style.css */
+
+/* General Demo Style */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+@font-face {
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: 0; height: 100%;}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+body {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	color: #422F31;
+	background: #F8F6E9;
+}
+
+.main, .container > header {
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.container > header {
+	text-align: center;
+}
+
+.container > header h1 {
+	font-size: 40px;
+	line-height: 1;
+	margin: 0;
+	font-weight: 300;
+}
+
+.your-work {
+	width: 100%;
+	font-size: 12pt;
+	line-height: 2.2;
+	text-align: center;
+	height:100%;
+	margin-bottom: 0px;
+}
+
+.descrizione {
+	font-size: 34pt;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	left: 0;
+	font-weight: bold;
+}
+
+.footer {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	background-color: #222;
+	overflow: hidden;
+	height: 9em;
+	display: block;
+	width: 100%;
+	height:190px;
+	padding:25px 50px 75px 100px;
+
+}
+
+.footer img {
+	margin-right: 50px;
+	padding-bottom:30px;
+	max-width: 100px;
+	vertical-align: middle;
+	border: 0;
+}
+
+#foot-logos {
+	float:left;
+}
+
+#foot-text {
+	float:left;
+	margin-right: 50px;
+	font-size:13px;
+	color:#fff;
+	font-weight:300;
+	line-height:1.5;
+}
+
+.container {
+	position: relative;
+}
+
+.container > section {
+	margin: 0 auto;
+	padding: 5em 3em;
+	color: #232323;
+}
+
+.container > section p {
+	position: relative;
+	margin: 0;
+	padding: 1em;
+	z-index: 1;
+}
+
+.container > section p.text {
+	font-size: 1.4em;
+	float: right;
+}

@@ -1,0 +1,154 @@
+.wrap{
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	position: relative;
+}
+h1{
+	font-size: 5em;	
+	color:#f4e418;
+	font-family: 'Lato', sans-serif;
+	line-height: 60pt;
+
+
+   
+}
+h3{
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	line-height: 28pt;
+	color: #323232;
+}
+.section{
+	text-align:center;
+	height:100%;
+	}
+b{ font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	color: #323232;
+}
+h5{ font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #323232;
+}
+.testi_sc{ height:15%;
+}
+.imm_sc{ width: 80%;
+         margin: 0 auto;}
+#section0{ background-image: url('imgs/copertina.png');
+       background-repeat: no-repeat;
+       background-size: 100%;
+       }
+
+#section7{ background-image: url('imgs/scen4c.png');
+       background-repeat: no-repeat;
+       background-size: auto 100%;
+       background-position: center;
+       }
+
+#titolo{ width:100%;
+         height: 100%;
+     }
+#sub { margin-top: 0%;
+       text-shadow: 1px 1px 1px #9abfbc;}
+}
+
+p { font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	line-height: 20pt;
+	color: #323232;
+}
+#contit_1 { font-size: 14px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+            color: #323232;
+            float: left;
+            margin-bottom: -3%;
+            margin-left: 10%;
+            text-align: left;
+        }
+
+#contit_2 { font-size: 14px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+            color: #323232;
+            margin-bottom: -3%;
+            margin-right: 10%;
+            text-align: left;
+        }
+
+#contit_3 { font-size: 14px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+            color: #323232;
+            margin-bottom: -3%;
+            margin-right: 10%;
+            text-align: left;
+            margin-top: -5%;
+        } 
+
+#contit_4 { font-size: 14px;
+font-family: 'Lato', sans-serif;
+font-weight: 700;
+color: #323232;
+float: left;
+margin-bottom: -3%;
+margin-left: 10%;
+text-align: left;
+margin-top: -2%;
+}
+
+#contit_5 { font-size: 14px;
+font-family: 'Lato', sans-serif;
+font-weight: 700;
+color: #323232;
+float: right;
+margin-bottom: -3%;
+margin-right: 16%;
+text-align: left;
+margin-top: -2%;
+}
+
+.contenuti_zoom { margin-top: 8%;
+                  height: 50%;}
+
+.contenuti_zoom2 { margin-top: 6%;
+                  height: 50%;}
+
+h2 { font-family: : 'Lato', sans-serif;
+font-weight: 300;
+line-height: 6pt;
+color: #323232;}
+
+*|*:-moz-any-link {
+    text-decoration: none;
+}
+*|*:link {
+    color: none;
+}
+
+*|*:visited {
+    color: #323232;
+}
+ input { margin-bottom: 3%;
+        font-family: 'Lato', sans-serif;
+color: #323232;
+border: 1 px solid #4bc2c3 !important;
+background-color: #ffffff;}
+
+textarea { border: 1 px solid #4bc2c3 !important; }
+
+#section3 { background-image: url('imgs/obama.png');
+            background-repeat: no-repeat;;
+            background-size: 100% 100%;
+            background-position: center;
+          }
+
+
+
+
+
+

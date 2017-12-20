@@ -1,0 +1,287 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 
+
+COLORS
+
+background: #EAF6FA
+text: #0A2B39
+
+media:			#006837
+organization:	#FEED4C
+company:		#774595
+faculty:		#00A89C
+blogger:		#EC1C24
+government:		#F6AC76
+
+*/
+
+#cover, #map {
+	background-color:#FFFFFF;   
+}
+
+#what, #causes, #management, #hardsoft, #involved, #comparing, #andnow, #end, #more {
+	background-color:#EAF6FA;
+}
+
+#cover_title {
+	display:block;
+	position:relative;
+	padding-top:50px;
+	width:700px;
+	height:100px;
+	margin:auto;
+}
+
+#cover_gif {
+	display:block;
+	margin: auto auto;
+	position:relative;
+	width:250px;
+	height:250px;
+	margin-top:50px;
+}
+
+#cover_explain {
+	font-family:'Lato', sans-serif;
+	font-size:20px;
+	text-align:center;
+	font-weight: 400;
+	font-style:italic;
+	color:#0A2B39;
+	margin-top:50px;
+}
+
+.divisor {
+	width:60px;
+	height:25px;
+	position:relative;
+	display:block;
+	margin:auto auto;
+}
+
+.exp_div_left {
+	width:1000px;
+	margin:auto auto;
+	position:relative;
+	display:block;
+	text-align:left;
+	width:1000px;
+}
+
+.causes_exp { /* descrizione gif causes*/
+	font-family:'mathletebulky', sans-serif;
+	font-size:40px;
+	font-weight: normal;
+	color:#0A2B39;
+	text-align:center;
+	margin:0;
+}
+
+.exp_title {
+	font-family:'mathletebulky', sans-serif;
+	font-size:50px;
+	font-weight: normal;
+	position:relative;
+	margin:0;
+	color:#0A2B39;
+}
+
+.exp_par {
+	font-family: 'Lato', sans-serif;
+	color:#0A2B39;
+	font-size:20px;
+	position:relative;
+	display:block;
+	font-weight:300;
+	line-height:1.3;
+}
+
+.exp_div_cent {
+	margin:auto auto;
+	position:relative;
+	display:block;
+	text-align:center;
+	width:1000px;
+}
+
+.flood_map {
+	width:1000px;
+	height:400px;
+	position:relative;
+	display:block;
+	margin:auto auto;
+}
+
+.map_but {
+	width:20px;
+	height:20px;
+	position:relative;
+	display:block;
+}
+
+#hardsofteng {
+	width:1000px;
+	margin:auto auto;
+	position:relative;
+	display:block;
+}
+
+.actors_tit {
+	text-align:center;
+	font-family:'mathletebulky', sans-serif;
+	font-size:35px;
+	color:#0A2B39;
+	display:block;
+	position:relative;
+	margin:10px auto 0 auto;
+	opacity:0;
+}
+
+.actors_tit_cell {
+	width:190px;
+	height:40px;
+}
+
+.actors_par_cell {
+	width:190px;
+	height:90px;
+}
+
+.actors_par {
+	text-align:center;
+	font-family: 'Lato', sans-serif;
+	font-size:16px;
+	color:#0A2B39;
+	display:block;
+	position:relative;
+	margin:0 10px 0 10px;
+	font-weight:300;
+	line-height:1.3;
+	opacity:0;
+}
+
+.actors_img {
+	margin:auto;
+	position:relative;
+	display:block;
+	opacity:0;
+}
+
+.actors_img_cell {
+	width:190px;
+	height:120px;
+}
+
+.exp_description {
+	font-family: 'Lato', sans-serif;
+	color:#0A2B39;
+	font-size:14px;
+	position:relative;
+	display:block;
+	font-weight:300;
+	line-height:1.3;
+	font-style:italic;
+}
+
+.opinion_abaco {
+	font-family: 'Lato', sans-serif;
+	color:#8893B4;
+	font-size:15px;
+	position:relative;
+	display:block;
+	font-weight:400;
+	font-style:italic;
+	text-align:right;
+	text-transform:uppercase;
+	margin:12px auto;
+}
+
+.actors_legend_cell {
+	width:80px;
+	height:22px;
+}
+
+.abaco_leg_but {
+	width:20px;
+	height:20px;
+	border:1px solid #000;
+	border-radius:11px;
+	margin:auto;
+}
+
+.abaco_leg_exp {
+	font-family: 'Lato', sans-serif;
+	color:#0A2B39;
+	font-size:15px;
+	font-weight:400;
+	text-align:center;
+	margin:5px auto 0 auto;
+}
+
+.exp_ball {
+	border:1px solid #000;
+	position:relative; 
+	float:left; 
+	display:block;
+}
+
+.inter_tab_cell1 {
+	width:90px;
+	height:50px;
+}
+
+.inter_tab_cell2 {
+	width:90px;
+	height:30px;
+}
+
+.inter_tit {
+	font-family:'mathletebulky', sans-serif;
+	color:#0A2B39;
+	font-size:45px;
+	text-align:center;
+	margin:5px auto 0 auto;	
+}
+
+.inter_tech {
+	font-family: 'Lato', sans-serif;
+	color:#0A2B39;
+	font-size:15px;
+	text-align:center;
+	margin:5px auto 0 auto;
+	font-weight:400;	
+}
+
+.inter_but {
+	width:20px;
+	height:20px;
+	border:1px solid #000;
+	border-radius:11px;
+	margin:auto;
+	background-color:#0A2B39;
+	opacity:0.5;
+
+}
+
+.button_map {
+	width:20px;
+	height:20px;
+	background-color:#0A2B39;
+	border-radius:11px;
+	z-index:15;
+}
+
+.info_box {
+  	border:1px solid;
+  	float:right;
+  	margin-top:-450px;
+  	display:none;
+  	z-index:20;
+	margin-right:20px;
+	position:relative;
+	width:250px;
+	height:320px;
+	
+}

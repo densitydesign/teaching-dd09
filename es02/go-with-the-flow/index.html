@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="River flood management methods" />
+		<meta content="dh, digital humanities, densitydesign, politecnico di milano, paolo ciuccarelli, michele mauri, giorgio uboldi, 
+        matteo azzi, azzurra pini, chiara maffessanti, clara giacalone, ylenia micci, alice tavernini, iolanda piccinini, annalinda ruocco, extreme events" name="keywords">
+		<link href="CSS/main.css" rel="stylesheet" type="text/css" />
+        <script src="CSS/jquery-1.11.0.min.js"></script>
+        <script src="query/1.10.2/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script> 
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="CSS/script.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,300,400italic,300italic' rel='stylesheet' type='text/css'>
+        <link href="CSS/stylesheet.css" rel="stylesheet" type="text/css" charset="utf-8" />
+</head>
+
+<body>
+<!-- Go with the flow -->        
+        <section id="cover" style="height:700px;">
+        	<div id="cover_title"><img src="images/title.gif"/></div>
+            <div><p id="cover_explain">A story about river flood management methods</br>
+            	and their impact on our planet</p></div>
+            <div id="cover_gif"><img src="images/mappamondo.gif"/>
+            </div>
+        </section>
+<!-- FLOOD: WHAT IS IT? -->      	
+        <section id="what" style="height:800px;">
+        	<div class="divisor"><img src="images/divisor_white.png"/></div>
+        	<div class="exp_div_cent" style="top:200px;">
+            	<p class="exp_title" style="width:250px; margin:auto;">did you know...</p>
+                <p class="exp_par" style="width:350px; margin:auto;">There are thousands of rivers on Earth, from the largest to the smallest. 
+                But what happens when they can't keep all their water anymore?</p>
+            </div>
+            <div class="exp_div_cent" style="top:270px;"><img src="images/earth_flood.gif" style="height:240px; width:240px; margin:auto;"/></div>
+        </section>
+<!-- FLOOD: WHAT IS IT? -->      	
+        <section id="what" style="height:800px;">
+        	<div class="exp_div_left" style="top:200px; margin-bottom:-50px;">
+            	<p class="exp_title" style="width:250px;">what is a flood?</p>
+                <p class="exp_par" style="width:250px;">Flood is an extreme weather event that affects coasts and rivers. 
+                River flood is a continuous overflow of water from the banks of rivers.</p>
+            </div>
+            <div style="width:1000px; margin:auto; display:block; height:350px;">
+            	<img src="images/glass_flood.gif" style="float:right; height: 350px;"/>
+            </div>
+        </section>
+<!-- CAUSES -->      	
+        <section id="causes" style="height:800px;">
+        	<div class="exp_div_left" style="top:200px;  margin-bottom:-120px;">
+            	<p class="exp_title" style="width:260px;">causes</p>
+                <p class="exp_par" style="width:260px;">Heavy rains, hurricanes and droughts are natural causes of flooding. 
+                Also deforestation and poor farming can be responsible for floods.</p>
+            </div>
+            <div id="causes_img" style="width:1000px; margin:auto; display:block; height:330px;">
+            	<img src="images/natural_causes.gif" style="float:right; height: 300px;"/>
+                <img src="images/human_causes.gif" style="float:right; margin-right:70px;; height: 300px;"/>
+            	<table style="width:1000px; top:30px; position:relative;" cellpadding="0" cellspacing="0">
+                	<tr><td style="width:518px;"></td>
+                    	<td style="width:206px;"><p class="causes_exp">human</p></td>
+                        <td style="width:70px;"></td>
+                        <td style="width:206px;"><p class="causes_exp">natural</p></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+<!-- CONSEQUENCES -->      	
+        <section id="map" style="height:900px;;">
+        <div class="divisor"><img src="images/divisor_blue.png"/></div>
+        	<div class="exp_div_cent" style="margin-top:100px; width:1000px;">
+            	<p class="exp_title" style="width:260px; margin:auto auto;">consequences</p>
+                <p class="exp_par" style="width:450px; margin:auto auto;">
+                Millions of people die and billions of dollars are spent due to floods, both in rich and poor countries. </p>
+            </div>
+            <p class="exp_description" style="width:200px;; margin:20px auto; text-align:center">Click on the dots to discover information about past floods</p>
+   <!--          <div  class="flood_map" style="width:1000px; height:400px; margin:auto; margin-bottom:-400px; margin-top:100px; z-index:10;">
+            	<img src="images/map-01.png" usemap="#floodmap"/>
+            </div>
+            <map name="floodmap">
+				<area class="button_map" shape="circle" coords="90,58,10">
+				<area class="button_map" shape="circle" coords="124,58,10">
+            </map>
+            <div class="flood_map">
+            	<img src="images/map_but.png" class="button_map" id="mapbox_1" style="margin-top:148px; margin-left:229px;"/>
+                <img src="images/map_but.png" class="button_map" id="mapbox_2" style="margin-top:148px; margin-left:229px;"/>
+                <img src="images/map_but.png" class="button_map" id="mapbox_1" style="margin-top:148px; margin-left:229px;"/>
+                <img src="images/map_but.png" class="button_map" id="mapbox_1" style="margin-top:148px; margin-left:229px;"/>
+                <img src="images/map_but.png" class="button_map" id="mapbox_1" style="margin-top:148px; margin-left:229px;"/>
+                <img src="images/map_but.png" class="button_map" id="mapbox_1" style="margin-top:148px; margin-left:229px;"/>
+                <img src="images/map_but.png" class="button_map" id="mapbox_1" style="margin-top:148px; margin-left:229px;"/>
+                <img src="images/map_but.png" class="button_map" id="mapbox_1" style="margin-top:148px; margin-left:229px;"/>
+                <img src="images/map_but.png" class="button_map" id="mapbox_1" style="margin-top:148px; margin-left:229px;"/>
+                <img src="images/map_but.png" class="button_map" id="mapbox_1" style="margin-top:148px; margin-left:229px;"/>
+            	<img src="images/map/box_usa.png" id="mapbox_1" class="mapbox" style="height:220px; width:196px; position:relative; display:block; margin-top:27px; margin-left:40px; z-index:20; opacity:0;"/>
+                <img src="images/map/box_usa.png" id="mapbox_1" class="mapbox" style="height:220px; width:196px; position:relative; display:block; margin-top:27px; margin-left:40px; z-index:20; opacity:0;"/>    
+          
+            </div> --> 
+            <div class="flood_map" style="margin-bottom:-400px; margin-top:100px; z-index:10;">
+            	<img src="images/map-01.png"/>
+                <div class="button_map" id="mapbox_1" style=" position:relative; top:-257px; left:230px;"></div>
+                <div class="button_map" id="mapbox_2" style="position:relative; top:-125px; left:353px;"></div>
+                <div class="button_map" id="mapbox_3" style="position:relative; top:-360px; left:468px;"></div>
+                <div class="button_map" id="mapbox_4" style="position:relative; top:-340px; left:508px;"></div>
+                <div class="button_map" id="mapbox_5" style="position:relative; top:-175px; left:906px;"></div>
+                <div class="button_map" id="mapbox_6" style="position:relative; top:-340px; left:696px;"></div>
+                <div class="button_map" id="mapbox_7" style="position:relative; top:-240px; left:585px;"></div>
+                <img src="images/map/box_usa.png" id="mapbox_1" class="mapbox" style="height:220px; width:196px; position:relative; display:block; top:-520px; left:34px; z-index:20; opacity:0;"/>
+                <img src="images/map/box_brazil.png" id="mapbox_2" class="mapbox" style="height:220px; width:196px; position:relative; display:block; top:-585px; left:158px; z-index:20; opacity:0;"/>
+                <img src="images/map/box_uk.png" id="mapbox_3" class="mapbox" style="height:220px; width:196px; position:relative; display:block; top:-1020px; left:274px; z-index:20; opacity:0;"/>
+                
+                <img src="images/map/box_moz.png" id="mapbox_7" class="mapbox" style="height:220px; width:196px; position:relative; display:block; top:-1012px; left:390px; z-index:20; opacity:0;"/>
+                 <img src="images/map/box_italy.png" id="mapbox_4" class="mapbox" style="height:220px; width:196px; position:relative; display:block; top:-1482px; left:528px; z-index:20; opacity:0;"/>
+                 <img src="images/map/box_india.png" id="mapbox_6" class="mapbox" style="height:220px; width:196px; position:relative; display:block; top:-1460px; left:608px; z-index:20; opacity:0;"/>
+                 <img src="images/map/box_aus.png" id="mapbox_5" class="mapbox" style="height:220px; width:196px; position:relative; display:block; top:-1773px; left:813px; z-index:20; opacity:0;"/>
+            </div>
+        </section>
+<!-- RIVER FLOOD MANAGEMENT -->    	
+        <section id="management" style="height:800px;">
+        	<div class="divisor"><img src="images/divisor_white.png"/></div>
+        	<img src="images/ingranaggi.gif" style="margin:auto auto; position:relative; width:500px; height:350px; display:block; margin-top:150px;"/>
+            <div class="exp_div_cent" style="width:1000px;">
+            	<p class="exp_title" style="width:300px; margin:auto auto;">is there a solution?</p>
+                <p class="exp_par" style="width:460px; margin:auto auto;">
+               River flood management assumes that it is necessary to learn to live with floods as best, reducing their speed, size and duration. There are different methods.</p>
+            </div>
+        </section>    
+<!-- HARD ENGINEERING SOFT ENGINEERING -->    	
+        <section id="hardsoft" style="height:800px;">
+            <table id="hardsofteng" style="padding-top:200px;" cellpadding="0" cellspacing="0">
+            	<tr>
+            		<td style="width:500px;"><p class="exp_title">hard engineering</p></td>
+                	<td style="width:500px;"><p class="exp_title" style="text-align:right;">soft engineering</p></td>
+                </tr>
+                <tr>
+                	<td><p class="exp_par" style=" width:250px;">Hard engineering is defined as controlled disruption of natural processes by using man-made structures.</p></td>
+                    <td><p class="exp_par" style="text-align:right; width:280px; float:right;">Soft engineering uses ecological principles and practices to achieve the stabilization and safety of the rivers.</p></td>
+                </tr>
+        	</table>
+            <div class="exp_div_cent"><img src="images/joystick.gif" style="margin:auto; height:468px; width:360px; top:-250px; position:relative;"/></div>
+        </section> 
+<!-- WHO IS INVOLVED? --> 
+		<section id="involved" style="height:1200px;">
+        	<div class="exp_div_cent" style="padding-top:150px;">
+            	<p class="exp_title" style="width:300px;; margin:auto auto;">who is involved?</p>
+                <p class="exp_par" style="width:300px;; margin:auto auto;">River engineering is widely discussed, because it concerns many sectors of the community.</p>
+                <p class="exp_description" style="width:300px;; margin:20px auto;">Click on the balls to see who is involved in the discussion. The dimensions of the balls are related to the presence of each category in the web debate.</p>
+            </div>
+            <div style="height:300px; width:1000px; margin:auto;">
+                    <div class="exp_ball" id="exp_media" style="background-color:#006837; height:34px; width:34px; border-radius:18px; left:574px; bottom:-75px;"></div>
+                    <div class="exp_ball" id="exp_blog" style="background-color:#EC1C24; height:46px; width:46px; border-radius:24px; left:410px; top:205px;"></div>
+                    <div class="exp_ball" id="exp_org" style="background-color:#FEED4C; height:137px; width:137px; border-radius:69px; left:325px; top:45px;"></div>
+                    <div class="exp_ball" id="exp_com" style="background-color:#774595; height:70px; width:70px; border-radius:36px; left:436px; top:118px;"></div>
+                    <div class="exp_ball" id="exp_fac" style="background-color:#00A89C; height:102px; width:102px; border-radius:52px; left:245px; top:153px;"></div>
+                    <div class="exp_ball" id="exp_gov" style="background-color:#EF7F38; height:134px; width:134px; border-radius:68px; left:-130px; top:100px;"></div>
+            </div>
+            
+            <table style="width:1140px; margin:auto; position:relative; display:block; padding-top:30px;" cellpadding="0" cellspacing="0">
+            	<tr style="height:80px">
+                	<td class="actors_img_cell">
+                    	<img id="exp_blog" class="actors_img" src="images/actors_icon/blogger.png" style="margin:auto;">
+                    </td>
+                    <td class="actors_img_cell">
+                    	<img id="exp_media" class="actors_img" src="images/actors_icon/media.png" style="margin:auto;">
+                    </td>
+                    <td class="actors_img_cell">
+                    	<img id="exp_gov" class="actors_img" src="images/actors_icon/governative.png" style="margin:auto;">
+                    </td>
+                    <td class="actors_img_cell">
+                    	<img id="exp_com" class="actors_img" src="images/actors_icon/company.png" style="margin:auto;">
+                    </td>
+                    <td class="actors_img_cell">
+                    	<img id="exp_fac" class="actors_img" src="images/actors_icon/faculty.png" style="margin:auto;">
+                    </td>
+                    <td class="actors_img_cell">
+                    	<img id="exp_org" class="actors_img" src="images/actors_icon/organization.png" style="margin:auto;">
+                    </td>
+                </tr>
+                <tr>
+                	<td class="actors_tit_cell">
+                    	<p id="exp_blog" class="actors_tit">blogger</p>
+                    </td>
+                    <td class="actors_tit_cell">
+                    	<p id="exp_media" class="actors_tit">media</p>
+                    </td>
+                    <td class="actors_tit_cell">
+                    	<p id="exp_gov" class="actors_tit">government</p>
+                    </td>
+                    <td class="actors_tit_cell">
+                    	<p id="exp_com" class="actors_tit">company</p>
+                    </td> 
+                    <td class="actors_tit_cell">
+                    	<p id="exp_fac" class="actors_tit">faculty</p>
+                    </td>
+                    <td class="actors_tit_cell">
+                    	<p id="exp_org" class="actors_tit">organization</p>
+                    </td>
+                </tr>
+                <tr>
+                	<td class="actors_par_cell">
+                    	<p id="exp_blog" class="actors_par">People who post online articles about the topic, expressing their opinion.</p>
+                    </td>
+                    <td class="actors_par_cell">
+                    	<p id="exp_media" class="actors_par">Print, broadcast and digital media that transmit and store information.</p>
+                    </td>
+                    <td class="actors_par_cell">
+                    	<p id="exp_gov" class="actors_par">The executive in control of a state who dispose founds and policy. </p>
+                    </td>
+                    <td class="actors_par_cell">
+                    	<p id="exp_com" class="actors_par">Privately owned associations involved in the trade of goods and services to customers. </p>
+                    </td>
+                    <td class="actors_par_cell">
+                    	<p id="exp_fac" class="actors_par">Schools, universities and their academic staff, such as professors or students.</p>
+                    </td>
+                    <td class="actors_par_cell">
+                    	<p id="exp_org" class="actors_par">Social entities that have collective goals and are linked to the external environment. </p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+ <!-- COMPARING OPINIONS -->    	
+        <section id="comparing" style="height:850px;">
+           	<div class="exp_div_cent">
+            	<p class="exp_title" style="text-align:center; margin:auto; position:relative; display:block; padding-top:100px;">comparing web opinions</p>
+                <p class="exp_description" style="width:250px;; margin:20px auto;">What do people say about engineering techniques? Click on the legend to discover the position of the various categories. Each ball represent 1 website.</p>
+            </div>
+            <div style="width:1000px; height:270px; margin:80px auto 0 auto;">
+            	<div style="width:200px; float:left;">
+                	<p class="opinion_abaco">only <b>con</b> soft</p>
+                	<p class="opinion_abaco">only <b>pro</b> hard</p>
+                    <p class="opinion_abaco"><b>pro</b> hard & <b>pro</b> soft</p>
+                    <p class="opinion_abaco">only <b>pro</b> soft</p>
+                    <p class="opinion_abaco"><b>pro</b> soft & <b>con</b> hard</p>
+                    <p class="opinion_abaco">only <b>con</b> hard</p>
+                    <p class="opinion_abaco">neutral</p>
+                </div>
+                <div style="background-image:url(images/opinions/base.png); background-repeat:no-repeat; width:600px; height:270px; display:block; float:left;">
+                	<img id="abaco_media_button" src="images/opinions/media.png" style="position:static; margin-top:0px; float:left; opacity:0;"/>
+                	<img id="abaco_blog_button" src="images/opinions/blogger.png" style="position:static; margin-top:-270px; float:left; opacity:0;"/>
+                	<img id="abaco_gov_button" src="images/opinions/governative.png" style="position:static; margin-top:-270px; float:left; opacity:0;"/>
+                	<img id="abaco_fac_button" src="images/opinions/faculty.png" style="position:static; margin-top:-270px; float:left; opacity:0;"/>
+                	<img id="abaco_com_button" src="images/opinions/company.png" style="position:static; margin-top:-270px; float:left; opacity:0;"/>
+                	<img id="abaco_org_button" src="images/opinions/organization.png" style="position:static; margin-top:-270px; float:left; opacity:0;"/>
+                </div>
+                
+            </div>
+            <table style="width:1000px; margin:auto; padding-top:50px;">
+            	<tr id="actors_press" style="width:1000px;">
+                	<td style="width:260px;"></td>
+                	<td class="actors_legend_cell"><div class="abaco_leg_but" id="abaco_media_button" style="background-color:#006837;"></div></td>
+                    <td class="actors_legend_cell"><div class="abaco_leg_but" id="abaco_blog_button" style="background-color:#EC1C24;"></div></td>
+                    <td class="actors_legend_cell"><div class="abaco_leg_but" id="abaco_org_button" style="background-color:#FEED4C;"></div></td>
+                    <td class="actors_legend_cell"><div class="abaco_leg_but" id="abaco_com_button" style="background-color:#774595;"></div></td>
+                    <td class="actors_legend_cell"><div class="abaco_leg_but" id="abaco_fac_button" style="background-color:#00A89C;"></div></td>
+                    <td class="actors_legend_cell"><div class="abaco_leg_but" id="abaco_gov_button" style="background-color:#EF7F38;"></div></td>
+                    <td style="width:260px;"></td>
+                </tr>
+                <tr id="actors_press" style="width:1000px;">
+                	<td style="width:260px;"></td>
+                	<td class="actors_legend_cell"><p id="abaco_media_button" class="abaco_leg_exp">media</p></td>
+                    <td class="actors_legend_cell"><p id="abaco_blog_button" class="abaco_leg_exp">blogger</p></td>
+                    <td class="actors_legend_cell"><p id="abaco_org_button" class="abaco_leg_exp">organization</p></td>
+                    <td class="actors_legend_cell"><p id="abaco_com_button" class="abaco_leg_exp">company</p></td>
+                    <td class="actors_legend_cell"><p id="abaco_fac_button" class="abaco_leg_exp">faculty</p></td>
+                    <td class="actors_legend_cell"><p id="abaco_gov_button" class="abaco_leg_exp">goverment</p></td>
+                    <td style="width:260px;"></td>
+                </tr>
+                
+            </table>
+        </section> 
+<!-- AND NOW --> 
+		<section id="andnow" style="height:800px;">
+        		<div class="exp_div_cent">
+                	<p class="exp_title" style="top:100px;">and now...</p>
+                    <p class="exp_title" style="top:250px;">imagine your hometown.</p>
+                    <p class="exp_title" style="top:250px;">how would you protect it from floods?</p>
+                    <p class="exp_par" style="top:400px;">Scroll down to make your choice!</p>
+                </div>
+        </section>
+<!-- INTERACTIVE MAP -->   
+		<section id="interactive" style="height:1050px;">
+        	<div class="divisor"><img src="images/divisor_blue.png"/></div>
+            <table style="width:1000px; margin:auto; padding-top:100px;" cellpadding="0" cellspacing="0">
+            	<tr>
+                	<td style="width:175px;"></td>
+                    <td class="inter_tab_cell1"></td>
+                	<td class="inter_tab_cell1"><p class="inter_tit">hard</p></td>
+                    <td class="inter_tab_cell1"></td>
+                    <td style="width:200px;"><p class="inter_tit">both</p></td>
+                    <td style="width:180px;"><p class="inter_tit">soft</p></td>
+                    <td style="width:175px;"></td>
+                 </tr>
+             </table>
+        	<table style="width:1000px; margin:auto;" cellpadding="0" cellspacing="0">
+            	
+                 <tr>
+                	<td style="width:175px;"></td>
+                    <td class="inter_tab_cell2"><p id="dam_but" class="inter_tech">Dam</p></td>
+                	<td class="inter_tab_cell2"><p id="channel_but" class="inter_tech">Channel</p></td>
+                    <td class="inter_tab_cell2"><p id="levee_but" class="inter_tech">Levee</p></td>
+                    <td style="width:200px;"><p id="combo_but" class="inter_tech">Combination</p></td>
+                    <td class="inter_tab_cell2"><p id="affor_but" class="inter_tech">Afforestation</p></td>
+                    <td class="inter_tab_cell2"><p id="wash_but" class="inter_tech">Washland</p></td>
+                    <td style="width:175px;"></td>
+                 </tr>
+                 <tr>
+                	<td style="width:175px;"></td>
+                    <td class="inter_tab_cell2"><div id="dam_but" class="inter_but"></div></td>
+                    <td class="inter_tab_cell2"><div id="channel_but" class="inter_but"></div></td>
+                    <td class="inter_tab_cell2"><div id="levee_but" class="inter_but"></div></td>
+                    <td style="width:200px;"><div id="combo_but" class="inter_but"></div></td>
+                    <td class="inter_tab_cell2"><div id="affor_but" class="inter_but"></div></td>
+                    <td class="inter_tab_cell2"><div id="wash_but" class="inter_but"></div></td>
+                    <td style="width:175px;"></td>
+                 </tr>
+            </table>
+            <img id="base_but" class="ace" src="images/interaction/base_int.png" style="width:100%; min-width:1000px; position:relative;"/>
+            <img id="affor_but" class="ace" src="images/interaction/afforestation.png" style="width:100%; min-width:1000px; position:relative; display:none;"/>
+            <img id="dam_but" class="ace" src="images/interaction/dam.png" style="width:100%; min-width:1000px; position:relative; display:none;"/>
+            <img id="channel_but" class="ace" src="images/interaction/channelisation.png" style="width:100%; min-width:1000px; position:relative; display:none;"/>
+            <img id="levee_but" class="ace" src="images/interaction/embankment.png" style="width:100%; min-width:1000px; position:relative; display:none;"/>
+            <img id="wash_but" class="ace" src="images/interaction/washland.png" style="width:100%; min-width:1000px; position:relative; display:none;"/>
+            <img id="combo_but" class="ace" src="images/interaction/combo.png" style="width:100%; min-width:1000px; position:relative; display:none;"/>
+            <div class="info_box" id="affor_but" style="background-image:url(images/interaction/aff_exp.png);"></div>
+            <div class="info_box" id="dam_but" style="background-image:url(images/interaction/dam_exp.png);"></div>
+            <div class="info_box" id="combo_but" style="background-image:url(images/interaction/combo_exp.png);"></div>
+            <div class="info_box" id="channel_but" style="background-image:url(images/interaction/channel_exp.png);"></div>
+            <div class="info_box" id="wash_but" style="background-image:url(images/interaction/wash_exp.png);"></div>
+            <div class="info_box" id="levee_but" style="background-image:url(images/interaction/levee_exp.png);"></div>
+        </section>
+<!-- END --> 
+		<section id="end" style="height:800px;">
+        	<div class="divisor"><img src="images/divisor_white.png"/></div>
+        	<div class="exp_div_cent">
+                
+            	<p class="exp_par" style="top:200px; width:350px; margin:auto;">Many people talk about it, and each solution has its advantages and disadvantages. And now you understand how difficult it is to find a worldwide accepted solution for flood protection.</p>
+                <p class="exp_title" style="top:300px;">you can make your choice :-)</p>
+            </div>
+        </section> 
+<!-- MORE -->          
+        <section id="more" style="height:800px">
+        	<div class="exp_div_cent">
+        		<p class="exp_title">find more about...</p>
+                <img src="images/info.png"/>
+            </div>
+      
+        </section>
+<!-- footer -->         
+		<section id="credits" style="height:600px;">
+        	<div class="divisor"><img src="images/divisor_blue.png"/></div>
+        	<div class="exp_div_cent" style="top:150px;">
+        		<p class="exp_par" style="font-weight:400">Designed by Sixsixsiz Group</p>
+        		<p class="exp_par" style="width:500px; margin:auto; top:50px;">Clara Giacalone, Chiara Maffessanti, Ylenia Micci, Iolanda Piccinini, Annalinda Ruocco, Alice Tavernini
+        		
+               <p class="exp_par" style="font-weight:400; top:50px;">DensityDesign Lab. <br>Laboratorio di Sintesi Finale 2013-2014</p>
+        	</div>
+        </section>
+                                   
+</body>
+</html>

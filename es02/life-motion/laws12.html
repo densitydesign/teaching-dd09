@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html class="html">
+ <head>
+
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="7.2.232.244"/>
+  <title>Laws12</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?397963719"/>
+  <link rel="stylesheet" type="text/css" href="css/laws12.css?269469394" id="pagesheet"/>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   document.documentElement.className += ' js';
+</script>
+   </head>
+ <body>
+
+  <div class="clearfix" id="page"><!-- group -->
+   <a class="nonblock nontext clip_frame grpelem" id="u10635" href="index.html#dodici" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0,M12=-1,M21=1,M22=0,SizingMethod='auto expand')" data-mu-ie-matrix-dx="39" data-mu-ie-matrix-dy="-39"><!-- image --><img class="block" id="u10635_img" src="images/freccia.png" alt="" width="108" height="31"/></a>
+   <div class="clearfix grpelem" id="ppu10639"><!-- column -->
+    <div class="clearfix colelem" id="pu10639"><!-- group -->
+     <div class="clip_frame grpelem" id="u10639"><!-- image -->
+      <img class="block" id="u10639_img" src="images/laws.png" alt="" width="91" height="77"/>
+     </div>
+     <a class="nonblock nontext museBGSize grpelem" id="u10637" href="author12.html#author12"><!-- simple frame --></a>
+    </div>
+    <div class="clearfix colelem" id="plaws12"><!-- group -->
+     <a class="anchor_item grpelem" id="laws12"></a>
+     <div class="grpelem" id="u11322"><!-- custom html -->
+      <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.css' rel='stylesheet' />
+
+<style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:100%; }
+</style>
+</head>
+<body>
+
+
+<div id='map'></div>
+<script>
+var map = L.mapbox.map('map', 'nocicettori.hak9djac', {
+    // disable default double-click behavior
+    doubleClickZoom: false
+})
+.setView([43, 0], 2)
+// zoom exactly to each double-clicked point
+.on('dblclick', function(e) {
+    map.setView(e.latlng, map.getZoom() + 1);
+});
+
+map.touchZoom.disable();
+map.doubleClickZoom.disable();
+map.scrollWheelZoom.disable();
+// disable tap handler, if present.
+if (map.tap) map.tap.disable();
+
+var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#EF7B60',
+        		title: '<strong><font color=#EF7B60><font size="4">ALBANIA</font></strong><br>',
+                description: '<font color=#000000><strong>Abortion Law n. 8045</strong><br><p style="line-height: 100%;"><em> 1995</em></p></font>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [20, 41]
+            }
+        }]
+    })
+    .addTo(map);
+
+var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#EF7B60',
+        		title: '<strong><font color=#EF7B60><font size="4">ARMENIA</font></strong><br>',
+                description: '<font color=#000000><p style="line-height: 100%;"><strong>Law on Reproductive Health and Reproductive Rights</strong></p><p style="line-height: 100%;"><em>2002</em></p><p style="line-height: 120%;"><font size="2">1. Every woman has the right to have an abortion <br>2. Abortion is permitted up to 12 weeks, depending of woman’s will. </p> </font><a href="http://www.hsph.harvard.edu/population/abortion/ARMENIA.abo.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [45, 40]
+            }
+        }]
+    })
+    .addTo(map);
+
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+
+var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#EF7B60',
+        		title: '<strong><font color=#EF7B60><font size="4">AUSTRIA</font></strong><br>',
+                description: '<font color=#000000><p style="line-height: 100%;"><strong>Federation Law</strong></p><p style="line-height: 100%;"><em>1974</em></p><p style="line-height: 120%;"><font size="2">An act is not liable to punishment where the abortion is performed by a physician during the first three months from the beginning of the pregnancy after a previous medical consultation.</p></font><a href="http://www.hsph.harvard.edu/population/abortion/Austria.abo.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [15, 47.5]
+            }
+        }]
+    })
+    .addTo(map);   
+
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+
+var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#EF7B60',
+        		title: '<strong><font color=#EF7B60><font size="4">AZERBAIJAN</font></strong><br>',
+                description: '<font color=#000000><p style="line-height: 100%;"><strong>Law on protection of public health</strong></p><p style="line-height: 100%;"><em>2003</em></p><p style="line-height: 120%;"><font size="2">Every woman has the right to decide indipendently about motherhood. The abortion can be performed on a woman&#8217s request until to 12 weeks of gestation.</p></font><a href="http://www.hsph.harvard.edu/population/abortion/AZERBAIJAN.abo.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [47, 40]
+            }
+        }]
+    })
+    .addTo(map); 
+
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+
+var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#EF7B60',
+        		title: '<strong><font color=#EF7B60><font size="4">BELGIUM</font></strong><br>',
+                description: '<font color=#000000><p style="line-height: 100%;"><strong>Crimes against family and the Order against public morality</strong></p><p style="line-height: 100%;"><em>1990</em></p><p style="line-height: 120%;"><font size="2">It will not be crime for making an abortion in case of request of a pregnant woman and if this interruption of pregnancy is practiced with the conditions that the abortion could be made before the end of the 12th week after conception.</p></font><a href="http://www.hsph.harvard.edu/population/abortion/Belgium.abo.html" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [4, 51]
+            }
+        }]
+    })
+    .addTo(map); 
+
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+    
+ var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#EF7B60',
+        		title: '<strong><font color=#EF7B60><font size="4">BULGARIA</font></strong><br>',
+                description: '<font color=#000000><p style="line-height: 100%;"><strong>Decree n. 2 of on the conditions and procedures for the artificial termination of pregnancy </strong></p><p style="line-height: 100%;"><em>1990</em></p><p style="line-height: 120%;"><font size="2">Abortion on request. Any pregnant woman is entitled to an abortion on request if her pregnancy is of not more than 12 weeks gestation.</p></font><a href="http://www.hsph.harvard.edu/population/abortion/BULGARIA.abo.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [25, 43]
+            }
+        }]
+    })
+    .addTo(map); 
+                
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+
+ var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#EF7B60',
+        		title: '<strong><font color=#EF7B60><font size="4">HUNGARY</font></strong><br>',
+                description: '<font color=#000000><p style="line-height: 100%;"><strong>Act n. 79 on the protection of fetal life </strong></p><p style="line-height: 100%;"><em>1992</em></p><p style="line-height: 120%;"><font size="2">A pregnancy can be interrupted on woman’s request if the pregnancy has not progressed beyond 12 weeks.</p></font><a href="http://www.hsph.harvard.edu/population/abortion/HUNGARY.abo.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [20, 47]
+            }
+        }]
+    })
+    .addTo(map); 
+
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+                
+  var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#EF7B60',
+        		title: '<strong><font color=#EF7B60><font size="4">GREECE</font></strong><br>',
+                description: '<font color=#000000><p style="line-height: 100%;"><strong>Law n. 1609</strong></p><p style="line-height: 100%;"><em>1986</em></p><p style="line-height: 120%;"><font size="2">A voluntary termination of pregnancy, carried out with the consent of the woman by an obstetrician or gynaecologist, assisted by an anaesthetist, in a comprehensive care unit shall not constitute an offence if the pregnancy has not progressed beyond 12 weeks.</p></font><a href="http://www.hsph.harvard.edu/population/abortion/HUNGARY.abo.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [22, 39]
+            }
+        }]
+    })
+    .addTo(map);
+
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+
+  var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#EF7B60',
+        		title: '<strong><font color=#EF7B60><font size="4">ESTONIA</font></strong><br>',
+                description: '<font color=#000000><p style="line-height: 100%;"><strong>Abortion and sterilization</strong></p><p style="line-height: 100%;"><em>2008</em></p><p style="line-height: 120%;"><font size="2">A pregnancy can be interrupted if it do not last from more than 12 weeks.</p></font><a href="http://www.hsph.harvard.edu/population/abortion/ESTONIA.abo.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [26, 59]
+            }
+        }]
+    })
+    .addTo(map);    
+
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+ 
+  var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#EF7B60',
+        		title: '<strong><font color=#EF7B60><font size="4">DENMARK</font></strong><br>',
+                description: '<font color=#000000><p style="line-height: 100%;"><strong>Health Act, Law n. 546</strong></p><p style="line-height: 100%;"><em>2008</em></p><p style="line-height: 120%;"><font size="2">A woman may without authorization have her pregnancy terminated when the procedure can be carried out before the end of the 12th week of pregnancy and the woman after maintains her desire for the termination of pregnancy.</p></font><a href="http://www.hsph.harvard.edu/population/abortion/DENMARK.abo.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [9, 56]
+            }
+        }]
+    })
+    .addTo(map); 
+ 
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+}); 
+                      
+  var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#EF7B60',
+        		title: '<strong><font color=#EF7B60><font size="4">CZECH REPUBLIC</font></strong><br>',
+                description: '<font color=#000000><p style="line-height: 100%;"><strong>Abortion Law</strong></p><p style="line-height: 100%;"><em>1987</em></p><p style="line-height: 120%;"><font size="2">Abortion is permitted up to 12 weeks since last menstrual period on request, on health grounds, in case of rape or other sexual crime.</p></font><a href="http://www.hsph.harvard.edu/population/abortion/CZECHREPUBLIC.abo.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [15, 49]
+            }
+        }]
+    })
+    .addTo(map); 
+
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+
+  var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#EF7B60',
+        		title: '<strong><font color=#EF7B60><font size="4">CAMBODIA</font></strong><br>',
+                description: '<font color=#000000><p style="line-height: 100%;"><strong>Kram on abortion</strong></p><p style="line-height: 100%;"><em>1997</em></p><p style="line-height: 120%;"><font size="2">Abortion may only be carried out for fetuses that are under 12 weeks old.</p></font><a href="http://www.hsph.harvard.edu/population/abortion/CAMBODIA.abo.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [105, 13]
+            }
+        }]
+    })
+    .addTo(map); 
+
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+    
+  var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#EF7B60',
+        		title: '<strong><font color=#EF7B60><font size="4">NORWAY</font></strong><br>',
+                description: '<font color=#000000><p style="line-height: 100%;"><strong>Law n. 50 on the termination of pregnancy</strong></p><p style="line-height: 100%;"><em>2009</em></p><p style="line-height: 120%;"><font size="2">The woman considers that she still is unable to take the pregnancy to term, she shall personally reach a final decision to terminate the pregnancy provided that the operation may be performed before the end of the 12th week of pregnancy and there are no serious medical arguments weighing against it.</p></font><a href="http://www.hsph.harvard.edu/population/abortion/norway.abo.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [10, 62]
+            }
+        }]
+    })
+    .addTo(map); 
+
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+
+  var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#EF7B60',
+        		title: '<strong><font color=#EF7B60><font size="4">SOUTH AFRICA</font></strong><br>',
+                description: '<font color=#000000><p style="line-height: 100%;"><strong>Choice on Termination of Pregnancy Amendment Act</strong></p><p style="line-height: 100%;"><em>2008</em></p><p style="line-height: 120%;"><font size="2">A pregnancy may be terminated upon request of a woman during the first 12 weeks of the gestation period of her pregnancy.</p></font><a href="http://www.hsph.harvard.edu/population/abortion/SOUTHAFRICA.abo.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [24, -29]
+            }
+        }]
+    })
+    .addTo(map); 
+
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+    
+  var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#EF7B60',
+        		title: '<strong><font color=#EF7B60><font size="4">ITALY</font></strong><br>',
+                description: '<font color=#000000><p style="line-height: 100%;"><strong>Law n. 194 </strong></p><p style="line-height: 100%;"><em>1978</em></p><p style="line-height: 120%;"><font size="2">In order to undergo termination of pregnancy during the first 90 days, women whose situation is such that continuation of the pregnancy, childbirth, or motherhood would seriously endanger their physical or mental health, in view of their state of health, their economic, social, or family circumstances, the circumstances in which conception occurred, or the probability that the child would be born with abnormalities or malformations, shall apply to a public counselling centre established or to a fully authorized medicosocial agency in the region, or to a physician of her choice.</p></font><br><a href="http://www.hsph.harvard.edu/population/abortion/ITALY.abo.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [12, 42.5]
+            }
+        }]
+    })
+    .addTo(map); 
+
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+        
+  var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#EF7B60',
+        		title: '<strong><font color=#EF7B60><font size="4">LATVIA</font></strong><br>',
+                description: '<font color=#000000><p style="line-height: 100%;"><strong>Cabinet Regulation n. 590 on the Organizational Procedures for the Termination of Pregnancy</strong></p><p style="line-height: 100%;"><em>2003</em></p><p style="line-height: 120%;"><font size="2">The termination of a pregnancy at a woman&#8217s request is an artificial termination of pregnancy upon the request of a woman prior the 12th week of the pregnancy.</p></font><a href="http://www.hsph.harvard.edu/population/abortion/LATVIA.abo.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [25, 57]
+            }
+        }]
+    })
+    .addTo(map); 
+
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+    
+  var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#EF7B60',
+        		title: '<strong><font color=#EF7B60><font size="4">TUNISIA</font></strong><br>',
+                description: '<font color=#000000><p style="line-height: 100%;"><strong>Abortion law</strong></p><p style="line-height: 100%;"><em>1973</em></p></font>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [9, 34]
+            }
+        }]
+    })
+    .addTo(map); 
+
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+
+  var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#EF7B60',
+        		title: '<strong><font color=#EF7B60><font size="4">LUXEMBOURG</font></strong><br>',
+                description: '<font color=#000000><p style="line-height: 100%;"><strong>Art. 353</strong></p><p style="line-height: 100%;"><em>1978</em></p><p style="line-height: 120%;"><font size="2">It will not punishable a voluntary termination of pregnancy during the first 12 weeks gestation.</p></font><a href="http://www.hsph.harvard.edu/population/abortion/LUXEMBOURG.abo.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [6, 49.7]
+            }
+        }]
+    })
+    .addTo(map); 
+
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+
+  var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#EF7B60',
+        		title: '<strong><font color=#EF7B60><font size="4">LITHUANIA</font></strong><br>',
+                description: '<font color=#000000><p style="line-height: 100%;"><strong>Order n. 50 of the Ministry of Health on abortion procedures </strong></p><p style="line-height: 100%;"><em>1994</em></p><p style="line-height: 120%;"><font size="2">On request by a woman, the termination of pregnancy is permitted up to 12 weeks gestation, if there are no contraindications for this operation.</p></font><a href="http://www.hsph.harvard.edu/population/abortion/LITHUANIA.abo.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [24, 55]
+            }
+        }]
+    })
+    .addTo(map);     
+
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+        
+  var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#EF7B60',
+        		title: '<strong><font color=#EF7B60><font size="4">SWITZERLAND</font></strong><br>',
+                description: '<font color=#000000><p style="line-height: 100%;"><strong>Amendment of the Penal Code </strong></p><p style="line-height: 100%;"><em>2002</em></p><p style="line-height: 120%;"><font size="2">Abortion is not punishable if it is requested by the woman pregnant and if it is practiced by a physician until to the 12th week from last menstrual period.</p></font><a href="http://www.hsph.harvard.edu/population/abortion/SWITZERLAND.abo.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [8, 47]
+            }
+        }]
+    })
+    .addTo(map);   
+
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+    
+   var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#EF7B60',
+        		title: '<strong><font color=#EF7B60><font size="4">MONGOLIA</font></strong><br>',
+                description: '<font color=#000000><p style="line-height: 100%;"><strong>Decree n. 200, Amendment to the Health Law </strong></p><p style="line-height: 100%;"><em>1989</em></p><p style="line-height: 120%;"><font size="2">To become a mother is a matter of women and lies on their own decision. Within the first 3 months of a pregnancy by women&#8217s request.</p></font><a href="http://www.hsph.harvard.edu/population/abortion/MONGOLIA.abo.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [105, 46]
+            }
+        }]
+    })
+    .addTo(map);  
+
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+       
+   var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#EF7B60',
+        		title: '<strong><font color=#EF7B60><font size="4">KAZAKHSTAN</font></strong><br>',
+                description: '<font color=#000000><p style="line-height: 100%;"><strong>Law on Health </strong></p><p style="line-height: 100%;"><em>2009</em></p><p style="line-height: 120%;"><font size="2">Abortion can be performed on woman’s request in case of pregnancies from 20 days from the last menstrual period until to the 12th week gestation.</p></font><a href="http://www.hsph.harvard.edu/population/abortion/KAZAKHSTAN.abo.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [68, 48]
+            }
+        }]
+    })
+    .addTo(map); 
+
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+
+   var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#EF7B60',
+        		title: '<strong><font color=#EF7B60><font size="4">MOLDOVA</font></strong><br>',
+                description: '<font color=#000000><p style="line-height: 100%;"><strong>Law n. 411 on health</strong></p><p style="line-height: 100%;"><em>1995</em></p><p style="line-height: 120%;"><font size="2">It is allowed women to decide personally about motherhood. The termination of pregnancy it is permitted up to the end of the 12th weeks and it must be performed only by physician.</p></font><a href="http://www.hsph.harvard.edu/population/abortion/MOLDOVA.abo.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [29, 47]
+            }
+        }]
+    })
+    .addTo(map); 
+
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+
+   var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#EF7B60',
+        		title: '<strong><font color=#EF7B60><font size="4">RUSSIA</font></strong><br>',
+                description: '<font color=#000000><p style="line-height: 100%;"><strong>Law n. 5487 on Fundamentals of Russian Federation Legislation on Public Health Care</strong></p><p style="line-height: 100%;"><em>1993</em></p><p style="line-height: 120%;"><font size="2">Every woman has the right to decide independently the question of motherhood.  Artificial abortions are performed at a woman&#8217s request within the first 12 weeks of the gestation period.</p></font><a href="http://www.hsph.harvard.edu/population/abortion/RUSSIANFEDERATION.abo.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [100, 60]
+            }
+        }]
+    })
+    .addTo(map); 
+
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+
+   var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#EF7B60',
+        		title: '<strong><font color=#EF7B60><font size="4">SLOVAKIA</font></strong><br>',
+                description: '<font color=#000000><p style="line-height: 100%;"><strong>Law on abortion n. 419</strong></p><p style="line-height: 100%;"><em>1991</em></p><p style="line-height: 120%;"><font size="2">A pregnancy shall be artificially terminated if the woman makes a written request to this effect, the pregnancy has not passed the 12th week, and there are no contraindications on health grounds.</p></font><a href="http://www.hsph.harvard.edu/population/abortion/SLOVAKIA.abo.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [19, 48]
+            }
+        }]
+    })
+    .addTo(map); 
+
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+
+   var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#EF7B60',
+        		title: '<strong><font color=#EF7B60><font size="4">ALASKA</font></strong><br>',
+                description: '<font color=#000000><p style="line-height: 100%;"><strong>7 AAC 12.370</strong></p><p style="line-height: 100%;"><em>1997</em></p><p style="line-height: 120%;"><font size="2">An ambulatory surgical facility may perform a voluntary termination of pregnancy if the pregnancy has not exceeded the first trimester of approximately three months or less.</p></font><a href="http://www.hsph.harvard.edu/population/abortion/US.abortionlaws/ALASKA1.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [-152, 63]
+            }
+        }]
+    })
+    .addTo(map); 
+
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+    
+   var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#EF7B60',
+        		title: '<strong><font color=#EF7B60><font size="4">UKRAINE</font></strong><br>',
+                description: '<font color=#000000><p style="line-height: 100%;"><strong>Abortion Law</strong></p><p style="line-height: 100%;"><em>1995</em></p></font>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [32, 49]
+            }
+        }]
+    })
+    .addTo(map); 
+
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+    
+   var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#EF7B60',
+        		title: '<strong><font color=#EF7B60><font size="4">URUGUAY&nbsp  &nbsp</font></strong><br>',
+                description: '<font color=#000000><p style="line-height: 100%;"><strong>Abortion Law</strong></p><p style="line-height: 100%;"><em>2011</em></p></font>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [-56, -33]
+            }
+        }]
+    })
+    .addTo(map); 
+
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+                
+   var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#EF7B60',
+        		title: '<strong><font color=#EF7B60><font size="4">KENTUCKY</font></strong><br>',
+                description: '<font color=#000000><p style="line-height: 100%;"><strong>Minimum standards for performance of abortion </strong></p><p style="line-height: 100%;"><em>1998</em></p><p style="line-height: 120%;"><font size="2">An abortion may be performed only during the first trimester of pregnancy by a woman upon herse, if upon the advice of a licensed physician or by a licensed physician.</p></font><a href="http://www.hsph.harvard.edu/population/abortion/US.abortionlaws/Kentuck1.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [-84, 37]
+            }
+        }]
+    })
+    .addTo(map);  
+
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+
+   var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#EF7B60',
+        		title: '<strong><font color=#EF7B60><font size="4">FRANCE</font></strong><br>',
+                description: '<font color=#000000><p style="line-height: 100%;"><strong>Public Health Code</strong></p><p style="line-height: 100%;"><em>2009</em></p><p style="line-height: 120%;"><font size="2">Pregnant woman whose condition in a situation of distress may ask a doctor to terminate her pregnancy. This interruption may be performed before the end of the 12th week of pregnancy.</font></p><a href="http://www.hsph.harvard.edu/population/abortion/FRANCE.abo.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [2, 46]
+            }
+        }]
+    })
+    .addTo(map); 
+     
+                                           
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+
+
+</script>
+
+
+</body>
+
+</div>
+    </div>
+   </div>
+   <div class="verticalspacer"></div>
+  </div>
+  <div class="preload_images">
+   <img class="preload" src="images/authors2.png" alt=""/>
+   <img class="preload" src="images/authors.png" alt=""/>
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script src="scripts/museutils.js?3880880085" type="text/javascript"></script>
+  <script src="scripts/jquery.musepolyfill.bgsize.js?3899542795" type="text/javascript"></script>
+  <script src="scripts/jquery.watch.js?4199601726" type="text/javascript"></script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   $(document).ready(function() { try {
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+} catch(e) { Muse.Assert.fail('Error calling selector function:' + e); }});
+</script>
+   </body>
+</html>

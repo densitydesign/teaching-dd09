@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html class="html">
+ <head>
+
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="7.2.232.244"/>
+  <title>Laws24</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?397963719"/>
+  <link rel="stylesheet" type="text/css" href="css/laws24.css?6887075" id="pagesheet"/>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   document.documentElement.className += ' js';
+</script>
+   </head>
+ <body>
+
+  <div class="clearfix" id="page"><!-- group -->
+   <a class="nonblock nontext clip_frame grpelem" id="u10889" href="ventiquattro" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0,M12=-1,M21=1,M22=0,SizingMethod='auto expand')" data-mu-ie-matrix-dx="39" data-mu-ie-matrix-dy="-39"><!-- image --><img class="block" id="u10889_img" src="images/freccia.png" alt="" width="108" height="31"/></a>
+   <div class="clearfix grpelem" id="ppu10893"><!-- column -->
+    <div class="clearfix colelem" id="pu10893"><!-- group -->
+     <div class="clip_frame grpelem" id="u10893"><!-- image -->
+      <img class="block" id="u10893_img" src="images/laws.png" alt="" width="91" height="77"/>
+     </div>
+     <a class="nonblock nontext museBGSize grpelem" id="u10891" href="author24.html#author24"><!-- simple frame --></a>
+    </div>
+    <div class="clearfix colelem" id="plaws24"><!-- group -->
+     <a class="anchor_item grpelem" id="laws24"></a>
+     <div class="grpelem" id="u11300"><!-- custom html -->
+      <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.1/mapbox.css' rel='stylesheet' />
+
+<style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:100%; }
+</style>
+</head>
+<body>
+
+
+<div id='map'></div>
+<script>
+var map = L.mapbox.map('map', 'nocicettori.hakd89ga', {
+    // disable default double-click behavior
+    doubleClickZoom: false
+})
+.setView([43, 0], 2)
+// zoom exactly to each double-clicked point
+.on('dblclick', function(e) {
+    map.setView(e.latlng, map.getZoom() + 1);
+});
+
+map.touchZoom.disable();
+map.doubleClickZoom.disable();
+map.scrollWheelZoom.disable();
+// disable tap handler, if present.
+if (map.tap) map.tap.disable();
+
+var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#BB2221',
+        		title: '<strong><font color=#BB2221><font size="4">AUSTRALIA</font></strong><br>',
+                description: '<font color=#000000><strong>Criminal Code Act</strong><br><p style="line-height: 100%;"><em>2003</em></p><p style="line-height: 120%;"><font size="2">It is lawful for a medical practitioner to give medical treatment with the intention of procuring the miscarriage of a woman or girl who, he has reasonable cause to believe after medically examining her, has been pregnant for not more than 24 weeks if the medical practitioner is of the opinion, formed in good faith after his medical examination of her, that termination of the pregnancy is immediately necessary to prevent grave injury to her physical or mental health. </p> </font><a href="http://www.hsph.harvard.edu/population/abortion/WESTERNAUSTRALIA.abo.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [133, -27]
+            }
+        }]
+    })
+    .addTo(map);
+                                           
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+
+var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#BB2221',
+        		title: '<strong><font color=#BB2221><font size="4">SINGAPORE</font></strong><br>',
+                description: '<font color=#000000><strong>Termination of pregnancy</strong><br><p style="line-height: 100%;"><em>1987</em></p><p style="line-height: 120%;"><font size="2">Treatment to terminate pregnancy not to be carried out if pregnancy is of more than a certain duration unless in special circumstances.<br>- if the pregnancy is of more than 24 weeks duration unless the treatment is immediately necessary to save the life or to prevent grave permanent injury to the physical or mental health of the pregnant woman; or<br>- if the pregnancy is of more than 16 weeks duration but less than 24 weeks duration unless the treatment is carried out by an authorised medical. </p> </font><a href="http://www.hsph.harvard.edu/population/abortion/SINGAPORE.abo.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [103.7, 1.2]
+            }
+        }]
+    })
+    .addTo(map);
+                                           
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+
+var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#BB2221',
+        		title: '<strong><font color=#BB2221><font size="4">UNITED KINGDOM</font></strong><br>',
+                description: '<font color=#000000><strong>The Abortion (Guernsey) Law</strong><br><p style="line-height: 100%;"><em>1997</em></p><p style="line-height: 120%;"><font size="2">A person shall not be guilty of an offence when a pregnancy is terminated by a recognised medical practitioner if two recognised medical practitioners are opinions formed in good faith:<br>- that the termination is immediately necessary to save the life of the pregnant woman;<br>- that the termination is necessary to prevent grave permanent injury to the physical or mental health of the pregnant woman;<br>- that the pregnancy has not exceeded its 24th week and that, at the time of the diagnosis, there is a substantial risk that if the child were born it would suffer from such physical or mental abnormalities as to be seriously handicapped. </p> </font><a href="http://www.hsph.harvard.edu/population/abortion/UNITEDKINGDOM.abo.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [-2, 54]
+            }
+        }]
+    })
+    .addTo(map);
+                                           
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+
+var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#BB2221',
+        		title: '<strong><font color=#BB2221><font size="4">NEVADA</font></strong><br>',
+                description: '<font color=#000000><strong>Abortion Law</strong><br><p style="line-height: 100%;"><em>2003</em></p><p style="line-height: 120%;"><font size="2">No abortion may be performed in this state unless the abortion is performed:<br>- by a physician licensed to practice it<br>- within 24 weeks after the commencement of the pregnancy<br>- after the 24th week of pregnancy only if the physician has reasonable cause to believe that an abortion currently is necessary to preserve the life or health of the pregnant woman. </p> </font><a href="http://www.hsph.harvard.edu/population/abortion/US.abortionlaws/NEVADA1.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [-117, 38]
+            }
+        }]
+    })
+    .addTo(map);
+                                           
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+
+var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#BB2221',
+        		title: '<strong><font color=#BB2221><font size="4">RHODE ISLAND</font></strong><br>',
+                description: '<font color=#000000><strong>Rhode Island General Law</strong><br><p style="line-height: 100%;"><em>1997</em></p><p style="line-height: 120%;"><font size="2">Abortion shall be performed in the final trimester only when necessary to preserve the life or health of the mother. </p> </font><a href="http://www.hsph.harvard.edu/population/abortion/US.abortionlaws/RHODE%20ISLAN1.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [-71.5, 41.5]
+            }
+        }]
+    })
+    .addTo(map);
+                                           
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+
+var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#BB2221',
+        		title: '<strong><font color=#BB2221><font size="4">SOUTH DAKOTA</font></strong><br>',
+                description: '<font color=#000000><strong>South Dakota Codified Laws Performance of abortion</strong><br><p style="line-height: 100%;"><em>2007</em></p><p style="line-height: 120%;"><font size="2">Abortion is permitted after 24 weeks only for medical necessity. An abortion may be performed following the 24 weeks of pregnancy by a physician only in a hospital authorized only if there is appropriate and reasonable medical judgment that performance of an abortion is necessary to preserve the life or health of the mother. </p> </font><a href="http://www.hsph.harvard.edu/population/abortion/US.abortionlaws/South%20Dakot1.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [-99, 44]
+            }
+        }]
+    })
+    .addTo(map);
+                                           
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+
+var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#BB2221',
+        		title: '<strong><font color=#BB2221><font size="4">OKLAHOMA</font></strong><br>',
+                description: '<font color=#000000><strong>Abortion Law</strong><br><p style="line-height: 100%;"><em>2011</em></p><p style="line-height: 120%;"><font size="2">No person shall perform or induce an abortion upon a pregnant woman after such time as her unborn child has become viable unless such abortion is necessary to prevent the death of the pregnant woman or to prevent impairment to her health. An unborn child shall be presumed to be viable if more than 24 weeks have elapsed since the probable beginning of the last menstrual period of the pregnant woman. </p> </font><a href="http://www.hsph.harvard.edu/population/abortion/US.abortionlaws/OKLAHOM1.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [-96, 35]
+            }
+        }]
+    })
+    .addTo(map);
+                                           
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+
+var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#BB2221',
+        		title: '<strong><font color=#BB2221><font size="4">NETHERLANDS</font></strong><br>',
+                description: '<font color=#000000><strong>Law on the termination of pregnancy</strong><br><p style="line-height: 100%;"><em>2010</em></p><p style="line-height: 120%;"><font size="2">The dispositions of this law don’t be implementd if the gestational age of foetus is less than 24 weeks. </p> </font><a href="http://www.hsph.harvard.edu/population/abortion/NETHERLANDS.abo.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [5, 52]
+            }
+        }]
+    })
+    .addTo(map);
+                                           
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+
+var featureLayer = L.mapbox.featureLayer({
+        type: 'FeatureCollection',
+        features: [{
+            type: 'Feature',
+            properties: {
+                'marker-size': 'small',
+        		'marker-color': '#BB2221',
+        		title: '<strong><font color=#BB2221><font size="4">IOWA</font></strong><br>',
+                description: '<font color=#000000><strong>Abortion Law</strong><br><p style="line-height: 100%;"><em>1998</em></p><p style="line-height: 120%;"><font size="2">Any person who intentionally terminates a human pregnancy, with the knowledge and voluntary consent of the pregnant person, after the end of the second trimester of the pregnancy where death of the fetus results commits feticide. </p> </font><a href="http://www.hsph.harvard.edu/population/abortion/US.abortionlaws/IOWA1.htm" target="_blank"> more info </a>'   		
+            },
+            geometry: {
+                type: 'Point',
+                coordinates: [-93, 42]
+            }
+        }]
+    })
+    .addTo(map);
+                                           
+featureLayer.eachLayer(function(layer) {
+    var content = layer.feature.properties.title + layer.feature.properties.description;
+    layer.bindPopup(content);
+});
+
+
+
+</script>
+
+
+</body>
+
+</div>
+    </div>
+   </div>
+   <div class="verticalspacer"></div>
+  </div>
+  <div class="preload_images">
+   <img class="preload" src="images/authors2.png" alt=""/>
+   <img class="preload" src="images/authors.png" alt=""/>
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script src="scripts/museutils.js?3880880085" type="text/javascript"></script>
+  <script src="scripts/jquery.musepolyfill.bgsize.js?3899542795" type="text/javascript"></script>
+  <script src="scripts/jquery.watch.js?4199601726" type="text/javascript"></script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   $(document).ready(function() { try {
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+} catch(e) { Muse.Assert.fail('Error calling selector function:' + e); }});
+</script>
+   </body>
+</html>

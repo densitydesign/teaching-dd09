@@ -1,0 +1,45 @@
+<!--sfondo primo grafico-->
+			<div id="parallax-bg6">
+			<img id="sfondo_first" src="img/sfondo_first.png" width="100%" alt="sfondo_first" />
+			</div>
+			
+<!-- Parallax top che va al contrario (third bottom)-->
+			<div id="parallax-bg5">
+			</div>
+		
+<!-- Parallax foreground (copertina, titoli, grafico first)-->
+			<div id="parallax-bg4">
+				<img id="first" src="img/first.png" width="100%" alt="first"/>
+			</div>
+			
+<!-- Parallax midground 2 (second, third piccolo)-->
+			<div id="parallax-bg3">
+				<img id="second" src="img/second.png" width="100%" alt="second" />
+				<img id="third" src="img/third.png" width="100%" alt="third" />
+			</div>
+			
+<!-- Parallax midground 1 (grafici tranne first)-->
+			<div id="parallax-bg2">
+				<img id="focus" src="img/focus.png" width="100%" alt="focus"/>
+				<img id="copertina" src="img/copertina.png" width="100%" alt="copertina" />
+
+			</div>	
+<!-- Parallax (grafici 4 e 5)-->
+			<div id="parallax-bg7">				
+				<img id="fourth" src="img/fourth.png" width="100%" alt="fourth"/>
+				<img id="fifth" src="img/fifth.png" width="100%" alt="fifth"/>
+				<img id="footer_1" src="img/footer_1.png" alt="saluti" />
+
+				</div>
+			
+<!-- Parallax  background (sfondi) -->
+			<div id="parallax-bg1">
+				<img id="sfondo" src="img/sfondo.png" width="100%"  alt="sfondo"/>
+				<img id="sfondo2" src="img/sfondo2.png" width="100%" alt="sfondo2"/>
+			</div>
+
+<!--footer-->	
+			<div id="footer">
+				<img id="footer" src="img/footer.png" alt="footer" />
+			</div>
+		</div>

@@ -1,0 +1,168 @@
+body{	margin:0; padding:0; margin:0 auto; }
+
+/* Common section starts */
+#wrapper{ width:100%; margin:0 auto; height:auto;}
+.container{ width:990px; padding:0px 5px; margin:0 auto; height:auto; }
+.clr{ clear:both;}
+.float_left{ float:left;}
+.float_right{ float:right;}
+.line{ border-bottom:1px solid #ffffff; padding-top:11px; margin-bottom:14px;}
+/* // Common section */
+
+
+#header{
+	background:url(../images/bg_404_new.jpg) 50% 0 repeat fixed;
+	background-position: left top;
+	width:100%;
+	max-width:1366px;
+	height:auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow:hidden;
+	padding:0px 0px 150px 0px;
+}
+.header_logo{ outline:0; border:0; color:#f2c431; line-height:64px; padding-top:46px;}
+.header_logo a:link{ color:#f2c431; text-decoration:none; }
+.header_logo a:visited{ color:#f2c431; text-decoration:none; }
+.header_logo a:hover{ color:#f2c431; text-decoration:none; }
+.header_logo a:active{ color:#f2c431; text-decoration:none; }
+.header_logo span{ padding-left:5px; }
+.logo_line{
+background-image:url(../images/logo_line.png);
+width:446px;
+height:1px;
+background-repeat:no-repeat;
+background-position:left top;
+margin:0 auto;
+margin-top:-15px;
+}
+.number_img{ 
+background-image:url(../images/image_404_yellow.png);
+background-repeat:no-repeat;
+background-position:center top;
+width:408px;
+height:173px;
+margin:0 auto;
+margin-top:80px;
+margin-bottom:31px;
+}
+
+/* Sitemap starts */
+.sitemap_bg{ clear:both; margin:0 auto; margin-left:260px;}
+.sitemap_label{ float:left; padding-right:10px; line-height:35px;}
+.sitemap li{ display:inline; float:left; padding:0px 10px; width:auto; color:#656565;}
+.sitemap li a:link{color:#656565; text-decoration:none;}
+.sitemap li a:visited{color:#656565; text-decoration:none;}
+.sitemap li a:hover{color:#f2c431; text-decoration:none;}
+.sitemap li a:active{color:#656565; text-decoration:none;}
+/* // Sitemap */
+
+/* Footer starts */
+#footer{
+	background-color:#131313;
+	background-repeat:repeat;
+	width:100%;
+	height:76px;
+}
+/* // Footer */
+
+
+
+/* ------------------------------------------------------- 404 Responsive starts ------------------------------------------------------- */
+
+
+/*-------------------------------------------------------*/
+	/* Media Queries */
+/*-------------------------------------------------------*/
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+/* Common section starts */
+.container{ width:750px; padding:0px 5px;}
+/* // Common section */
+
+/* Header starts */
+#header .header_logo{ font-size:73px;}
+.logo_line{ width:350px;}
+#header .number_img{ background-size:300px 127px;}
+/* // Header */
+
+/* Sitemap starts */
+.sitemap_bg{ clear:both; margin:0 auto; margin-left:60px;}
+/* // Sitemap */
+
+}
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+/* Common section starts */
+.container{ width:460px; padding:0px 5px;}
+/* // Common section */
+
+/* Header starts */
+#header .header_logo{ font-size:55px; line-height:64px;}
+.logo_line{ width:280px;}
+#header .number_img{ background-size:225px 96px; margin-bottom:0px;}
+/* // Header */
+
+/* Sitemap starts */
+.sitemap_bg{ clear:both; margin:0 auto; margin-left:0px;}
+.sitemap li{padding:7px 10px 0px 0px; width:auto; color:#656565; line-height:25px;}
+/* // Sitemap */
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+/* Common section starts */
+.container{ width:350px; padding:0px 5px;}
+#header h6{font-size:20px;}
+/* // Common section */
+
+/* Header starts */
+/* Header starts */
+#header .header_logo{ font-size:55px; line-height:64px;}
+.logo_line{ width:280px;}
+
+#header .number_img{ background-size:141px 60px; margin-left:-30px; margin-bottom:-50px; margin-top:50px;}
+/* // Header */
+
+/* Sitemap starts */
+.sitemap_bg{ clear:both; margin:0 auto; margin-left:0px;}
+.sitemap li{padding:7px 10px 0px 0px; width:auto; color:#656565; line-height:25px;}
+/* // Sitemap */
+}
+
+/* ------------------------------------------------------- // 404 Responsive ------------------------------------------------------- */
+
+
+
+/* ------------------------------------------------------- // 404 Typography starts ------------------------------------------------------- */
+
+body{
+	font-family: 'PT Sans', sans-serif;
+	font-size:13px;
+	line-height:20px;
+}
+h1,h2,h3,h5,h6, .search_label{	font-family: 'Open Sans', sans-serif; }
+.header_logo{
+	font-family: 'Cookie', cursive;
+	font-size:100px;
+	line-height:100%;
+	text-decoration:none;
+	text-align:center;
+	letter-spacing:1px;
+}
+.header_logo span{color:#b5b5b5;}
+
+h6{ font-size:25px; color:#b5b5b5; padding-bottom:25px; font-weight:normal; text-align:center;}
+
+p{font-family: 'PT Sans', sans-serif; font-size:16px; color:#656565; padding:10px 0px 40px 0px; text-align:center;}
+.sitemap_label{ font-size:18px; color:#b5b5b5; }
+.sitemap{font-family: 'PT Sans', sans-serif; font-size:14px; line-height:35px;}
+
+.footer_copy{ font-size:13px; color:#656565; font-weight:500; padding-top:34px;}
+
+/* ------------------------------------------------------- // 404 Typography ------------------------------------------------------- */

@@ -1,0 +1,17 @@
+
+body { margin:0; padding:0; }
+#map { width: 1025px; height: 675px; margin-left: 130px; margin-top: 5px; z-index:500;}
+
+.map-legend i {
+    width: 18px;
+	height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+.leaflet-popup-close-button {
+    display: none;
+}
+.leaflet-popup-content-wrapper {
+    pointer-events: none;
+}

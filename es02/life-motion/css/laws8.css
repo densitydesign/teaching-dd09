@@ -1,0 +1,122 @@
+.html
+{
+	background: #EAE8E5 url("../images/sfondodot2.png") repeat left top scroll;
+}
+
+#page
+{
+	z-index: 1;
+	width: 1024px;
+	min-height: 611px;
+	padding-bottom: 157px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#u10444
+{
+	z-index: 5;
+	width: 110px;
+	-webkit-transform: matrix(0,1,-1,0,70,-39);
+	-ms-transform: matrix(0,1,-1,0,70,-39);
+	-o-transform: matrix(0,1,-1,0,70,-39);
+	transform: matrix(0,1,-1,0,70,-39);
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 347px;
+	left: -79px;
+}
+
+#u10444_img
+{
+	padding-right: 2px;
+}
+
+#ppu10250
+{
+	width: 0.01px;
+	position: relative;
+	margin-right: -10000px;
+	left: 20px;
+}
+
+#pu10250
+{
+	width: 0.01px;
+	position: relative;
+}
+
+#u10250
+{
+	z-index: 2;
+	width: 91px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u10433
+{
+	z-index: 4;
+	width: 99px;
+	height: 31px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 20px;
+	left: 885px;
+	background: transparent url("../images/authors.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u10433:hover
+{
+	margin: 20px -10000px 0px 0px;
+	background: transparent url("../images/authors2.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u10433:active
+{
+	margin: 20px -10000px 0px 0px;
+	background: transparent url("../images/authors.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#plaws8
+{
+	width: 0.01px;
+	margin-top: 43px;
+	position: relative;
+}
+
+#laws8
+{
+	position: relative;
+	width: 22px;
+	margin-right: -10000px;
+	margin-top: 220px;
+	left: 461px;
+}
+
+#u11334
+{
+	z-index: 8;
+	width: 984px;
+	min-height: 492px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+}
+
+body
+{
+	padding-top: 36px;
+	padding-bottom: 36px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

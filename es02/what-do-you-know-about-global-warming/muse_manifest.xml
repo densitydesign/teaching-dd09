@@ -1,0 +1,162 @@
+<manifest alg="2" build="232" opt="false" iceEnabled="true">
+  <folder name="css">
+    <file name="site_global.css" crc="3797621282"/>
+    <file name="index.css" crc="3781461223" ref="index"/>
+    <file name="iefonts_index.css" crc="345671990" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <folder name="mondo-calore">
+      <folder name="edge_includes">
+        <file name="edge.3.0.0.min.js" crc="4051405324" mt="1393467182000"/>
+        <file name="jquery-2.0.3.min.js" crc="155013199" mt="1393467182000"/>
+      </folder>
+      <folder name="images">
+        <file name="mondotemperatura_base1.png" crc="4111221649" mt="1393467182000"/>
+        <file name="mondotemperatura_base12.png" crc="4156050823" mt="1393467182000"/>
+        <file name="mondotemperatura_rosso.png" crc="4132149877" mt="1393467182000"/>
+        <file name="Poster.png" crc="415432118" mt="1393467182000"/>
+      </folder>
+      <file name="mondo calore_edge.js" crc="74940861" mt="1393467182000"/>
+      <file name="mondo calore_edgeActions.js" crc="3812784706" mt="1393467182000"/>
+      <file name="mondo calore_edgePreload.js" crc="4079495492" mt="1393467182000"/>
+      <file name="mondo calore.html" crc="493605603" mt="1393467182000"/>
+    </folder>
+    <folder name="grafico-finale_03">
+      <folder name="edge_includes">
+        <file name="edge.3.0.0.min.js" crc="4051405324" mt="1393504426000"/>
+        <file name="jquery-2.0.3.min.js" crc="155013199" mt="1393504426000"/>
+      </folder>
+      <folder name="images">
+        <folder name="reti con pallozzi">
+          <file name="012.png" crc="257643085" mt="1393504426000"/>
+          <file name="022.png" crc="100564965" mt="1393504426000"/>
+          <file name="032.png" crc="4121905444" mt="1393504426000"/>
+          <file name="052.png" crc="217256634" mt="1393504426000"/>
+          <file name="062.png" crc="4024573611" mt="1393504426000"/>
+          <file name="072.png" crc="456336699" mt="1393504426000"/>
+          <file name="082.png" crc="4262946416" mt="1393504426000"/>
+        </folder>
+        <file name="01.png" crc="183696571" mt="1393504426000"/>
+        <file name="012.png" crc="329759494" mt="1393504426000"/>
+        <file name="02.png" crc="235692964" mt="1393504426000"/>
+        <file name="022.png" crc="4266797388" mt="1393504426000"/>
+        <file name="03.png" crc="3806712321" mt="1393504426000"/>
+        <file name="032.png" crc="136745093" mt="1393504426000"/>
+        <file name="04.png" crc="371452938" mt="1393504426000"/>
+        <file name="042.png" crc="97536136" mt="1393504426000"/>
+        <file name="05.png" crc="527734362" mt="1393504426000"/>
+        <file name="052.png" crc="271548702" mt="1393504426000"/>
+        <file name="06.png" crc="4177559557" mt="1393504426000"/>
+        <file name="062.png" crc="4241923298" mt="1393504426000"/>
+        <file name="07.png" crc="4096031415" mt="1393504426000"/>
+        <file name="072.png" crc="5097846" mt="1393504426000"/>
+        <file name="08.png" crc="27946642" mt="1393504426000"/>
+        <file name="082.png" crc="398782466" mt="1393504426000"/>
+        <file name="09.png" crc="215391772" mt="1393504426000"/>
+        <file name="092.png" crc="252497124" mt="1393504426000"/>
+        <file name="10.png" crc="527734362" mt="1393504426000"/>
+        <file name="cerchi.png" crc="3918931679" mt="1393504426000"/>
+        <file name="cerchi2.png" crc="3918931679" mt="1393504426000"/>
+        <file name="opinioni.png" crc="4033693371" mt="1393504426000"/>
+        <file name="opinioni2.png" crc="112490428" mt="1393504426000"/>
+        <file name="pal01.png" crc="4216822106" mt="1393504426000"/>
+        <file name="pal02.png" crc="231685883" mt="1393504426000"/>
+        <file name="pal03.png" crc="258295456" mt="1393504426000"/>
+        <file name="pal04.png" crc="3759520953" mt="1393504426000"/>
+        <file name="pal05.png" crc="391596961" mt="1393504426000"/>
+        <file name="pal06.png" crc="259981752" mt="1393504426000"/>
+        <file name="pal07.png" crc="280742206" mt="1393504426000"/>
+        <file name="pal08.png" crc="212000862" mt="1393504426000"/>
+        <file name="pal09.png" crc="160385858" mt="1393504426000"/>
+        <file name="Poster.png" crc="4119363573" mt="1393504426000"/>
+        <file name="punti.png" crc="124387715" mt="1393504426000"/>
+        <file name="punti2.png" crc="124387715" mt="1393504426000"/>
+        <file name="testi.png" crc="4025526107" mt="1393504426000"/>
+      </folder>
+      <file name="grafico finale_03_edge.js" crc="4259102976" mt="1393504426000"/>
+      <file name="grafico finale_03_edgeActions.js" crc="62982329" mt="1393504426000"/>
+      <file name="grafico finale_03_edgePreload.js" crc="162773434" mt="1393504426000"/>
+      <file name="grafico finale_03.html" crc="3978163197" mt="1393504426000"/>
+    </folder>
+    <folder name="number-of-scientist_3barre">
+      <folder name="edge_includes">
+        <file name="edge.3.0.0.min.js" crc="4051405324" mt="1393354573000"/>
+        <file name="jquery-2.0.3.min.js" crc="155013199" mt="1393354573000"/>
+      </folder>
+      <folder name="images">
+        <file name="Poster.png" crc="316166958" mt="1393354573000"/>
+        <file name="Poster2.png" crc="3926927872" mt="1393354573000"/>
+      </folder>
+      <file name="transparent.png" crc="227215310" mt="1393354573000"/>
+      <file name="number of scientist_3barre_edge.js" crc="441572693" mt="1393354573000"/>
+      <file name="number of scientist_3barre_edgeActions.js" crc="110935766" mt="1393354573000"/>
+      <file name="number of scientist_3barre_edgePreload.js" crc="291924606" mt="1393354573000"/>
+      <file name="number of scientist_3barre.html" crc="271191985" mt="1393354573000"/>
+    </folder>
+    <folder name="freccia-animazione-basso">
+      <folder name="edge_includes">
+        <file name="edge.3.0.0.min.js" crc="4051405324" mt="1393200050000"/>
+        <file name="jquery-2.0.3.min.js" crc="155013199" mt="1393200050000"/>
+      </folder>
+      <folder name="images">
+        <file name="freccia-basso-per-gif.png" crc="3953585598" mt="1393200050000"/>
+        <file name="Poster.png" crc="4264337337" mt="1393200050000"/>
+      </folder>
+      <file name="freccia animazione basso_edge.js" crc="3897622695" mt="1393200050000"/>
+      <file name="freccia animazione basso_edgeActions.js" crc="372344544" mt="1393200050000"/>
+      <file name="freccia animazione basso_edgePreload.js" crc="293999279" mt="1393200050000"/>
+      <file name="freccia animazione basso.html" crc="485854636" mt="1393200050000"/>
+    </folder>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="3828297711" ref="index"/>
+    <file name="museutils.js" crc="3880880085" ref="index"/>
+    <file name="jquery.tobrowserwidth.js" crc="152985095" ref="index"/>
+    <file name="pie.js" crc="4147615982" ref="index"/>
+    <file name="webpro.js" crc="33264525" ref="index"/>
+    <file name="musewpslideshow.js" crc="272207905" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="466079611" ref="index"/>
+    <file name="touchswipe.js" crc="261777990" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="56249048" ref="index"/>
+    <file name="jquery.watch.js" crc="4199601726" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="gif-mondo-che-gira.gif" crc="203942384" ref="index"/>
+    <file name="menù-lato_01_02.png" crc="485946618" ref="index"/>
+    <file name="menù-lato_01_04.png" crc="4032858657" ref="index"/>
+    <file name="mappafenomeni01.png" crc="4005333598" ref="index"/>
+    <file name="gif1.gif" crc="81729156" ref="index"/>
+    <file name="menù-lato_01_06.png" crc="4152701167" ref="index"/>
+    <file name="pioggia.gif" crc="341405112" ref="index"/>
+    <file name="impronta.gif" crc="307594604" ref="index"/>
+    <file name="menù-lato_01_08.png" crc="225912937" ref="index"/>
+    <file name="raggi-sole.gif" crc="4147577058" ref="index"/>
+    <file name="segnale-vento.gif" crc="4058807874" ref="index"/>
+    <file name="correnti-marine.gif" crc="4245049278" ref="index"/>
+    <file name="alberi.gif" crc="4094445304" ref="index"/>
+    <file name="raggi-riflessi.gif" crc="3962052663" ref="index"/>
+    <file name="smog.gif" crc="102499077" ref="index"/>
+    <file name="menù-lato_01_10.png" crc="473922155" ref="index"/>
+    <file name="gif-iceberg-90.jpg" crc="3969543356" ref="index"/>
+    <file name="menù-lato_01_13.png" crc="3835140200" ref="index"/>
+    <file name="menù-lato_01_15.png" crc="525509250" ref="index"/>
+    <file name="gif_formule.gif" crc="215473507" ref="index"/>
+    <file name="mappafenomeni_linee-equazioni.png" crc="103741644" ref="index"/>
+    <file name="u536-9.png" crc="9421196" ref="index"/>
+    <file name="grafico_date_01.png" crc="497285124" ref="index"/>
+    <file name="hd_petabyte.png" crc="3793975681" ref="index"/>
+    <file name="palette01.png" crc="206451440" ref="index"/>
+    <file name="2001_04-tera-.png" crc="480602629" ref="index"/>
+    <file name="2007_35tb.png" crc="15531647" ref="index"/>
+    <file name="legenda_10tb.png" crc="3921397301" ref="index"/>
+    <file name="mappa.png" crc="4273470552" ref="index"/>
+    <file name="scettici.png" crc="150366721" ref="index"/>
+    <file name="favorevoli.png" crc="3891392783" ref="index"/>
+    <file name="u2292-6.png" crc="125322498" ref="index"/>
+    <file name="science-says.png" crc="93761082" ref="index"/>
+    <file name="media-says.png" crc="220798401" ref="index"/>
+    <file name="pasted image 135x123.png" crc="145887608" ref="index"/>
+    <file name="pasted image 51x60.png" crc="263846723" ref="index"/>
+  </folder>
+  <file name="index.html" crc="439645811" mt="1394127017815" redirect="true"/>
+</manifest>

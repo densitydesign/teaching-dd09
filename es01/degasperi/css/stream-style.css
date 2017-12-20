@@ -1,0 +1,53 @@
+body {
+	
+}
+
+#page {
+	width: 1230px;
+	height: 600px;
+	background-color: #eeeeee;
+	margin: auto;
+}
+
+#stream-canvas {
+	width: 100%;
+	height: 600px;
+}
+
+#page div {
+	display: block;
+}
+
+#uno {
+	height: 50px;
+}
+
+#due {
+	height: 30px;
+}
+
+#page div div {
+	float: left;
+}
+
+.c1 {
+	width: 70px;
+}
+
+.c2 {
+	width: 100px;
+}
+
+.c3 {
+	width: 50px;
+}
+
+#tester {
+	top: 50px;
+	right: 50px;
+	background-color: #cccccc;
+}
+
+.item {
+	color: blue;
+}

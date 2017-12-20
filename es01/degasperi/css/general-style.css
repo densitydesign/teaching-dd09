@@ -1,0 +1,1113 @@
+/* General */
+
+h1 {
+	font-size: 60px;
+	color: #FBFDE9;
+}
+
+h2 {
+	font-weight: 100;
+	font-size: 30px;
+	color: #FBFDE9;
+}
+
+.rot-neg-90 {
+    -moz-transform:rotate(-270deg); 
+    -moz-transform-origin: bottom left;
+    -webkit-transform: rotate(-270deg);
+    -webkit-transform-origin: bottom left;
+    -o-transform: rotate(-270deg);
+    -o-transform-origin:  bottom left;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+
+.rot-pos-90 {
+    -moz-transform:rotate(270deg); 
+    -moz-transform-origin: bottom left;
+    -webkit-transform: rotate(270deg);
+    -webkit-transform-origin: bottom left;
+    -o-transform: rotate(270deg);
+    -o-transform-origin:  bottom left;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+
+.transDur300{
+	 transition-duration: 300ms;
+	 -webkit-transition-duration: 300ms; /* Safari */
+}
+
+.transDur500{
+	 transition-duration: 500ms;
+	 -webkit-transition-duration: 500ms; /* Safari */
+}
+
+/* we use H3 as section titles */
+
+h3 {
+    color: #666057;
+    font-family: roboto slab,serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28.8px;
+    position: relative;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+h4 {
+	font-weight: 100;
+	font-size: 15px;
+	font-style: italic;
+	color: #FBFDE9;
+}
+
+h5 {
+    color: #666057;
+    font-family: roboto slab,serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h6 {
+    font-family: roboto slab,serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+
+body {
+	background-color: #FFFCEA;
+	font-family: 'Roboto', sans-serif;
+	color: #FBFDE9;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+}
+
+#title-container .text {
+    font-family: Roboto,serif;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 16.8px;
+    margin-bottom: -18px;
+    margin-top: 40px;
+    text-align: left;
+}
+
+#page {
+	width: 1230px;
+	background-color: transparent;
+	margin: auto;
+	color: #514D46;
+}
+
+#title-page {
+    background-color: #C8444B;
+    background-position: center center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 5px #000000;
+    display: block;
+    font-family: 'Roboto Slab',serif;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    z-index: 1000000;
+}
+
+#title-container {
+    float: left;
+    margin: -2px 0 0 32px;
+    width: 460px;
+}
+
+#title-page-container {
+    background-position: -20px 12px;
+    background-repeat: no-repeat;
+    background-size: 1230px 600px;
+    display: block;
+    height: 532px;
+    margin: auto;
+    padding-top: 68px;
+    position: relative;
+    width: 1230px;
+    z-index: 1020;
+}
+
+#title-page-container-V {
+    background-image: url("../imgs/la-v.png");
+    background-position: -20px 12px;
+    background-repeat: no-repeat;
+    background-size: 1230px 600px;
+    display: block;
+    height: 532px;
+    margin: auto;
+    padding-top: 68px;
+    position: relative;
+    top: -600px;
+    width: 1230px;
+    z-index: 1023;
+}
+
+#title-credits {
+	font-family: 'Roboto', sans-serif;
+	clear:both;
+	display:block;
+	text-align:center;
+	font-size:11px;
+	font-style: italic;
+	position:relative;
+	top:492px;
+}
+
+#title-credits a {
+	color: inherit;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: 400;
+}
+
+#title-credits a:hover {
+	color: #EDB1B4;
+}
+
+#title-container h2 {
+	font-size: 30px;
+	margin: 22px 0px 0px 0px;
+	text-align: justify;
+}
+
+#title-container h1 {
+    font-size: 90px;
+    width: 460px;
+    line-height: 83px;
+}
+
+#title-container h2 {
+	
+}
+
+#title-container h4 {
+    font-size: 20px;
+    margin: 19px 0 0;
+}
+
+#title-container p {
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 50px;
+    text-align: right;
+}
+
+#title-container .trad {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 100;
+    margin-top: 10px;
+    text-align: right;
+}
+
+#alci {
+    float: left;
+    height: auto;
+    margin: 0 0 0 85px;
+    width: 471px;
+    position: relative;
+    z-index: 1010;
+}
+
+.section-title {
+    border-top: 1px solid #9A9791;
+    display: block;
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+        hyphens: auto;
+    height: 100px;
+    margin: 80px 0;
+    width: 1230px;
+}
+
+.section-title h3 {
+	float: left;
+    height: 150px;
+    margin: 15px 10px 0;
+    width: 390px;
+}
+
+.section-title p {
+	float: left;
+	font-family: roboto, sans-serif;
+	font-size: 14px;
+	line-height: 16.8px;
+    height: 90px;
+    margin: 15px 10px 0;
+    width: 800px;
+    -moz-column-count:2; /* Firefox */
+	-webkit-column-count:2; /* Safari and Chrome */
+	column-count:2;
+	
+	-moz-column-gap:20px; /* Firefox */
+	-webkit-column-gap:20px; /* Safari and Chrome */
+	column-gap:20px;
+	
+}
+
+#tool-kit {
+	position: fixed;
+	display: none;
+	top: 30px;
+	right: 10px;
+	height: auto;
+	width: 150px;
+	background-color: gray;
+	z-index: 1000000;
+}
+
+#prendi-spazio {
+    background-color: grey;
+    clear: both;
+    color: white;
+    display: block;
+    height: 20px;
+    width: 100%;
+    margin-top: 990px;
+}
+
+/*  Historical-bg */
+#historical-bg {
+    background-color: rgba(0, 0, 0, 0);
+    background-position: -25px 0;
+    background-repeat: no-repeat;
+    background-size: 1280px 160px;
+    clear: both;
+    display: block;
+    height: 332px;
+    margin: 0 3px;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    width: 1224px;
+}
+
+#histo-stopper {
+	display: block;
+	height: inherit;
+	width: 2500px;
+}
+
+.h-item {
+	display: block;
+	float: left;
+	position: relative;
+	background-color: rgba(200, 68, 75, 0.5);
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url("../imgs/histo_def.png");
+	background-size: 2080px 920px;
+	width: 160px;	
+}
+
+.h-item-up {
+	height: 328px;
+	z-index: 10;
+}
+
+.h-item-down {
+    height: 197px;
+    margin-top: 127px;
+    z-index: 11;
+}
+
+.h-item .arrow span {
+    background-color: #666056;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    display: block;
+    font-family: 'roboto slab',sans-serif;
+    font-size: 12px;
+    height: 0;
+    left: -56px;
+    overflow: hidden;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 0;
+    position: relative;
+    top: 10px;
+    width: 120px;
+}
+
+/* DA QUUESTE RIGHE SEGUENTI PUOI SETTARE LO SPOSTAMENTO LATERALE DEI PALLONZI DEGLI EVENTI STORICI */
+
+#histo-1 {
+	background-position: 0 0;
+    left: 2px;
+}
+
+#histo-1:hover {
+	background-position: 0 -460px;
+}
+
+#histo-2 {
+	background-position: -160px 0;
+	left: -73px;
+}
+
+#histo-2:hover {
+	background-position: -160px -460px;
+}
+
+#histo-3 {
+    background-position: -320px 0px;
+    left: -256px;
+}
+
+#histo-3:hover {
+	background-position: -320px -460px;
+
+}
+
+#histo-4 {
+    background-position: -480px 0px;
+    left:-328px;
+}
+
+#histo-4:hover {
+    background-position: -480px -460px;
+}
+
+
+#histo-5 {
+    background-position: -640px -0px;
+    left:-395px;
+}
+
+#histo-5:hover {
+    background-position: -640px -460px;
+}
+
+#histo-6 {
+    background-position: -800px -0px;
+    left:-479px;
+}
+
+#histo-6:hover {
+    background-position: -800px -460px;
+}
+
+#histo-7 {
+    background-position: -960px -0px;
+    left:-627px;
+}
+
+#histo-7:hover {
+    background-position: -960px -460px;
+}
+
+#histo-8 {
+    background-position: -1120px -0px;
+    left:-705px;
+}
+
+#histo-8:hover {
+    background-position: -1120px -460px;
+}
+
+#histo-9 {
+    background-position: -1280px -0px;
+    left:-758px;
+}
+
+#histo-9:hover {
+    background-position: -1280px -460px;
+}
+
+#histo-10 {
+    background-position: -1440px -0px;
+    left:-578px;
+}
+
+#histo-10:hover {
+    background-position: -1440px -460px;
+}
+
+#histo-11 {
+    background-position: -1600px -0px;
+    left:-724px;
+}
+
+#histo-11:hover {
+    background-position: -1600px -460px;
+}
+
+#histo-12 {
+    background-position: -1760px -0px;
+    left:-784px;
+}
+
+#histo-12:hover {
+    background-position: -1760px -460px;
+}
+
+#histo-13 {
+    background-position: -1920px -0px;
+    left:-810px;
+}
+
+#histo-13:hover {
+    background-position: -1920px -460px;
+}
+
+
+.arrow {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../imgs/arrow.png");
+    background-size: 7px 10px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    margin: auto;
+    overflow: visible;
+    position: relative;
+    text-align: center;
+    transition-duration: 0.3s;
+    width: 7px;
+    z-index: 200;
+}
+
+.h-item-up .arrow {
+    top: 322px;
+}
+
+.h-item-down .arrow {
+    top: 195px;
+}
+
+/* DA QUUESTE RIGHE SEGUENTI PUOI SETTARE LO SPOSTAMENTO LATERALE DELLE FRECCINE */
+
+#histo-1 .arrow {
+    left: -1px;
+}
+
+#histo-2 .arrow {
+    left: -78px;
+}
+
+#histo-3 .arrow {
+    left: 57px;
+}
+
+#histo-4 .arrow {
+    left: -7px;
+}
+
+#histo-5 .arrow {
+    left: -79px;
+}
+
+#histo-6 .arrow {
+    left: -78px;
+}
+
+#histo-7 .arrow {
+    left: -23px;
+}
+
+#histo-8 .arrow {
+    left: -12px;
+}
+
+#histo-9 .arrow {
+    left: -73px;
+}
+
+#histo-10 .arrow {
+    left: -12px;
+}
+
+#histo-11 .arrow {
+    left: 25px;
+}
+
+#histo-12 .arrow {
+    left: -3px;
+}
+
+#histo-13 .arrow {
+    left: 26px;
+}
+
+
+
+/* Barre */
+
+#bar-speech {
+    background-color: transparent;
+    clear: both;
+    display: block;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    z-index: 100;
+}
+
+#bar-graph {
+    background-color: #FFFCEA;
+    background-image: url("../imgs/grad-bg.png");
+    background-repeat: repeat-x;
+    background-size: 10px 117px;
+    height: 351px;
+    height: 200px;
+    position: absolute;
+    width: 100%;
+}
+
+.indicationsBars .rot-pos-90 {
+	color: #C8444B;
+    font-family: roboto,sans-serif;
+    font-size: 11px;
+}
+
+.indicationsBars {
+    position: relative;
+    top: 345px;
+}
+
+#k90 {
+    left: -2px;
+    position: relative;
+    text-align: right;
+    top: -345px;
+    width: 30px;
+}
+
+#k60 {
+    left: -2px;
+    position: relative;
+    text-align: right;
+    top: -245px;
+    width: 30px;
+}
+
+#k30 {
+    left: -2px;
+    position: relative;
+    text-align: right;
+    top: -145px;
+    width: 30px;
+}
+
+#k-amount {
+    background-color: transparent;
+    background-color: #FFFCEA;
+    background-image: url("../imgs/k-amount.png");
+    background-position: 0 8px;
+    background-repeat: no-repeat;
+    background-size: 30px 15px;
+    color: #FFFCEA;
+    cursor: pointer;
+    display: block;
+    font-family: roboto slab,sans-serif;
+    font-size: 12px;
+    height: 15px;
+    left: -13px;
+    margin-bottom: 2px;
+    overflow: hidden;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    position: relative;
+    text-align: left;
+    top: -378px;
+    width: 0px;
+    transition-duration: 0.2s;
+	-webkit-transition-duration: 0.2s; /* Safari */
+}
+
+#k-amount:hover {
+	width: 130px;
+	padding-left: 34px;
+	color: #C8444B;
+}
+
+#bar-graph img {
+    border-bottom: 0 solid #808080;
+    height: 111px;
+    margin-bottom: -4px;
+    margin-top: 8px;
+    width: 1230px;
+}
+
+#bar-switches {
+    clear: both;
+    display: block;
+    height: 230px;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    width: 1230px;
+    z-index: 101;
+}
+
+#bar-switches .groups {
+	display: block;
+	float: left;
+	width: 410px;
+}
+
+#bar-switches .groups h5 {
+	text-align: left;
+	margin-left: 10px;
+}
+
+.rombo-cat {
+	display: block;
+	height: 20px;
+	margin-top: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.rombo-cat:hover {
+	font-weight: 500;
+}
+
+.rombo-cat span {
+	position: relative;
+	top: 1px;
+}
+
+.circle-typo {
+	display: block;
+	height: 20px;
+	width: 20px;
+	background-image: url('../imgs/balls-typo.png');
+	background-size: 80px 20px;
+	float: left;
+	margin: 0 10px 0 10px;
+}
+
+#media .circle-typo {
+	background-position: -20px 0;
+}
+
+#other .circle-typo {
+	background-position: -40px 0;
+}
+
+#barre {
+    height: auto;
+    width: 1230px;
+}
+
+#time-bar {
+    background-image: url("../imgs/timeline_bars.png");
+    background-size: 1230px 30px;
+    bottom: 0;
+    display: block;
+    height: 30px;
+    position: relative;
+    top: 0;
+    width: 1230px;
+}
+
+/* PLACEHOLDER */
+
+.imageplaceholder {
+	width: 1230px;
+	height: auto;
+}
+
+#placeholder_1 {
+    background-color: transparent;
+	background-size: 1230px auto;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	width: 1230px;
+	height:779px;
+}
+
+#placeholder_1 .imageplaceholder {
+    background-image: url("../imgs/WORDS_Flux_0.png");
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 1230px auto;
+    height: 608px;
+    width: 1230px;
+}
+
+/*
+#placeholder_1 .imageplaceholder:hover {
+	background-image: url("../imgs/image_WORDS2.png");
+	background-position: 0px 0px;
+}
+*/
+
+.fluxLegend {
+	width: 1230px;
+}
+
+#placeholder_2 {
+    background-color: transparent;
+	background-size: 1230px auto;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	width: 1230px;
+}
+
+#placeholder_3 {
+    background-color: rgba(0, 0, 0, 0);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: 1230px auto;
+    height: 400px;
+    width: 1230px;
+    clear: both;
+}
+
+/* GOVERNI */
+#governi {
+    bottom: 0;
+    display: block;
+    height: 500px;
+    overflow: visible;
+    width: 1230px;
+}
+
+#governi .indicationsBars {
+	
+}
+
+#governi .what {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../imgs/k-amount.png");
+    background-position: 0 8px;
+    background-repeat: no-repeat;
+    background-size: 30px 15px;
+    color: #C8444B;
+    display: block;
+    font-family: roboto slab,sans-serif;
+    font-size: 12px;
+    height: 15px;
+    left: -17px;
+    margin-bottom: -9px;
+    padding-bottom: 8px;
+    overflow: hidden;
+    padding-left: 10px;
+    position: relative;
+    text-align: left;
+    top: -357px;
+    width: 0px;
+    transition-duration: 0.2s;
+	-webkit-transition-duration: 0.2s; /* Safari */
+}
+
+#governi .what:hover {
+	width: 130px;
+	padding-left: 34px;
+	color: #C8444B;
+}
+
+#governi .number {
+    left: -24px;
+    margin-bottom: 24px;
+    position: relative;
+    text-align: right;
+    top: -341px;
+    width: 20px;
+}
+
+.number {
+	color: #C8444B;
+    font-family: roboto,sans-serif;
+    font-size: 11px;
+}
+
+#govcontainer {
+    background-image: url("../imgs/gov-bg.png");
+    background-size: 10px 500px;
+    display: block;
+    height: 470px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+
+#governi div div {
+	/* display: block; */
+}
+
+#governi .mandato {
+    display: block;
+    float: left;
+    height: 520px;
+}
+
+.mandato .maggioranza .senato {
+	background-image: url('../imgs/bg-senato.png');
+	background-size: 100px 200px;
+	display: none;
+}
+
+.mandato .opposizione .senato {
+	background-image: url('../imgs/bg-senato.png');
+	background-size: 100px 200px;
+	display: none;
+}
+
+.maggioranza div {
+	margin-top: 1px;
+}
+
+.separatore {
+	height: 20px;
+}
+
+.opposizione div {
+	margin-bottom: 1px;
+}
+
+.mandato div div:hover {
+	opacity: 0.8;
+}
+
+.DC {
+	background-color: #1180CC;
+}
+
+.pm {
+	background-color: #48B5E5;
+}
+
+.po {
+	background-color: #E35555;
+}
+
+#mandato1{
+	margin-top: 113px;
+	width: 94px;
+}
+
+#mandato1 .maggioranza {
+	height: 129px;
+}
+
+#mandato1 .opposizione {
+	height: 116px;
+}
+
+#mandato2{
+	margin-top: 27px;
+	width: 90px;
+}
+
+#mandato2 .maggioranza {
+    height: 214px;
+}
+
+#mandato2 .opposizione {
+	height: 22px;
+}
+
+#mandato3{
+	margin-top: 27px;
+	width: 51px;
+}
+
+#mandato4{
+	margin-top: 82px;
+	width: 152px;
+}
+
+#mandato5{
+	margin-top: 82px;
+	width: 274px;
+}
+
+#mandato6{
+	margin-top: 91px;
+	width: 239px;
+}
+
+#mandato7{
+	margin-top: 106px;
+	width: 316px;
+}
+
+#mandato8{
+	margin-top: 132px;
+	width: 14px;
+}
+
+#mandati-tool {
+	position: relative;
+	z-index: 900;
+}
+
+.legenda .circle-typo {
+	background-image: url('../imgs/balls-typo-senato.png');
+	background-size: 100px 20px;
+}
+
+.legenda .rombo-cat {
+	cursor: default;
+	font-weight: 300;
+}
+
+.legenda .rombo-cat:hover {
+	font-weight: 300;
+}
+
+#keywords-tool .legenda .rombo-cat:hover {
+	cursor: pointer;
+	font-weight: 400;
+	opacity: 0.8;
+}
+
+#keywords-tool .circle-typo {
+	background-image: url('../imgs/keywords_balls.png');
+	background-size: 80px 20px;
+	cursor: pointer;
+	font-weight: 300;
+}
+
+#_0 .circle-typo {
+	background-image: url('../imgs/balls-typo.png');
+	background-size: 80px 20px;
+	background-position: 0px 60px;
+	background-repeat: no-repeat;	
+}
+
+/* old draft visual */
+
+#rulerMandati {
+    /* box-shadow: 0 0 5px #000000; */
+    height: 20px;
+    position: fixed;
+    top: -20px;
+    transition-duration: 0.5s;
+    z-index: 1000;
+}
+
+#rulerMandati h5 {
+	color: white;
+	position: inherit;
+}
+
+.governo {
+    background-color: #E35555;
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    margin: 0 -3.4px 0 0;
+    overflow: hidden;
+    position: relative;
+    vertical-align: top;
+    width: 1230px;
+    z-index: 1000;
+}
+
+.governo:hover {
+	height: 37px;
+	opacity: 0.8;
+	z-index: 0;
+	border-radius: 0px 0px 5px 5px;
+}
+
+.mandate {
+	color: white;
+	text-align: center;
+	font-family: roboto slab, serif;
+	position: inherit !important;	
+}
+
+#first-time {
+	width: 94px;
+	background-color: #3B9D82;
+}
+
+#second-time {
+	width: 90px;
+}
+
+#third-time {
+	width: 51px;
+}
+
+#fourth-time {
+	width: 152px;
+}
+
+#fifth-time {
+	width: 274px;
+}
+
+#sixth-time {
+	width: 239px;
+}
+
+#seventh-time {
+	width: 316px;
+}
+
+#eighth-time {
+	width: 14px;
+	padding-right: 25px;
+	padding-right: 0px;
+	text-align: right;
+}
+
+#eighth-time:hover {
+    overflow: visible;
+    width:30px;
+    left: -16px;
+    z-index: 1001;
+}
+
+#timeline-years {
+    background-image: url("../imgs/timeline_years.png");
+    background-repeat: no-repeat;
+    background-size: 1230px auto;
+    display: block;
+    height: 61px;
+    opacity: 1;
+    position: relative;
+    top: 0;
+    width: 1230px;
+    z-index: 9001;
+}
+
+#timeline-years:hover {
+}
+
+/*APPLAUSI*/
+
+#appcontainer {
+
+    background-image: url("../imgs/applausometro-legend.png");
+    background-position: 48px -60px;
+    background-repeat: repeat;
+    background-size: 1230px auto;
+    display: block;
+    height: 342px;
+    position: absolute;
+}
+
+#applausi {
+  /*  background-image: url("../imgs/applausometro-legend.png"); */
+    background-position: -1px 0;
+    background-repeat: no-repeat;
+    background-size: 1230px auto;
+    margin-left: -122px;
+    padding-left: 122px;
+}
+
+#applausi-contenitore {
+    background-image: url("../imgs/appl-bg.png");
+    background-position: 0 8px;
+    background-repeat: repeat-x;
+    background-size: 10px 341px;
+}
