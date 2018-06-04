@@ -3,7 +3,7 @@ List of projects:
 
 - [As easy as gum](https://densitydesign.github.io/teaching-dd09/es02/as-easy-as-a-gum)
 - [Go with the flow](https://densitydesign.github.io/teaching-dd09/es02/go-with-the-flow)
-- [Is death penalty the right question?](https://densitydesign.github.io/teaching-dd09/es02/is-death-penalty-the-right-question)
+- [Is death penalty the right question?](https://densitydesign.github.io/teaching-dd09/es02/is-death-penalty-the-right-question/index11.html)
 - [Life motion](https://densitydesign.github.io/teaching-dd09/es02/life-motion)
 - [Same but different](https://densitydesign.github.io/teaching-dd09/es02/same-but-different)
 - [The bill please](https://densitydesign.github.io/teaching-dd09/es02/the-bill-please)
